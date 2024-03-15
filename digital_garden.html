@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Nikhil Damodaran">
+  <meta name="keywords" content="Research, Nikhil Damodaran, Jindal University, OP Jindal Global University, Macroeconomics, Monetary Economics, Open Economy Macroeconomics">
+  <title>Nikhil Damodaran</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      color: #333; /* Changed the font color to a slightly lighter shade of black */
+    }
+    a {
+      color: #0072C6; /* Changed the link color to a neutral blue shade */
+      text-decoration: none; /* Removed underline from links */
+      target: _blank; /* Made all links open in a new tab */
+    }
+    a:hover {
+      color: #005A9E; /* Changed the link color on hover to a slightly darker blue shade */
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    header {
+      margin-bottom: 40px;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h1, h2, h3 {
+      text-align: center;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .profile-image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto 20px;
+    }
+    .affiliation {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .university-of-melbourne {
+      text-align: right;
+    }
+html {
+      scroll-behavior: smooth;
+    }
+section {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+section.visible {
+  opacity: 1;
+}
+
+.section-separator {
+  border: none;
+  border-top: 5px solid #ccc;
+  margin: 40px 0;
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Digital Garden</h1>
+      <br>
+    </header>
+    <main>
+      <section id="Quotes">
+        <h2>Quotes</h2>
+  <p>
+    “Men fear thought as they fear nothing else on earth - more than ruin, more even than death. Thought is subversive and revolutionary, destructive and terrible; thought is merciless to privilege, established institutions, and comfortable habits; thought is anarchic and lawless, indifferent to authority, careless of the well-tried wisdom of the ages. Thought looks into the pit of hell and is not afraid. It sees man, a feeble speck, surrounded by unfathomable depths of silence; yet it bears itself proudly, as unmoved as if it were lord of the universe. Thought is great and swift and free, the light of the world, and the chief glory of man.” Bertrand Russell.
+  </p>
+
+</section>
+
+      <section id="reading">
+        <h2>Reading</h2>
+        <ul>
+	<li> <a href="https://www.goodreads.com/book/show/42771901"> How to Do Nothing: Resisting the Attention Economy </a> by Jenny Odell <br>
+The message of this book is that we need to reduce the attention that we pay to things so that we have more meaningful lives. Its not just more time for ourselves, but more value for our time so that we do not dedicate time to anything that catches our attention and choose to pay attention to things which are lost in the information. <br>
+<br>
+<li> <a href="https://www.goodreads.com/book/show/1319.The_War_of_Art"> The War of Art </a>, about writing and creative process – Steven Pressfield <br>
+I want to read this book just to help breakdown writing process. I was trying to understand how people breakdown their writing process and how can I find structure in the process of writing and thinking.<br><br>
+<li> <a href="https://www.goodreads.com/book/show/6617037"> Debt: The First 5,000 Years </a> – David Graeber</li>
+        </ul>  
+      </section>
+
+
+
+      <section id="learning">
+        <h2>Learning</h2>
+        <ul>
+          <li> Natural Language Processing algorithms – How does tech understanding language? How do they process language? My question is more about the way we process and understand language. If we know that, then we can teach computer to do that too. And this forms the basis of NLP algorighms. I don't want to actually use it but probably want to understand how they structure the algorithm. Might just probably keep an eye out for a workshop to teach me useful stuff. </li>
+<li>Measure Theory</li>
+<li>Discrete Mathematics Networks </li>
+<li>Dynamic optimization solutions : I want to learn <a href="https://pascalmichaillat.org/c3/"> Pascal Michaillat’s </a> course on Mathematical methods in economics  or Acemoglou’s textbook. </li>
+<li>Perturbation Solutions to Non Linear Rational Expectations Model </li>
+<li>Rational Expectations Model vs. Learning </li>
+        </ul>
+      </section>
+
+
+    </main>
+    <footer>
+      <!-- Additional footer content, if needed -->
+    </footer>
+<script>
+    const sections = document.querySelectorAll('section');
+
+    window.addEventListener('scroll', function() {
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - window.innerHeight / 2;
+        const sectionBottom = section.offsetTop + section.offsetHeight + window.innerHeight / 2;
+        const scrollPosition = window.pageYOffset + window.innerHeight / 2;
+
+        if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+          section.classList.add('visible');
+        } else {
+          section.classList.remove('visible');
+        }
+      });
+    });
+  </script>
+  </div>
+</body>
+</html>
