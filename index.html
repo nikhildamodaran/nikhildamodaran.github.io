@@ -40,12 +40,17 @@
     li {
       margin-bottom: 10px;
     }
+    
+    /* Profile Image Styling */
     .profile-image {
-      display: block;
+      width: 60%; /* Image takes 60% of the container width */
       max-width: 100%;
       height: auto;
-      margin: 0 auto 20px;
+      float: left; /* Wraps text around the image */
+      margin-right: 20px; /* Adds space between image and text */
+      margin-bottom: 10px;
     }
+    
     .affiliation {
       display: flex;
       justify-content: space-between;
@@ -55,9 +60,11 @@
     .university-of-melbourne {
       text-align: right;
     }
+    
     html {
       scroll-behavior: smooth;
     }
+    
     section {
       opacity: 0;
       transition: opacity 0.5s ease-in-out;
@@ -71,7 +78,7 @@
       margin: 40px 0;
     }
 
-    /* Media Queries */
+    /* Media Queries for Small Screens */
     @media (max-width: 767px) {
       .container {
         padding: 0 20px;
@@ -84,6 +91,12 @@
         text-align: left;
         margin-top: 1rem;
       }
+      .profile-image {
+        width: 100%; /* Full width on small screens */
+        float: none; /* Remove text wrapping */
+        margin: 0 auto 20px; /* Center the image */
+        display: block;
+      }
     }
   </style>
 </head>
@@ -93,7 +106,7 @@
       <h1>Nikhil Damodaran</h1>
       <br>
       <br>
-      <img src="./24138_0520_Nikhil Damodaran.jpg" alt="Profile Image" class="profile-image">
+      <img src="./24138_0520_Nikhil Damodaran.jpg" alt="Profile Image" class="profile-image width="500" height="600"">
       <br>
       <br>
       <div class="affiliation">
