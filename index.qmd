@@ -1,0 +1,90 @@
+---
+pagetitle: "Nikhil Damodaran"
+author: "Nikhil Damodaran"
+keywords:
+- Research
+- Nikhil Damodaran
+- University of Melbourne
+- Macroeconomics
+- Monetary Economics
+- Open Economy Macroeconomics
+- Indian economy
+- Fiscal Policy
+- Pedagogy
+format:
+  html:
+    theme: none
+    toc: false
+    anchor-sections: false
+    css: _styles/index.css
+    include-after-body: _scripts/scroll.js
+    page-layout: custom
+---
+
+<div class="container">
+
+<header>
+
+<h1>Nikhil Damodaran</h1>
+
+<img src="pictures/2024_UoM.jpg" alt="Profile Image" class="profile-image" width="500" height="600">
+
+<p>
+<a href="https://findanexpert.unimelb.edu.au/profile/1022959-nikhil-damodaran">Lecturer</a><br>
+Department of Economics<br>
+University of Melbourne<br>
+<a href="mailto:nikhil.damodaran@unimelb.edu.au">nikhil.damodaran@unimelb.edu.au</a>
+</p>
+
+I am a macroeconomist. I completed my Ph.D. from Louisiana State University in 2018. My interests are open economy macroeconomic models with fiscal policy. My current research uses these policies to examine within country business cycle movements and its outcomes on aggregate business cycles.
+
+I enjoy teaching courses in macroeconomics and international economics. Additionally, my research explores innovative pedagogical approaches in economics, aiming to develop content that not only imparts valuable skills but also resonates deeply with students, fostering their intellectual growth and curiosity.
+
+<nav>
+[Twitter](https://twitter.com/nikhildamodaran) |
+[LinkedIn](https://www.linkedin.com/in/nikhil-damodaran-6594a343/) |
+[Scholar](https://scholar.google.com/citations?user=WPaj45gAAAAJ&hl=en)
+</nav>
+
+</header>
+
+<div class="clear"></div>
+
+<section id="research">
+
+## Research
+
+### Pedagogy
+
+Hooray for Bollywood: using Hindi language films to teach economics.\
+Geerling, W., Arya, E., **Damodaran, N.**, & Thomas, N. (2024).\
+[International Journal of Pluralism and Economics Education](https://doi.org/10.1504/IJPEE.2024.141782), 15(1), 54–68.
+
+ChatGPT has aced the test of understanding in college economics: Now what?\
+Geerling, W., Mateer, G. D., Wooten, J., & **Damodaran, N.** (2023).\
+[The American Economist](https://doi.org/10.1177/05694345231169654), 68(2), 233–245.
+
+### Macroeconomics
+
+Consumer payment choice and the heterogeneous impact of India's demonetization.\
+Bajaj, A., & **Damodaran, N.** (2022).\
+[Journal of Economic Dynamics and Control](https://doi.org/10.1016/j.jedc.2022.104329), 137, 104329.
+
+### Work in Progress
+
+Fiscal Policy and Transmission: The Case of India's States
+
+</section>
+
+<section id="teaching">
+
+## Teaching
+
+### Courses
+
+- Money, Banking and Finance (Uni Mel) — S1 2023, S1 2024
+- Introductory Macroeconomics (Uni Mel) — S2 2023
+
+</section>
+
+</div>

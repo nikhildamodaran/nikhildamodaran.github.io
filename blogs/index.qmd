@@ -1,0 +1,14 @@
+---
+title: "Writings"
+---
+
+Opinion pieces and essays on economics, public policy, and related topics.
+
+- [Breaking the Value Chain](<1-breaking-the-value-chain.docx>) — *Indian Express*, April 2020
+- [RBI's Response to COVID-19 Needs to be Localized and Unconventional](<2-rbi-state-financing-ump.docx>) — *Indian Express*, April 2020
+- [Financing State Expenditure in the Post-GST Era](<3-financing state expenditure in the post GST era.docx>) — *New Indian Express*, February 2021
+- [Why is the Government Pushing Farm Laws Despite so Much Protest?](<4-farm laws and some conjectures.docx>) — *The Pioneer*, February 2021
+- [Who Pays for the Wall? Farm Protests and the Budget](<5-who pays for the wall.docx>) — *Indian Express*, February 2021
+- [Inflation Tax and the Burden of Public Debt](<6-inflation tax and the burden of public debt.docx>) — *New Indian Express*, March 2021
+- [The Need for Public in the Policy](<7-the_need_for_public_in_the_policy.docx>) — *Indian Express*, March 2021
+- [What Am I Meant to Write?](<8-What am I meant to write.docx>) - *Substack*, April 2021

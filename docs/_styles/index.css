@@ -1,0 +1,100 @@
+:root {
+  --text: #333;
+  --link: #0072C6;
+  --link-hover: #005A9E;
+}
+
+/* Reset Quarto's injected layout wrappers */
+body > .quarto-container,
+#quarto-content,
+#quarto-document-content,
+.page-layout-custom {
+  padding: 0 !important;
+  margin: 0 !important;
+  max-width: none !important;
+}
+
+/* Hide Quarto's auto-generated title block */
+#title-block-header {
+  display: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin: 0.6em 0 0.4em;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover { color: var(--link-hover); }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0 0.5rem;
+}
+
+header { margin-bottom: 40px; }
+nav { margin-top: 20px; }
+
+section {
+  margin-bottom: 40px;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+section.visible { opacity: 1; }
+
+ul { list-style-type: none; padding: 0; }
+li { margin-bottom: 10px; }
+
+.profile-image {
+  width: 60%;
+  max-width: 100%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.clear { clear: both; }
+
+.section-separator {
+  border: none;
+  border-top: 5px solid #ccc;
+  margin: 40px 0;
+}
+
+/* Sub-page styles */
+.back-link {
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 0.5rem 3rem;
+}
+
+@media (max-width: 767px) {
+  .container { padding: 0 20px; }
+  .page-container { padding: 1rem 20px 3rem; }
+  .profile-image {
+    width: 100%;
+    float: none;
+    margin: 0 auto 20px;
+    display: block;
+  }
+}

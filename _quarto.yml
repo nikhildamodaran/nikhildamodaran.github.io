@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Nikhil Damodaran"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.html
+
+format:
+  html:
+    theme: cosmo
+    toc: true

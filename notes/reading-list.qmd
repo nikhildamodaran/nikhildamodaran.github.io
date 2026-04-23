@@ -1,0 +1,43 @@
+---
+title: "Reading List"
+---
+
+# Growth
+
+If you look at growth literature, the citations to these papers are very high. There is a level effect to citation within these papers. The next set which pertains to macro theory is substantially lower. The reason for this is the general and global reach of the growth literature, while the technical and hence limited reach of the literature which examines economic fluctuations. 
+
+1. Solow, R. M. (1956). A contribution to the theory of economic growth. The quarterly journal of economics, 70(1), 65-94.
+
+2. Barro, R. J. (1991). Economic growth in a cross section of countries. The quarterly journal of economics, 106(2), 407-443.
+
+3. Mankiw, N. G., Romer, D., & Weil, D. N. (1992). A contribution to the empirics of economic growth. The quarterly journal of economics, 107(2), 407-437.
+
+4. 
+
+
+
+# Business Cycles
+
+1. Calvo, G. A. (1983). Staggered prices in a utility-maximizing framework. Journal of monetary Economics, 12(3), 383-398.
+
+2. Christiano, L. J., Eichenbaum, M., & Evans, C. L. (2005). Nominal rigidities and the dynamic effects of a shock to monetary policy. Journal of political Economy, 113(1), 1-45.
+
+3. Smets, F., & Wouters, R. (2003). An estimated dynamic stochastic general equilibrium model of the euro area. Journal of the European Economic Association, 1(5), 1123-1175.
+
+# Macroeconomic Theory
+
+1. Lucas, R. E. (1976). Econometric policy evaluation: A critique. In Carnegie-Rochester conference series on public policy (Vol. 1, pp. 19-46). North-Holland.
+
+2. Sargent, T. J. (1979). Macroeconomic theory and policy analysis. The American Economic Review, 69(2), 1-16.
+
+3. Cochrane, J. H. (1994). Shocks. Carnegie-Rochester Conference Series on Public Policy, 41, 295-364.
+
+4. Cochrane, J. H. (1998). A frictionless view of US inflation. NBER macroeconomics annual, 13, 323-384.
+
+5. Cochrane, J. H. (2011). Presidential address: Discount rates. Journal of Finance, 66(4), 1047-1108.
+
+6. Cochrane, J. H. (2017). The fiscal theory of the price level. Princeton University Press.
+
+7. Cochrane, J. H. (2020). The fiscal theory of the price level: An analytical introduction. Journal of Economic Perspectives, 34(4), 149-172.
+
+8
