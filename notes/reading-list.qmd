@@ -36,6 +36,10 @@ title: "Economics of Growth: Thoughts on the Evolution of the Literature"
 
 12. Aghion, P., & Howitt, P. (1992). A Model of Growth Through Creative Destruction. Econometrica: Journal of the Econometric Society, 323-351.
 
+12. Klenow, P. J., & Rodriguez-Clare, A. (1997). The neoclassical revival in growth economics: Has it gone too far?. NBER macroeconomics annual, 12, 73-103.
+
+- The neoclassical (Solow-style) model, when properly interpreted, can explain most cross-country income differences—you do not need strong endogenous growth mechanisms.
+
 12. Hall, R. E., & Jones, C. I. (1999). Why do some countries produce so much more output per worker than others?. The quarterly journal of economics, 114(1), 83-116.
 
 13. Jones, C. I. (2016). The facts of economic growth. In Handbook of macroeconomics (Vol. 2, pp. 3-69). Elsevier. following up from: Jones, C. I. (2002). Sources of US economic growth in a world of ideas. American economic review, 92(1), 220-239.
@@ -93,10 +97,24 @@ title: "Economics of Growth: Thoughts on the Evolution of the Literature"
 
 30. Rodrik, D., Subramanian, A., & Trebbi, F. (2004). Institutions rule: the primacy of institutions over geography and integration in economic development. Journal of economic growth, 9(2), 131-165.
 
+## Misallocation and Growth
+
+- Countries are not poor because they lack capital—they are poor because they use capital inefficiently.
+
+31. Hsieh, C. T., & Klenow, P. J. (2009). Misallocation and manufacturing TFP in China and India. The Quarterly journal of economics, 124(4), 1403-1448.
+
+32. Restuccia, D., & Rogerson, R. (2008). Policy distortions and aggregate productivity with heterogeneous establishments. Review of Economic dynamics, 11(4), 707-720.
+
+- In an efficient economy, we have high productive firms that are large and low productive firms that are small. However, with distortions such as taxes, subsidies, regulations, and entry barriers, we have productive firms that are too small and unproductive firms that are too large. This leads to a fall in aggregate output.
+
+33. Bartelsman, E., Haltiwanger, J., & Scarpetta, S. (2013). Cross-country differences in productivity: The role of allocation and selection. American economic review, 103(1), 305-334.
 
 
+## Structural Transformation and Growth
 
+34. Kuznets, S. (1973). Modern economic growth: findings and reflections. The American economic review, 63(3), 247-258.
 
+35. Ngai, L. R., & Pissarides, C. A. (2007). Structural change in a multisector model of growth. American economic review, 97(1), 429-443.
 
 
 
