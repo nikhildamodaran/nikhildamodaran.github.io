@@ -63,7 +63,7 @@ title: "Economics of Growth: Thoughts on the Evolution of the Literature"
 22. Valero, A., & Van Reenen, J. (2019). The economic impact of universities: Evidence from across the globe. Economics of education review, 68, 53-67. 
  - The university literature is interesting because of the changing nature of work and whether it will make the univeristy system obsolete. 
 
- ## Endogenous Growth and Innovation
+## Endogenous Growth and Innovation
 
 - The papers by Romer and Lucas (On Mechanics of Economic Development) are the seminal papers in this literature. 
 
