@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  preview:
+    port: 4200
+  post-render:
+    - "touch docs/.nojekyll"
 
 website:
   title: "Nikhil Damodaran"
