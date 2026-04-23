@@ -34,7 +34,7 @@ Built with [Quarto](https://quarto.org/). Edit the `.qmd` files, run `quarto ren
 - `8-What am I meant to write.docx` — Personal essay on writing
 
 **notes/**
-- `index.qmd` — listing page for lecture notes
+- `index.qmd` — listing page for lecture notes - (not linked from the homepage)
 - `reading-list.qmd` — reading list
 - add more `.qmd` files here for new topics
 
@@ -43,52 +43,7 @@ Built with [Quarto](https://quarto.org/). Edit the `.qmd` files, run `quarto ren
 
 ---
 
-## How blogs/index.qmd is structured
-
-All blog content lives in a single file. It has three parts:
-
-**1. A list at the top** — one line per post, clicking a title shows that post and hides the rest:
-```
-- [Post title](javascript:void(0)){onclick="showBlog('blog-9')"}  [— *Publication*, Month Year]{.post-meta}
-```
-
-**2. A content block per post** — each post is wrapped in a div:
-```
-::: {#blog-9 .blog-post}
-<button class="back-btn" onclick="showList()">← Back to all posts</button>
-
-[paste converted markdown content here]
-
-:::
-```
-
-**3. A `<script>` block at the bottom** — handles show/hide, do not edit.
-
----
-
 ## Workflows
-
-### Add a new blog post
-
-1. Write in Word, save the `.docx` in `blogs/`
-2. Convert to markdown in Terminal:
-   ```
-   pandoc your-file.docx -f docx -t markdown
-   ```
-3. Copy the output
-4. Open `blogs/index.qmd` and:
-   - Add a line to the list at the top (increment the blog number)
-   - Add a new content block (copy an existing `:::` block, update the number, paste content)
-5. Run `quarto render .` and push
-
-### Publish any change
-
-```
-quarto render .
-git add -A
-git commit -m "describe what changed"
-git push
-```
 
 ### Update the CV
 
