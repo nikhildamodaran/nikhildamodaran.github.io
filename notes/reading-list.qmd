@@ -116,6 +116,19 @@ title: "Economics of Growth: Thoughts on the Evolution of the Literature"
 
 35. Ngai, L. R., & Pissarides, C. A. (2007). Structural change in a multisector model of growth. American economic review, 97(1), 429-443.
 
+36. Herrendorf, B., Rogerson, R., & Valentinyi, A. (2014). Growth and structural transformation. Handbook of economic growth, 2, 855-941.
+
+37. Gollin, D., Lagakos, D., & Waugh, M. E. (2014). The agricultural productivity gap. The Quarterly Journal of Economics, 129(2), 939-993.
+
+## Adopting New Technologies and Growth
+
+38. Parente, S. L., & Prescott, E. C. (1994). Barriers to technology adoption and development. Journal of political Economy, 102(2), 298-321.
+
+39. Comin, D., & Hobijn, B. (2010). An exploration of technology diffusion. American economic review, 100(5), 2031-2059.
+
+40. Eaton, J., & Kortum, S. (2002). Technology, geography, and trade. Econometrica, 70(5), 1741-1779.
+
+- Eaton–Kortum builds a model where each country draws productivity for each good from a distribution. In their model, countries trade based on (a) productivity differences and (b) trade costs. This generates trade flows, price differences, and productivity differences.
 
 
 
