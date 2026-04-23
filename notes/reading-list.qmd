@@ -1,18 +1,103 @@
 ---
-title: "Reading List"
+title: "Economics of Growth: Thoughts on the Evolution of the Literature"
 ---
 
 # Growth
 
-If you look at growth literature, the citations to these papers are very high. There is a level effect to citation within these papers. The next set which pertains to macro theory is substantially lower. The reason for this is the general and global reach of the growth literature, while the technical and hence limited reach of the literature which examines economic fluctuations. 
+- If you look at growth literature, the citations to these papers are very high. There is a "level effect" to citation within these papers i.e. these papers are of the order of 40K magnitude while key papers in business cycle theory is 10K. The reason for this is the general and global reach of the growth literature especially since it handles big questions. 
+
+- I also find that as one goes deep into the issue, the mass citation that earlier ideas gathered has withered away. My intuition about this is that as the literature flourishes, new strands with fresh ideas have an explosion effect. But as and when the literature matures, the new ideas are more incremental and hence the citations are more spread out. You can see this in papers by Acemoglou (Directed Technical Change) where he is pushing the endogenous growth literature in a certain direction, but is not catching up to gain momentum and is viewed as important but not explosive.
+
+- The recent discussion in the backdrop of thing literature is even more interesting. On one hand the discussion is getting into nitty gritty of the productivity measurement debate through the lens of misallocation. On the other hand, new aspects of this debate are making way partly due to the evolution of the economies themselves. For instance, the discussion on the role of ideas in growth and the implications of a declining population on growth are very recent and interesting.
+
+- I read about the quote by Lucas
 
 1. Solow, R. M. (1956). A contribution to the theory of economic growth. The quarterly journal of economics, 70(1), 65-94.
 
-2. Barro, R. J. (1991). Economic growth in a cross section of countries. The quarterly journal of economics, 106(2), 407-443.
+2. Cass, D. (1965). Optimum growth in an aggregative model of capital accumulation. The Review of economic studies, 32(3), 233-240.
 
-3. Mankiw, N. G., Romer, D., & Weil, D. N. (1992). A contribution to the empirics of economic growth. The quarterly journal of economics, 107(2), 407-437.
+3. Cass, D. (1966). Optimum growth in an aggregative model of capital accumulation: A turnpike theorem. Econometrica: Journal of the Econometric Society, 833-850.
 
-4. 
+4. Koopmans, Tjalling C., "On the Concept of Optimal Economic Growth" (1963). [Cowles Foundation Discussion Papers. 392.](https://elischolar.library.yale.edu/cowles-discussion-paper-series/392)
+
+5. Romer, P. M. (1986). Increasing returns and long-run growth. Journal of political economy, 94(5), 1002-1037.
+
+6. R. E. Lucas Jr. On the mechanics of economic development. Journal of monetary economics, 22(1):3–42, July 1988.
+
+7. Romer, P. M. (1990). Endogenous technological change. Journal of political Economy, 98(5, Part 2), S71-S102.
+
+8. Barro, R. J. (1991). Economic growth in a cross section of countries. The quarterly journal of economics, 106(2), 407-443.
+
+9. Mankiw, N. G., Romer, D., & Weil, D. N. (1992). A contribution to the empirics of economic growth. The quarterly journal of economics, 107(2), 407-437.
+
+10. Levine, R., & Renelt, D. (1992). A sensitivity analysis of cross-country growth regressions. The American economic review, 942-963.
+
+11. Barro, R. J., & Sala-i-Martin, X. (1992). Convergence. Journal of political Economy, 100(2), 223-251.
+
+12. Aghion, P., & Howitt, P. (1992). A Model of Growth Through Creative Destruction. Econometrica: Journal of the Econometric Society, 323-351.
+
+12. Hall, R. E., & Jones, C. I. (1999). Why do some countries produce so much more output per worker than others?. The quarterly journal of economics, 114(1), 83-116.
+
+13. Jones, C. I. (2016). The facts of economic growth. In Handbook of macroeconomics (Vol. 2, pp. 3-69). Elsevier. following up from: Jones, C. I. (2002). Sources of US economic growth in a world of ideas. American economic review, 92(1), 220-239.
+
+14. Jones, C. I. (2022). The end of economic growth? Unintended consequences of a declining population. American Economic Review, 112(11), 3489-3527.
+
+15. Jones, C. I. (2022). Taxing top incomes in a world of ideas. Journal of Political Economy, 130(9), 2227-2274.
+
+## Older, Less Relevant Now
+
+16. X. X. Sala-I-Martin. I just ran two million regressions. American Economic Review Papers and Proceedings, 87(2):178–183, 1997.
+
+17. J. Temple. The new growth evidence. Journal of economic Literature, 37(1):112–156, 1999.
+
+## Human Capital
+
+18. J. Benhabib and M. M. Spiegel. The role of human capital in economic development evidence from aggregate cross-country data. Journal of Monetary economics, 34(2):143–173, May 1994.
+
+19. Bils, M., & Klenow, P. J. (2000). Does schooling cause growth?. American economic review, 90(5), 1160-1183.
+
+20. Hanushek, E. A., & Woessmann, L. (2012). Do better schools lead to more growth? Cognitive skills, economic outcomes, and causation. Journal of economic growth, 17(4), 267-321.
+
+21. Barro, R. J., & Lee, J. W. (2013). A new data set of educational attainment in the world, 1950–2010. Journal of development economics, 104, 184-198.
+
+22. Valero, A., & Van Reenen, J. (2019). The economic impact of universities: Evidence from across the globe. Economics of education review, 68, 53-67. 
+ - The university literature is interesting because of the changing nature of work and whether it will make the univeristy system obsolete. 
+
+ ## Endogenous Growth and Innovation
+
+- The papers by Romer and Lucas (On Mechanics of Economic Development) are the seminal papers in this literature. 
+
+23. Aghion, P., & Howitt, P. (1992). A model of growth through creative destruction. Econometrica: Journal of the Econometric Society, 323-351.
+
+24. Jones, C. I. (1995). R & D-based models of economic growth. Journal of political Economy, 103(4), 759-784.
+
+25. Acemoglu, D. (2002). Directed technical change. The review of economic studies, 69(4), 781-809.
+
+
+## Environment and Growth
+
+26. Acemoglu, D., Aghion, P., Bursztyn, L., & Hemous, D. (2012). The environment and directed technical change. American economic review, 102(1), 131-166.
+- This paper is interesting in the sense that it pushes the endogenous growth literature, which was narrowed into directed technical change, into a new direction by linking it to the environment. The paper is not explosive in the sense that it is not a new idea but it is important in the sense that it is pushing the literature in a new direction.
+
+27. Hassler, J., Krusell, P., & Olovsson, C. (2021). Directed technical change as a response to natural resource scarcity. Journal of Political Economy, 129(11), 3039-3072.
+
+## Mechanisms of Growth
+
+28. D. Acemoglu, P. Aghion, and F. Zilibotti. Distance to frontier, selection, and economic growth. Journal of the European Economic association, 4(1):37–74, 2006.
+- Growth mechanisms differ by:distance to frontier. If an economy is far from the frontier → imitation. If an economy is close to the frontier → innovation.
+
+## Institutions and Growth
+
+29. Acemoglu, D., Johnson, S., & Robinson, J. A. (2001). The colonial origins of comparative development: An empirical investigation. American economic review, 91(5), 1369-1401.
+- This paper is interesting because of the way it links the colonial history of a country to its current economic performance through the channel of institutions. It proposes a novel instrument for institutions and brings an interesting discussion on the role of institutions in economic development.
+
+30. Rodrik, D., Subramanian, A., & Trebbi, F. (2004). Institutions rule: the primacy of institutions over geography and integration in economic development. Journal of economic growth, 9(2), 131-165.
+
+
+
+
+
+
 
 
 
