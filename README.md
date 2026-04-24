@@ -49,12 +49,4 @@ Renders the site, commits, and pushes in one step.
 
 ---
 
-## Pages not linked from the homepage
 
-| Page | URL |
-|---|---|
-| CV | `/cv/` |
-| Writings | `/blogs/` |
-| Lecture Notes | `/notes/` |
-| Research Notes | `/research-notes/` |
-| Reading List | `/notes/reading-list.html` |
