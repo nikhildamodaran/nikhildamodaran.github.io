@@ -1,0 +1,349 @@
+---
+
+title: "Introductory Macroeconomics"
+subtitle: "Lecture 16: International Trade I"
+author: "Nikhil Damodaran"
+date: "1st Semester 2026"
+
+format:
+revealjs:
+incremental: true
+theme: [default]
+slide-number: true
+toc: false
+
+execute:
+echo: false
+-----------
+
+## This Lecture
+
+* International Trade I
+
+  * introduction
+  * production possibilities frontier
+  * absolute vs. comparative advantage
+  * specialization and trade: the Ricardian model
+
+* BOFAH Chapter 16
+
+---
+
+## From Growth to Trade
+
+### Reflection on Growth
+
+* In our theory of growth we argued two things:
+
+  * Only growth in productivity can improve income per worker, permanently.
+  * Transition towards steady state capital via capital accumulation induces temporary growth.
+
+* *Adam Smith* argued that the *invisible hand* maximizes welfare because:
+
+  * it incentivizes **specialisation of labour**
+  * it incentivizes **free trade**, expanding consumption possibilities
+
+---
+
+## World Trade to GDP Ratio
+
+![](Lectures/Images/Week9/world_trade.png)
+
+*Source: World Bank; Our World in Data*
+
+Trade = Exports + Imports.
+This ratio proxies how integrated the global economy is.
+
+---
+
+## Reasons for Trade
+
+* Why do countries trade?
+
+* Differences in:
+
+  * technologies and endowments
+  * consumer tastes
+
+* Countries:
+
+  * specialize in relatively efficient production
+  * export those goods
+  * import others
+
+* We study the **Ricardian model** (technology differences)
+
+---
+
+## Production Possibilities Frontier
+
+### Setup
+
+* Two sectors: Manufacturing ($m$), Services ($s$)
+
+$$
+Y_m = A_m L_m \qquad Y_s = A_s L_s
+$$
+
+* Labour constraint:
+
+$$
+L = L_m + L_s
+$$
+
+---
+
+## PPF Derivation
+
+$$
+L_m = \frac{Y_m}{A_m}, \qquad L_s = \frac{Y_s}{A_s}
+$$
+
+Substitute:
+
+$$
+L = \frac{Y_m}{A_m} + \frac{Y_s}{A_s}
+$$
+
+Rearrange:
+
+$$
+Y_s = A_s L - \frac{A_s}{A_m} Y_m
+$$
+
+---
+
+## Interpreting the PPF
+
+$$
+Y_s = A_s L - \frac{A_s}{A_m} Y_m
+$$
+
+* **Intercept**: $A_s L$
+* **Slope (opportunity cost)**:
+
+$$
+\frac{dY_s}{dY_m} = -\frac{A_s}{A_m}
+$$
+
+---
+
+## Numerical Example
+
+* $L = 200$
+
+|    | Services | Manufactures |
+| -- | -------- | ------------ |
+| US | 8        | 2            |
+
+* $A_s = 8$, $A_m = 2$
+
+$$
+Y_s = 1600 - 4Y_m
+$$
+
+* Opportunity cost = 4 services
+
+---
+
+## Consumption
+
+* Assume **perfect complements**:
+
+$$
+x = Y_s = Y_m
+$$
+
+$$
+x = A_s L - \frac{A_s}{A_m} x
+\Rightarrow
+x = \frac{A_m A_s}{A_m + A_s} L
+$$
+
+Example:
+
+$$
+x = \frac{1600}{5} = 320
+$$
+
+---
+
+## Absolute and Comparative Advantage
+
+### Autarky vs Trade
+
+* **Autarky**: no trade
+* **Free trade**: countries exchange goods
+
+Question: what drives trade?
+
+---
+
+## Absolute Advantage
+
+|       | Services | Manufactures |
+| ----- | -------- | ------------ |
+| US    | 8        | 2            |
+| China | 1        | 4            |
+
+* US: absolute advantage in services
+* China: absolute advantage in manufacturing
+
+---
+
+## When One Country is Better at Everything
+
+|       | Services | Manufactures |
+| ----- | -------- | ------------ |
+| US    | 8        | 4            |
+| China | 1        | 2            |
+
+* US has absolute advantage in both
+* Does trade still occur? → Yes
+
+---
+
+## Comparative Advantage
+
+* What matters: **opportunity cost**
+
+$$
+\text{OC of } m = \frac{A_s}{A_m}
+$$
+
+* A country has comparative advantage if it produces at **lower opportunity cost**
+
+---
+
+## Comparative Advantage Example
+
+US:
+
+$$
+Y_s = 1600 - 2Y_m
+$$
+
+China:
+
+$$
+Y_s = 800 - \frac{1}{2}Y_m
+$$
+
+* US: comparative advantage in services
+* China: comparative advantage in manufacturing
+
+---
+
+## No Trade Outcome
+
+US:
+
+$$
+x = 1600 - 2x \Rightarrow x = \frac{1600}{3}
+$$
+
+China:
+
+$$
+x = 800 - \frac{1}{2}x \Rightarrow x = \frac{2}{3} \times 800
+$$
+
+* Both consume $533\frac{1}{3}$
+
+---
+
+## Specialisation
+
+* US → Services:
+
+$$
+Y_{s,US} = 1600
+$$
+
+* China → Manufacturing:
+
+$$
+Y_{m,China} = 1600
+$$
+
+* Global output rises from:
+
+$$
+1066\frac{2}{3} \to 1600
+$$
+
+---
+
+## Trade Mechanism
+
+* Suppose:
+
+$$
+\frac{P_m}{P_s} = 1
+$$
+
+* US:
+
+  * produce → cost = 2 services
+  * import → cost = 1 service
+
+→ import manufactures
+
+* China:
+
+  * produce → cost = 1/2 service
+  * import → cost = 1 service
+
+→ export manufactures
+
+---
+
+## Gains from Trade
+
+Consumption:
+
+$$
+x = 1600 - x \Rightarrow x = 800
+$$
+
+* Both consume 800 (vs 533 before)
+* **Both gain**
+
+---
+
+## Conditions for Trade
+
+Trade occurs if price lies between opportunity costs:
+
+$$
+\frac{1}{2} < \frac{P_m}{P_s} < 2
+$$
+
+---
+
+## Learning Outcomes
+
+1. Derive and interpret the PPF
+2. Distinguish absolute vs comparative advantage
+3. Solve Ricardian model under autarky and trade
+
+---
+
+## Key Formula
+
+$$
+Y_y = A_y L - \frac{A_y}{A_x} Y_x
+$$
+
+---
+
+## Next Lecture
+
+* International Trade II
+
+  * direction of trade
+  * winners and losers
+  * tariffs
+  * trade wars
+
+---
