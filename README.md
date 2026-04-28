@@ -41,11 +41,12 @@ Renders the site, commits, and pushes in one step.
 
 **notes/**
 - `index.qmd` — listing page for lecture notes
-- `reading-list.qmd` — reading list (hidden, access via `/notes/reading-list.html`)
-- add more `.qmd` files here for new topics
+- `reading-list.qmd` — reading list (a) on economic growth - because I was reading the old literature.
+- `intro-macro.qmd` - intro macro lecture notes - combining all the thinking that I have done since the first time I taught this course in 2018.
+
 
 **research-notes/**
-- `index.qmd` — research notes (hidden, access via `/research-notes/`)
+- `index.qmd` — research notes 
 
 ---
 
