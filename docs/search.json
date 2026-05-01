@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "notes/intro-macro.html",
+    "href": "notes/intro-macro.html",
+    "title": "Introductory Macroeconomics",
+    "section": "",
+    "text": "International Trade I\n\nintroduction\nproduction possibilities frontier\nabsolute vs. comparative advantage\nspecialization and trade: the Ricardian model\n\nBOFAH Chapter 16"
+  },
+  {
+    "objectID": "notes/intro-macro.html#this-lecture",
+    "href": "notes/intro-macro.html#this-lecture",
+    "title": "Introductory Macroeconomics",
+    "section": "",
+    "text": "International Trade I\n\nintroduction\nproduction possibilities frontier\nabsolute vs. comparative advantage\nspecialization and trade: the Ricardian model\n\nBOFAH Chapter 16"
+  },
+  {
+    "objectID": "notes/intro-macro.html#from-growth-to-trade",
+    "href": "notes/intro-macro.html#from-growth-to-trade",
+    "title": "Introductory Macroeconomics",
+    "section": "From Growth to Trade",
+    "text": "From Growth to Trade\n\nReflection on Growth\n\nIn our theory of growth we argued two things:\n\nOnly growth in productivity can improve income per worker, permanently.\nTransition towards steady state capital via capital accumulation induces temporary growth.\n\nAdam Smith argued that the invisible hand maximizes welfare because:\n\nit incentivizes specialisation of labour\nit incentivizes free trade, expanding consumption possibilities"
+  },
+  {
+    "objectID": "notes/intro-macro.html#world-trade-to-gdp-ratio",
+    "href": "notes/intro-macro.html#world-trade-to-gdp-ratio",
+    "title": "Introductory Macroeconomics",
+    "section": "World Trade to GDP Ratio",
+    "text": "World Trade to GDP Ratio\n\nSource: World Bank; Our World in Data\nTrade = Exports + Imports. This ratio proxies how integrated the global economy is."
+  },
+  {
+    "objectID": "notes/intro-macro.html#reasons-for-trade",
+    "href": "notes/intro-macro.html#reasons-for-trade",
+    "title": "Introductory Macroeconomics",
+    "section": "Reasons for Trade",
+    "text": "Reasons for Trade\n\nWhy do countries trade?\nDifferences in:\n\ntechnologies and endowments\nconsumer tastes\n\nCountries:\n\nspecialize in relatively efficient production\nexport those goods\nimport others\n\nWe study the Ricardian model (technology differences)"
+  },
+  {
+    "objectID": "notes/intro-macro.html#production-possibilities-frontier",
+    "href": "notes/intro-macro.html#production-possibilities-frontier",
+    "title": "Introductory Macroeconomics",
+    "section": "Production Possibilities Frontier",
+    "text": "Production Possibilities Frontier\n\nSetup\n\nTwo sectors: Manufacturing (\\(m\\)), Services (\\(s\\))\n\n\\[\nY_m = A_m L_m \\qquad Y_s = A_s L_s\n\\]\n\nLabour constraint:\n\n\\[\nL = L_m + L_s\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#ppf-derivation",
+    "href": "notes/intro-macro.html#ppf-derivation",
+    "title": "Introductory Macroeconomics",
+    "section": "PPF Derivation",
+    "text": "PPF Derivation\n\\[\nL_m = \\frac{Y_m}{A_m}, \\qquad L_s = \\frac{Y_s}{A_s}\n\\]\nSubstitute:\n\\[\nL = \\frac{Y_m}{A_m} + \\frac{Y_s}{A_s}\n\\]\nRearrange:\n\\[\nY_s = A_s L - \\frac{A_s}{A_m} Y_m\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#interpreting-the-ppf",
+    "href": "notes/intro-macro.html#interpreting-the-ppf",
+    "title": "Introductory Macroeconomics",
+    "section": "Interpreting the PPF",
+    "text": "Interpreting the PPF\n\\[\nY_s = A_s L - \\frac{A_s}{A_m} Y_m\n\\]\n\nIntercept: \\(A_s L\\)\nSlope (opportunity cost):\n\n\\[\n\\frac{dY_s}{dY_m} = -\\frac{A_s}{A_m}\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#numerical-example",
+    "href": "notes/intro-macro.html#numerical-example",
+    "title": "Introductory Macroeconomics",
+    "section": "Numerical Example",
+    "text": "Numerical Example\n\n\\(L = 200\\)\n\n\n\n\n\nServices\nManufactures\n\n\n\n\nUS\n8\n2\n\n\n\n\n\\(A_s = 8\\), \\(A_m = 2\\)\n\n\\[\nY_s = 1600 - 4Y_m\n\\]\n\nOpportunity cost = 4 services"
+  },
+  {
+    "objectID": "notes/intro-macro.html#consumption",
+    "href": "notes/intro-macro.html#consumption",
+    "title": "Introductory Macroeconomics",
+    "section": "Consumption",
+    "text": "Consumption\n\nAssume perfect complements:\n\n\\[\nx = Y_s = Y_m\n\\]\n\\[\nx = A_s L - \\frac{A_s}{A_m} x\n\\Rightarrow\nx = \\frac{A_m A_s}{A_m + A_s} L\n\\]\nExample:\n\\[\nx = \\frac{1600}{5} = 320\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#absolute-and-comparative-advantage",
+    "href": "notes/intro-macro.html#absolute-and-comparative-advantage",
+    "title": "Introductory Macroeconomics",
+    "section": "Absolute and Comparative Advantage",
+    "text": "Absolute and Comparative Advantage\n\nAutarky vs Trade\n\nAutarky: no trade\nFree trade: countries exchange goods\n\nQuestion: what drives trade?"
+  },
+  {
+    "objectID": "notes/intro-macro.html#absolute-advantage",
+    "href": "notes/intro-macro.html#absolute-advantage",
+    "title": "Introductory Macroeconomics",
+    "section": "Absolute Advantage",
+    "text": "Absolute Advantage\n\n\n\n\nServices\nManufactures\n\n\n\n\nUS\n8\n2\n\n\nChina\n1\n4\n\n\n\n\nUS: absolute advantage in services\nChina: absolute advantage in manufacturing"
+  },
+  {
+    "objectID": "notes/intro-macro.html#when-one-country-is-better-at-everything",
+    "href": "notes/intro-macro.html#when-one-country-is-better-at-everything",
+    "title": "Introductory Macroeconomics",
+    "section": "When One Country is Better at Everything",
+    "text": "When One Country is Better at Everything\n\n\n\n\nServices\nManufactures\n\n\n\n\nUS\n8\n4\n\n\nChina\n1\n2\n\n\n\n\nUS has absolute advantage in both\nDoes trade still occur? → Yes"
+  },
+  {
+    "objectID": "notes/intro-macro.html#comparative-advantage",
+    "href": "notes/intro-macro.html#comparative-advantage",
+    "title": "Introductory Macroeconomics",
+    "section": "Comparative Advantage",
+    "text": "Comparative Advantage\n\nWhat matters: opportunity cost\n\n\\[\n\\text{OC of } m = \\frac{A_s}{A_m}\n\\]\n\nA country has comparative advantage if it produces at lower opportunity cost"
+  },
+  {
+    "objectID": "notes/intro-macro.html#comparative-advantage-example",
+    "href": "notes/intro-macro.html#comparative-advantage-example",
+    "title": "Introductory Macroeconomics",
+    "section": "Comparative Advantage Example",
+    "text": "Comparative Advantage Example\nUS:\n\\[\nY_s = 1600 - 2Y_m\n\\]\nChina:\n\\[\nY_s = 800 - \\frac{1}{2}Y_m\n\\]\n\nUS: comparative advantage in services\nChina: comparative advantage in manufacturing"
+  },
+  {
+    "objectID": "notes/intro-macro.html#no-trade-outcome",
+    "href": "notes/intro-macro.html#no-trade-outcome",
+    "title": "Introductory Macroeconomics",
+    "section": "No Trade Outcome",
+    "text": "No Trade Outcome\nUS:\n\\[\nx = 1600 - 2x \\Rightarrow x = \\frac{1600}{3}\n\\]\nChina:\n\\[\nx = 800 - \\frac{1}{2}x \\Rightarrow x = \\frac{2}{3} \\times 800\n\\]\n\nBoth consume \\(533\\frac{1}{3}\\)"
+  },
+  {
+    "objectID": "notes/intro-macro.html#specialisation",
+    "href": "notes/intro-macro.html#specialisation",
+    "title": "Introductory Macroeconomics",
+    "section": "Specialisation",
+    "text": "Specialisation\n\nUS → Services:\n\n\\[\nY_{s,US} = 1600\n\\]\n\nChina → Manufacturing:\n\n\\[\nY_{m,China} = 1600\n\\]\n\nGlobal output rises from:\n\n\\[\n1066\\frac{2}{3} \\to 1600\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#trade-mechanism",
+    "href": "notes/intro-macro.html#trade-mechanism",
+    "title": "Introductory Macroeconomics",
+    "section": "Trade Mechanism",
+    "text": "Trade Mechanism\n\nSuppose:\n\n\\[\n\\frac{P_m}{P_s} = 1\n\\]\n\nUS:\n\nproduce → cost = 2 services\nimport → cost = 1 service\n\n\n→ import manufactures\n\nChina:\n\nproduce → cost = 1/2 service\nimport → cost = 1 service\n\n\n→ export manufactures"
+  },
+  {
+    "objectID": "notes/intro-macro.html#gains-from-trade",
+    "href": "notes/intro-macro.html#gains-from-trade",
+    "title": "Introductory Macroeconomics",
+    "section": "Gains from Trade",
+    "text": "Gains from Trade\nConsumption:\n\\[\nx = 1600 - x \\Rightarrow x = 800\n\\]\n\nBoth consume 800 (vs 533 before)\nBoth gain"
+  },
+  {
+    "objectID": "notes/intro-macro.html#conditions-for-trade",
+    "href": "notes/intro-macro.html#conditions-for-trade",
+    "title": "Introductory Macroeconomics",
+    "section": "Conditions for Trade",
+    "text": "Conditions for Trade\nTrade occurs if price lies between opportunity costs:\n\\[\n\\frac{1}{2} &lt; \\frac{P_m}{P_s} &lt; 2\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#learning-outcomes",
+    "href": "notes/intro-macro.html#learning-outcomes",
+    "title": "Introductory Macroeconomics",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nDerive and interpret the PPF\nDistinguish absolute vs comparative advantage\nSolve Ricardian model under autarky and trade"
+  },
+  {
+    "objectID": "notes/intro-macro.html#key-formula",
+    "href": "notes/intro-macro.html#key-formula",
+    "title": "Introductory Macroeconomics",
+    "section": "Key Formula",
+    "text": "Key Formula\n\\[\nY_y = A_y L - \\frac{A_y}{A_x} Y_x\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#next-lecture",
+    "href": "notes/intro-macro.html#next-lecture",
+    "title": "Introductory Macroeconomics",
+    "section": "Next Lecture",
+    "text": "Next Lecture\n\nInternational Trade II\n\ndirection of trade\nwinners and losers\ntariffs\ntrade wars"
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "&lt;a href=\"ND_Mar24.pdf\"&gt;Download CV (PDF)&lt;/a&gt;"
+  }
+]

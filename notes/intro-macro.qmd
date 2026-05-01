@@ -1,20 +1,20 @@
 ---
-
 title: "Introductory Macroeconomics"
 subtitle: "Lecture 16: International Trade I"
 author: "Nikhil Damodaran"
 date: "1st Semester 2026"
 
 format:
-revealjs:
-incremental: true
-theme: [default]
-slide-number: true
-toc: false
+    revealjs:
+        incremental: true
+        theme: default
+        slide-number: true
+        toc: false
 
 execute:
-echo: false
------------
+    echo: false
+---
+
 
 ## This Lecture
 
@@ -29,9 +29,11 @@ echo: false
 
 ---
 
-## From Growth to Trade
+## Why is Trade Important?
 
-### Reflection on Growth
+
+
+## Reflection on Growth
 
 * In our theory of growth we argued two things:
 
