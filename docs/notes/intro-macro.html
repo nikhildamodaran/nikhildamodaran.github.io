@@ -1,295 +1,221 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.37">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="author" content="Nikhil Damodaran">
-
-<title>Introductory Macroeconomics – Nikhil Damodaran</title>
-<style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
-
-
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<html lang="en"><head>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.37">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
+  <meta name="author" content="Nikhil Damodaran">
+  <title>Nikhil Damodaran – Introductory Macroeconomics</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
     }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
+  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
 </head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
 
-<body class="nav-fixed quarto-light">
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Introductory Macroeconomics</h1>
+  <p class="subtitle">Lecture 16: International Trade I</p>
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">Nikhil Damodaran</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Nikhil Damodaran 
 </div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#this-lecture" id="toc-this-lecture" class="nav-link active" data-scroll-target="#this-lecture">This Lecture</a></li>
-  <li><a href="#from-growth-to-trade" id="toc-from-growth-to-trade" class="nav-link" data-scroll-target="#from-growth-to-trade">From Growth to Trade</a>
-  <ul class="collapse">
-  <li><a href="#reflection-on-growth" id="toc-reflection-on-growth" class="nav-link" data-scroll-target="#reflection-on-growth">Reflection on Growth</a></li>
-  </ul></li>
-  <li><a href="#world-trade-to-gdp-ratio" id="toc-world-trade-to-gdp-ratio" class="nav-link" data-scroll-target="#world-trade-to-gdp-ratio">World Trade to GDP Ratio</a></li>
-  <li><a href="#reasons-for-trade" id="toc-reasons-for-trade" class="nav-link" data-scroll-target="#reasons-for-trade">Reasons for Trade</a></li>
-  <li><a href="#production-possibilities-frontier" id="toc-production-possibilities-frontier" class="nav-link" data-scroll-target="#production-possibilities-frontier">Production Possibilities Frontier</a>
-  <ul class="collapse">
-  <li><a href="#setup" id="toc-setup" class="nav-link" data-scroll-target="#setup">Setup</a></li>
-  </ul></li>
-  <li><a href="#ppf-derivation" id="toc-ppf-derivation" class="nav-link" data-scroll-target="#ppf-derivation">PPF Derivation</a></li>
-  <li><a href="#interpreting-the-ppf" id="toc-interpreting-the-ppf" class="nav-link" data-scroll-target="#interpreting-the-ppf">Interpreting the PPF</a></li>
-  <li><a href="#numerical-example" id="toc-numerical-example" class="nav-link" data-scroll-target="#numerical-example">Numerical Example</a></li>
-  <li><a href="#consumption" id="toc-consumption" class="nav-link" data-scroll-target="#consumption">Consumption</a></li>
-  <li><a href="#absolute-and-comparative-advantage" id="toc-absolute-and-comparative-advantage" class="nav-link" data-scroll-target="#absolute-and-comparative-advantage">Absolute and Comparative Advantage</a>
-  <ul class="collapse">
-  <li><a href="#autarky-vs-trade" id="toc-autarky-vs-trade" class="nav-link" data-scroll-target="#autarky-vs-trade">Autarky vs Trade</a></li>
-  </ul></li>
-  <li><a href="#absolute-advantage" id="toc-absolute-advantage" class="nav-link" data-scroll-target="#absolute-advantage">Absolute Advantage</a></li>
-  <li><a href="#when-one-country-is-better-at-everything" id="toc-when-one-country-is-better-at-everything" class="nav-link" data-scroll-target="#when-one-country-is-better-at-everything">When One Country is Better at Everything</a></li>
-  <li><a href="#comparative-advantage" id="toc-comparative-advantage" class="nav-link" data-scroll-target="#comparative-advantage">Comparative Advantage</a></li>
-  <li><a href="#comparative-advantage-example" id="toc-comparative-advantage-example" class="nav-link" data-scroll-target="#comparative-advantage-example">Comparative Advantage Example</a></li>
-  <li><a href="#no-trade-outcome" id="toc-no-trade-outcome" class="nav-link" data-scroll-target="#no-trade-outcome">No Trade Outcome</a></li>
-  <li><a href="#specialisation" id="toc-specialisation" class="nav-link" data-scroll-target="#specialisation">Specialisation</a></li>
-  <li><a href="#trade-mechanism" id="toc-trade-mechanism" class="nav-link" data-scroll-target="#trade-mechanism">Trade Mechanism</a></li>
-  <li><a href="#gains-from-trade" id="toc-gains-from-trade" class="nav-link" data-scroll-target="#gains-from-trade">Gains from Trade</a></li>
-  <li><a href="#conditions-for-trade" id="toc-conditions-for-trade" class="nav-link" data-scroll-target="#conditions-for-trade">Conditions for Trade</a></li>
-  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes">Learning Outcomes</a></li>
-  <li><a href="#key-formula" id="toc-key-formula" class="nav-link" data-scroll-target="#key-formula">Key Formula</a></li>
-  <li><a href="#next-lecture" id="toc-next-lecture" class="nav-link" data-scroll-target="#next-lecture">Next Lecture</a></li>
-  </ul>
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="intro-macro.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Introductory Macroeconomics</h1>
-<p class="subtitle lead">Lecture 16: International Trade I</p>
+</div>
 </div>
 
-
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Nikhil Damodaran </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="this-lecture" class="level2">
-<h2 class="anchored" data-anchor-id="this-lecture">This Lecture</h2>
-<ul>
-<li><p>International Trade I</p>
-<ul>
-<li>introduction</li>
-<li>production possibilities frontier</li>
-<li>absolute vs.&nbsp;comparative advantage</li>
-<li>specialization and trade: the Ricardian model</li>
-</ul></li>
-<li><p>BOFAH Chapter 16</p></li>
-</ul>
-<hr>
+  <p class="date">Invalid Date</p>
 </section>
-<section id="from-growth-to-trade" class="level2">
-<h2 class="anchored" data-anchor-id="from-growth-to-trade">From Growth to Trade</h2>
-<section id="reflection-on-growth" class="level3">
-<h3 class="anchored" data-anchor-id="reflection-on-growth">Reflection on Growth</h3>
+<section id="this-lecture" class="slide level2">
+<h2>This Lecture</h2>
 <ul>
-<li><p>In our theory of growth we argued two things:</p>
+<li class="fragment"><p>International Trade I</p>
 <ul>
-<li>Only growth in productivity can improve income per worker, permanently.</li>
-<li>Transition towards steady state capital via capital accumulation induces temporary growth.</li>
+<li class="fragment">introduction</li>
+<li class="fragment">production possibilities frontier</li>
+<li class="fragment">absolute vs.&nbsp;comparative advantage</li>
+<li class="fragment">specialization and trade: the Ricardian model</li>
 </ul></li>
-<li><p><em>Adam Smith</em> argued that the <em>invisible hand</em> maximizes welfare because:</p>
+<li class="fragment"><p>BOFAH Chapter 16</p></li>
+</ul>
+</section>
+<section id="why-is-trade-important" class="slide level2">
+<h2>Why is Trade Important?</h2>
+</section>
+<section id="reflection-on-growth" class="slide level2">
+<h2>Reflection on Growth</h2>
 <ul>
-<li>it incentivizes <strong>specialisation of labour</strong></li>
-<li>it incentivizes <strong>free trade</strong>, expanding consumption possibilities</li>
+<li class="fragment"><p>In our theory of growth we argued two things:</p>
+<ul>
+<li class="fragment">Only growth in productivity can improve income per worker, permanently.</li>
+<li class="fragment">Transition towards steady state capital via capital accumulation induces temporary growth.</li>
+</ul></li>
+<li class="fragment"><p><em>Adam Smith</em> argued that the <em>invisible hand</em> maximizes welfare because:</p>
+<ul>
+<li class="fragment">it incentivizes <strong>specialisation of labour</strong></li>
+<li class="fragment">it incentivizes <strong>free trade</strong>, expanding consumption possibilities</li>
 </ul></li>
 </ul>
-<hr>
 </section>
-</section>
-<section id="world-trade-to-gdp-ratio" class="level2">
-<h2 class="anchored" data-anchor-id="world-trade-to-gdp-ratio">World Trade to GDP Ratio</h2>
-<p><img src="Lectures/Images/Week9/world_trade.png" class="img-fluid"></p>
-<p><em>Source: World Bank; Our World in Data</em></p>
+<section id="world-trade-to-gdp-ratio" class="slide level2">
+<h2>World Trade to GDP Ratio</h2>
+
+<img data-src="Lectures/Images/Week9/world_trade.png" class="r-stretch"><p><em>Source: World Bank; Our World in Data</em></p>
 <p>Trade = Exports + Imports. This ratio proxies how integrated the global economy is.</p>
-<hr>
 </section>
-<section id="reasons-for-trade" class="level2">
-<h2 class="anchored" data-anchor-id="reasons-for-trade">Reasons for Trade</h2>
+<section id="reasons-for-trade" class="slide level2">
+<h2>Reasons for Trade</h2>
 <ul>
-<li><p>Why do countries trade?</p></li>
-<li><p>Differences in:</p>
+<li class="fragment"><p>Why do countries trade?</p></li>
+<li class="fragment"><p>Differences in:</p>
 <ul>
-<li>technologies and endowments</li>
-<li>consumer tastes</li>
+<li class="fragment">technologies and endowments</li>
+<li class="fragment">consumer tastes</li>
 </ul></li>
-<li><p>Countries:</p>
+<li class="fragment"><p>Countries:</p>
 <ul>
-<li>specialize in relatively efficient production</li>
-<li>export those goods</li>
-<li>import others</li>
+<li class="fragment">specialize in relatively efficient production</li>
+<li class="fragment">export those goods</li>
+<li class="fragment">import others</li>
 </ul></li>
-<li><p>We study the <strong>Ricardian model</strong> (technology differences)</p></li>
+<li class="fragment"><p>We study the <strong>Ricardian model</strong> (technology differences)</p></li>
 </ul>
-<hr>
 </section>
-<section id="production-possibilities-frontier" class="level2">
-<h2 class="anchored" data-anchor-id="production-possibilities-frontier">Production Possibilities Frontier</h2>
-<section id="setup" class="level3">
-<h3 class="anchored" data-anchor-id="setup">Setup</h3>
+<section id="production-possibilities-frontier" class="slide level2">
+<h2>Production Possibilities Frontier</h2>
+<h3 id="setup">Setup</h3>
 <ul>
-<li>Two sectors: Manufacturing (<span class="math inline">\(m\)</span>), Services (<span class="math inline">\(s\)</span>)</li>
+<li class="fragment">Two sectors: Manufacturing (<span class="math inline">\(m\)</span>), Services (<span class="math inline">\(s\)</span>)</li>
 </ul>
 <p><span class="math display">\[
 Y_m = A_m L_m \qquad Y_s = A_s L_s
 \]</span></p>
 <ul>
-<li>Labour constraint:</li>
+<li class="fragment">Labour constraint:</li>
 </ul>
 <p><span class="math display">\[
 L = L_m + L_s
 \]</span></p>
-<hr>
 </section>
-</section>
-<section id="ppf-derivation" class="level2">
-<h2 class="anchored" data-anchor-id="ppf-derivation">PPF Derivation</h2>
+<section id="ppf-derivation" class="slide level2">
+<h2>PPF Derivation</h2>
 <p><span class="math display">\[
 L_m = \frac{Y_m}{A_m}, \qquad L_s = \frac{Y_s}{A_s}
 \]</span></p>
@@ -301,28 +227,26 @@ L = \frac{Y_m}{A_m} + \frac{Y_s}{A_s}
 <p><span class="math display">\[
 Y_s = A_s L - \frac{A_s}{A_m} Y_m
 \]</span></p>
-<hr>
 </section>
-<section id="interpreting-the-ppf" class="level2">
-<h2 class="anchored" data-anchor-id="interpreting-the-ppf">Interpreting the PPF</h2>
+<section id="interpreting-the-ppf" class="slide level2">
+<h2>Interpreting the PPF</h2>
 <p><span class="math display">\[
 Y_s = A_s L - \frac{A_s}{A_m} Y_m
 \]</span></p>
 <ul>
-<li><strong>Intercept</strong>: <span class="math inline">\(A_s L\)</span></li>
-<li><strong>Slope (opportunity cost)</strong>:</li>
+<li class="fragment"><strong>Intercept</strong>: <span class="math inline">\(A_s L\)</span></li>
+<li class="fragment"><strong>Slope (opportunity cost)</strong>:</li>
 </ul>
 <p><span class="math display">\[
 \frac{dY_s}{dY_m} = -\frac{A_s}{A_m}
 \]</span></p>
-<hr>
 </section>
-<section id="numerical-example" class="level2">
-<h2 class="anchored" data-anchor-id="numerical-example">Numerical Example</h2>
+<section id="numerical-example" class="slide level2">
+<h2>Numerical Example</h2>
 <ul>
-<li><span class="math inline">\(L = 200\)</span></li>
+<li class="fragment"><span class="math inline">\(L = 200\)</span></li>
 </ul>
-<table class="caption-top table">
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th></th>
@@ -339,20 +263,19 @@ Y_s = A_s L - \frac{A_s}{A_m} Y_m
 </tbody>
 </table>
 <ul>
-<li><span class="math inline">\(A_s = 8\)</span>, <span class="math inline">\(A_m = 2\)</span></li>
+<li class="fragment"><span class="math inline">\(A_s = 8\)</span>, <span class="math inline">\(A_m = 2\)</span></li>
 </ul>
 <p><span class="math display">\[
 Y_s = 1600 - 4Y_m
 \]</span></p>
 <ul>
-<li>Opportunity cost = 4 services</li>
+<li class="fragment">Opportunity cost = 4 services</li>
 </ul>
-<hr>
 </section>
-<section id="consumption" class="level2">
-<h2 class="anchored" data-anchor-id="consumption">Consumption</h2>
+<section id="consumption" class="slide level2">
+<h2>Consumption</h2>
 <ul>
-<li>Assume <strong>perfect complements</strong>:</li>
+<li class="fragment">Assume <strong>perfect complements</strong>:</li>
 </ul>
 <p><span class="math display">\[
 x = Y_s = Y_m
@@ -366,23 +289,19 @@ x = \frac{A_m A_s}{A_m + A_s} L
 <p><span class="math display">\[
 x = \frac{1600}{5} = 320
 \]</span></p>
-<hr>
 </section>
-<section id="absolute-and-comparative-advantage" class="level2">
-<h2 class="anchored" data-anchor-id="absolute-and-comparative-advantage">Absolute and Comparative Advantage</h2>
-<section id="autarky-vs-trade" class="level3">
-<h3 class="anchored" data-anchor-id="autarky-vs-trade">Autarky vs Trade</h3>
+<section id="absolute-and-comparative-advantage" class="slide level2">
+<h2>Absolute and Comparative Advantage</h2>
+<h3 id="autarky-vs-trade">Autarky vs Trade</h3>
 <ul>
-<li><strong>Autarky</strong>: no trade</li>
-<li><strong>Free trade</strong>: countries exchange goods</li>
+<li class="fragment"><strong>Autarky</strong>: no trade</li>
+<li class="fragment"><strong>Free trade</strong>: countries exchange goods</li>
 </ul>
 <p>Question: what drives trade?</p>
-<hr>
 </section>
-</section>
-<section id="absolute-advantage" class="level2">
-<h2 class="anchored" data-anchor-id="absolute-advantage">Absolute Advantage</h2>
-<table class="caption-top table">
+<section id="absolute-advantage" class="slide level2">
+<h2>Absolute Advantage</h2>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th></th>
@@ -404,14 +323,13 @@ x = \frac{1600}{5} = 320
 </tbody>
 </table>
 <ul>
-<li>US: absolute advantage in services</li>
-<li>China: absolute advantage in manufacturing</li>
+<li class="fragment">US: absolute advantage in services</li>
+<li class="fragment">China: absolute advantage in manufacturing</li>
 </ul>
-<hr>
 </section>
-<section id="when-one-country-is-better-at-everything" class="level2">
-<h2 class="anchored" data-anchor-id="when-one-country-is-better-at-everything">When One Country is Better at Everything</h2>
-<table class="caption-top table">
+<section id="when-one-country-is-better-at-everything" class="slide level2">
+<h2>When One Country is Better at Everything</h2>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th></th>
@@ -433,26 +351,24 @@ x = \frac{1600}{5} = 320
 </tbody>
 </table>
 <ul>
-<li>US has absolute advantage in both</li>
-<li>Does trade still occur? → Yes</li>
+<li class="fragment">US has absolute advantage in both</li>
+<li class="fragment">Does trade still occur? → Yes</li>
 </ul>
-<hr>
 </section>
-<section id="comparative-advantage" class="level2">
-<h2 class="anchored" data-anchor-id="comparative-advantage">Comparative Advantage</h2>
+<section id="comparative-advantage" class="slide level2">
+<h2>Comparative Advantage</h2>
 <ul>
-<li>What matters: <strong>opportunity cost</strong></li>
+<li class="fragment">What matters: <strong>opportunity cost</strong></li>
 </ul>
 <p><span class="math display">\[
 \text{OC of } m = \frac{A_s}{A_m}
 \]</span></p>
 <ul>
-<li>A country has comparative advantage if it produces at <strong>lower opportunity cost</strong></li>
+<li class="fragment">A country has comparative advantage if it produces at <strong>lower opportunity cost</strong></li>
 </ul>
-<hr>
 </section>
-<section id="comparative-advantage-example" class="level2">
-<h2 class="anchored" data-anchor-id="comparative-advantage-example">Comparative Advantage Example</h2>
+<section id="comparative-advantage-example" class="slide level2">
+<h2>Comparative Advantage Example</h2>
 <p>US:</p>
 <p><span class="math display">\[
 Y_s = 1600 - 2Y_m
@@ -462,13 +378,12 @@ Y_s = 1600 - 2Y_m
 Y_s = 800 - \frac{1}{2}Y_m
 \]</span></p>
 <ul>
-<li>US: comparative advantage in services</li>
-<li>China: comparative advantage in manufacturing</li>
+<li class="fragment">US: comparative advantage in services</li>
+<li class="fragment">China: comparative advantage in manufacturing</li>
 </ul>
-<hr>
 </section>
-<section id="no-trade-outcome" class="level2">
-<h2 class="anchored" data-anchor-id="no-trade-outcome">No Trade Outcome</h2>
+<section id="no-trade-outcome" class="slide level2">
+<h2>No Trade Outcome</h2>
 <p>US:</p>
 <p><span class="math display">\[
 x = 1600 - 2x \Rightarrow x = \frac{1600}{3}
@@ -478,514 +393,487 @@ x = 1600 - 2x \Rightarrow x = \frac{1600}{3}
 x = 800 - \frac{1}{2}x \Rightarrow x = \frac{2}{3} \times 800
 \]</span></p>
 <ul>
-<li>Both consume <span class="math inline">\(533\frac{1}{3}\)</span></li>
+<li class="fragment">Both consume <span class="math inline">\(533\frac{1}{3}\)</span></li>
 </ul>
-<hr>
 </section>
-<section id="specialisation" class="level2">
-<h2 class="anchored" data-anchor-id="specialisation">Specialisation</h2>
+<section id="specialisation" class="slide level2">
+<h2>Specialisation</h2>
 <ul>
-<li>US → Services:</li>
+<li class="fragment">US → Services:</li>
 </ul>
 <p><span class="math display">\[
 Y_{s,US} = 1600
 \]</span></p>
 <ul>
-<li>China → Manufacturing:</li>
+<li class="fragment">China → Manufacturing:</li>
 </ul>
 <p><span class="math display">\[
 Y_{m,China} = 1600
 \]</span></p>
 <ul>
-<li>Global output rises from:</li>
+<li class="fragment">Global output rises from:</li>
 </ul>
 <p><span class="math display">\[
 1066\frac{2}{3} \to 1600
 \]</span></p>
-<hr>
 </section>
-<section id="trade-mechanism" class="level2">
-<h2 class="anchored" data-anchor-id="trade-mechanism">Trade Mechanism</h2>
+<section id="trade-mechanism" class="slide level2">
+<h2>Trade Mechanism</h2>
 <ul>
-<li>Suppose:</li>
+<li class="fragment">Suppose:</li>
 </ul>
 <p><span class="math display">\[
 \frac{P_m}{P_s} = 1
 \]</span></p>
 <ul>
-<li><p>US:</p>
+<li class="fragment"><p>US:</p>
 <ul>
-<li>produce → cost = 2 services</li>
-<li>import → cost = 1 service</li>
+<li class="fragment">produce → cost = 2 services</li>
+<li class="fragment">import → cost = 1 service</li>
 </ul></li>
 </ul>
 <p>→ import manufactures</p>
 <ul>
-<li><p>China:</p>
+<li class="fragment"><p>China:</p>
 <ul>
-<li>produce → cost = 1/2 service</li>
-<li>import → cost = 1 service</li>
+<li class="fragment">produce → cost = 1/2 service</li>
+<li class="fragment">import → cost = 1 service</li>
 </ul></li>
 </ul>
 <p>→ export manufactures</p>
-<hr>
 </section>
-<section id="gains-from-trade" class="level2">
-<h2 class="anchored" data-anchor-id="gains-from-trade">Gains from Trade</h2>
+<section id="gains-from-trade" class="slide level2">
+<h2>Gains from Trade</h2>
 <p>Consumption:</p>
 <p><span class="math display">\[
 x = 1600 - x \Rightarrow x = 800
 \]</span></p>
 <ul>
-<li>Both consume 800 (vs 533 before)</li>
-<li><strong>Both gain</strong></li>
+<li class="fragment">Both consume 800 (vs 533 before)</li>
+<li class="fragment"><strong>Both gain</strong></li>
 </ul>
-<hr>
 </section>
-<section id="conditions-for-trade" class="level2">
-<h2 class="anchored" data-anchor-id="conditions-for-trade">Conditions for Trade</h2>
+<section id="conditions-for-trade" class="slide level2">
+<h2>Conditions for Trade</h2>
 <p>Trade occurs if price lies between opportunity costs:</p>
 <p><span class="math display">\[
 \frac{1}{2} &lt; \frac{P_m}{P_s} &lt; 2
 \]</span></p>
-<hr>
 </section>
-<section id="learning-outcomes" class="level2">
-<h2 class="anchored" data-anchor-id="learning-outcomes">Learning Outcomes</h2>
+<section id="learning-outcomes" class="slide level2">
+<h2>Learning Outcomes</h2>
 <ol type="1">
-<li>Derive and interpret the PPF</li>
-<li>Distinguish absolute vs comparative advantage</li>
-<li>Solve Ricardian model under autarky and trade</li>
+<li class="fragment">Derive and interpret the PPF</li>
+<li class="fragment">Distinguish absolute vs comparative advantage</li>
+<li class="fragment">Solve Ricardian model under autarky and trade</li>
 </ol>
-<hr>
 </section>
-<section id="key-formula" class="level2">
-<h2 class="anchored" data-anchor-id="key-formula">Key Formula</h2>
+<section id="key-formula" class="slide level2">
+<h2>Key Formula</h2>
 <p><span class="math display">\[
 Y_y = A_y L - \frac{A_y}{A_x} Y_x
 \]</span></p>
-<hr>
 </section>
-<section id="next-lecture" class="level2">
-<h2 class="anchored" data-anchor-id="next-lecture">Next Lecture</h2>
+<section id="next-lecture" class="slide level2">
+<h2>Next Lecture</h2>
 <ul>
-<li><p>International Trade II</p>
+<li class="fragment"><p>International Trade II</p>
 <ul>
-<li>direction of trade</li>
-<li>winners and losers</li>
-<li>tariffs</li>
-<li>trade wars</li>
+<li class="fragment">direction of trade</li>
+<li class="fragment">winners and losers</li>
+<li class="fragment">tariffs</li>
+<li class="fragment">trade wars</li>
 </ul></li>
 </ul>
-<hr>
+</section>
+<section class="slide level2">
+
 
 
 </section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
 
-</main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
-    const isCodeAnnotation = (el) => {
-      for (const clz of el.classList) {
-        if (clz.startsWith('code-annotation-')) {                     
-          return true;
-        }
-      }
-      return false;
-    }
-    const onCopySuccess = function(e) {
-      // button target
-      const button = e.trigger;
-      // don't keep focus
-      button.blur();
-      // flash "checked"
-      button.classList.add('code-copy-button-checked');
-      var currentTitle = button.getAttribute("title");
-      button.setAttribute("title", "Copied!");
-      let tooltip;
-      if (window.bootstrap) {
-        button.setAttribute("data-bs-toggle", "tooltip");
-        button.setAttribute("data-bs-placement", "left");
-        button.setAttribute("data-bs-title", "Copied!");
-        tooltip = new bootstrap.Tooltip(button, 
-          { trigger: "manual", 
-            customClass: "code-copy-button-tooltip",
-            offset: [0, -8]});
-        tooltip.show();    
-      }
-      setTimeout(function() {
-        if (tooltip) {
-          tooltip.hide();
-          button.removeAttribute("data-bs-title");
-          button.removeAttribute("data-bs-toggle");
-          button.removeAttribute("data-bs-placement");
-        }
-        button.setAttribute("title", currentTitle);
-        button.classList.remove('code-copy-button-checked');
-      }, 1000);
-      // clear code selection
-      e.clearSelection();
-    }
-    const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-      text: getTextToCopy
-    });
-    clipboard.on('success', onCopySuccess);
-    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-        text: getTextToCopy,
-        container: window.document.getElementById('quarto-embedded-source-code-modal')
-      });
-      clipboardModal.on('success', onCopySuccess);
-    }
-      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-      var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
-      var isInternal = (href) => {
-          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-      }
-      // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-      for (var i=0; i<links.length; i++) {
-        const link = links[i];
-        if (!isInternal(link.href)) {
-          // undo the damage that might have been done by quarto-nav.js in the case of
-          // links that we want to consider external
-          if (link.dataset.originalHref !== undefined) {
-            link.href = link.dataset.originalHref;
-          }
-        }
-      }
-    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-      const config = {
-        allowHTML: true,
-        maxWidth: 500,
-        delay: 100,
-        arrow: false,
-        appendTo: function(el) {
-            return el.parentElement;
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
         },
-        interactive: true,
-        interactiveBorder: 10,
-        theme: 'quarto',
-        placement: 'bottom-start',
-      };
-      if (contentFn) {
-        config.content = contentFn;
-      }
-      if (onTriggerFn) {
-        config.onTrigger = onTriggerFn;
-      }
-      if (onUntriggerFn) {
-        config.onUntrigger = onUntriggerFn;
-      }
-      window.tippy(el, config); 
-    }
-    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-    for (var i=0; i<noterefs.length; i++) {
-      const ref = noterefs[i];
-      tippyHover(ref, function() {
-        // use id or data attribute instead here
-        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-        try { href = new URL(href).hash; } catch {}
-        const id = href.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note) {
-          return note.innerHTML;
-        } else {
-          return "";
-        }
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
       });
-    }
-    const xrefs = window.document.querySelectorAll('a.quarto-xref');
-    const processXRef = (id, note) => {
-      // Strip column container classes
-      const stripColumnClz = (el) => {
-        el.classList.remove("page-full", "page-columns");
-        if (el.children) {
-          for (const child of el.children) {
-            stripColumnClz(child);
-          }
-        }
-      }
-      stripColumnClz(note)
-      if (id === null || id.startsWith('sec-')) {
-        // Special case sections, only their first couple elements
-        const container = document.createElement("div");
-        if (note.children && note.children.length > 2) {
-          container.appendChild(note.children[0].cloneNode(true));
-          for (let i = 1; i < note.children.length; i++) {
-            const child = note.children[i];
-            if (child.tagName === "P" && child.innerText === "") {
-              continue;
-            } else {
-              container.appendChild(child.cloneNode(true));
-              break;
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
             }
           }
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(container);
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
           }
-          return container.innerHTML
-        } else {
-          if (window.Quarto?.typesetMath) {
-            window.Quarto.typesetMath(note);
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
           }
-          return note.innerHTML;
+          return codeEl.innerText;
         }
-      } else {
-        // Remove any anchor links if they are present
-        const anchorLink = note.querySelector('a.anchorjs-link');
-        if (anchorLink) {
-          anchorLink.remove();
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
         }
-        if (note.classList.contains("callout")) {
-          return note.outerHTML;
-        } else {
-          return note.innerHTML;
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
         }
-      }
-    }
-    for (var i=0; i<xrefs.length; i++) {
-      const xref = xrefs[i];
-      tippyHover(xref, undefined, function(instance) {
-        instance.disable();
-        let url = xref.getAttribute('href');
-        let hash = undefined; 
-        if (url.startsWith('#')) {
-          hash = url;
-        } else {
-          try { hash = new URL(url).hash; } catch {}
-        }
-        if (hash) {
-          const id = hash.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note !== null) {
-            try {
-              const html = processXRef(id, note.cloneNode(true));
-              instance.setContent(html);
-            } finally {
-              instance.enable();
-              instance.show();
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
             }
           } else {
-            // See if we can fetch this
-            fetch(url.split('#')[0])
-            .then(res => res.text())
-            .then(html => {
-              const parser = new DOMParser();
-              const htmlDoc = parser.parseFromString(html, "text/html");
-              const note = htmlDoc.getElementById(id);
-              if (note !== null) {
-                const html = processXRef(id, note);
-                instance.setContent(html);
-              } 
-            }).finally(() => {
-              instance.enable();
-              instance.show();
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
             });
           }
-        } else {
-          // See if we can fetch a full url (with no hash to target)
-          // This is a special case and we should probably do some content thinning / targeting
-          fetch(url)
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.querySelector('main.content');
-            if (note !== null) {
-              // This should only happen for chapter cross references
-              // (since there is no id in the URL)
-              // remove the first header
-              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-                note.children[0].remove();
-              }
-              const html = processXRef(null, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
         }
-      }, function(instance) {
       });
-    }
-        let selectedAnnoteEl;
-        const selectorForAnnotation = ( cell, annotation) => {
-          let cellAttr = 'data-code-cell="' + cell + '"';
-          let lineAttr = 'data-code-annotation="' +  annotation + '"';
-          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-          return selector;
-        }
-        const selectCodeLines = (annoteEl) => {
-          const doc = window.document;
-          const targetCell = annoteEl.getAttribute("data-target-cell");
-          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-          const lineIds = lines.map((line) => {
-            return targetCell + "-" + line;
-          })
-          let top = null;
-          let height = null;
-          let parent = null;
-          if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
-            }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
-            }
-            selectedAnnoteEl = annoteEl;
-          }
-        };
-        const unselectCodeLines = () => {
-          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-          elementsIds.forEach((elId) => {
-            const div = window.document.getElementById(elId);
-            if (div) {
-              div.remove();
-            }
-          });
-          selectedAnnoteEl = undefined;
-        };
-          // Handle positioning of the toggle
-      window.addEventListener(
-        "resize",
-        throttle(() => {
-          elRect = undefined;
-          if (selectedAnnoteEl) {
-            selectCodeLines(selectedAnnoteEl);
-          }
-        }, 10)
-      );
-      function throttle(fn, ms) {
-      let throttle = false;
-      let timer;
-        return (...args) => {
-          if(!throttle) { // first call gets through
-              fn.apply(this, args);
-              throttle = true;
-          } else { // all the others get throttled
-              if(timer) clearTimeout(timer); // cancel #2
-              timer = setTimeout(() => {
-                fn.apply(this, args);
-                timer = throttle = false;
-              }, ms);
-          }
-        };
-      }
-        // Attach click handler to the DT
-        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-        for (const annoteDlNode of annoteDls) {
-          annoteDlNode.addEventListener('click', (event) => {
-            const clickedEl = event.target;
-            if (clickedEl !== selectedAnnoteEl) {
-              unselectCodeLines();
-              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-              if (activeEl) {
-                activeEl.classList.remove('code-annotation-active');
-              }
-              selectCodeLines(clickedEl);
-              clickedEl.classList.add('code-annotation-active');
-            } else {
-              // Unselect the line
-              unselectCodeLines();
-              clickedEl.classList.remove('code-annotation-active');
-            }
-          });
-        }
-    const findCites = (el) => {
-      const parentEl = el.parentElement;
-      if (parentEl) {
-        const cites = parentEl.dataset.cites;
-        if (cites) {
-          return {
-            el,
-            cites: cites.split(' ')
-          };
-        } else {
-          return findCites(el.parentElement)
-        }
-      } else {
-        return undefined;
-      }
-    };
-    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-    for (var i=0; i<bibliorefs.length; i++) {
-      const ref = bibliorefs[i];
-      const citeInfo = findCites(ref);
-      if (citeInfo) {
-        tippyHover(citeInfo.el, function() {
-          var popup = window.document.createElement('div');
-          citeInfo.cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
-          });
-          return popup.innerHTML;
-        });
-      }
-    }
-  });
-  </script>
-</div> <!-- /content -->
-
-
-
+      </script>
+    
 
 </body></html>
