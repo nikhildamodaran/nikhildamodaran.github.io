@@ -1,166 +1,5 @@
 [
   {
-    "objectID": "notes/intro-macro.html",
-    "href": "notes/intro-macro.html",
-    "title": "Introductory Macroeconomics",
-    "section": "",
-    "text": "International Trade I\n\nintroduction\nproduction possibilities frontier\nabsolute vs. comparative advantage\nspecialization and trade: the Ricardian model\n\nBOFAH Chapter 16"
-  },
-  {
-    "objectID": "notes/intro-macro.html#this-lecture",
-    "href": "notes/intro-macro.html#this-lecture",
-    "title": "Introductory Macroeconomics",
-    "section": "This Lecture",
-    "text": "This Lecture\n\nInternational Trade I\n\nintroduction\nproduction possibilities frontier\nabsolute vs. comparative advantage\nspecialization and trade: the Ricardian model\n\nBOFAH Chapter 16"
-  },
-  {
-    "objectID": "notes/intro-macro.html#from-growth-to-trade",
-    "href": "notes/intro-macro.html#from-growth-to-trade",
-    "title": "Introductory Macroeconomics",
-    "section": "From Growth to Trade",
-    "text": "From Growth to Trade\n\nReflection on Growth\n\nIn our theory of growth we argued two things:\n\nOnly growth in productivity can improve income per worker, permanently.\nTransition towards steady state capital via capital accumulation induces temporary growth.\n\nAdam Smith argued that the invisible hand maximizes welfare because:\n\nit incentivizes specialisation of labour\nit incentivizes free trade, expanding consumption possibilities"
-  },
-  {
-    "objectID": "notes/intro-macro.html#world-trade-to-gdp-ratio",
-    "href": "notes/intro-macro.html#world-trade-to-gdp-ratio",
-    "title": "Introductory Macroeconomics",
-    "section": "World Trade to GDP Ratio",
-    "text": "World Trade to GDP Ratio\n\nSource: World Bank; Our World in Data\nTrade = Exports + Imports. This ratio proxies how integrated the global economy is."
-  },
-  {
-    "objectID": "notes/intro-macro.html#reasons-for-trade",
-    "href": "notes/intro-macro.html#reasons-for-trade",
-    "title": "Introductory Macroeconomics",
-    "section": "Reasons for Trade",
-    "text": "Reasons for Trade\n\nWhy do countries trade?\nDifferences in:\n\ntechnologies and endowments\nconsumer tastes\n\nCountries:\n\nspecialize in relatively efficient production\nexport those goods\nimport others\n\nWe study the Ricardian model (technology differences)"
-  },
-  {
-    "objectID": "notes/intro-macro.html#production-possibilities-frontier",
-    "href": "notes/intro-macro.html#production-possibilities-frontier",
-    "title": "Introductory Macroeconomics",
-    "section": "Production Possibilities Frontier",
-    "text": "Production Possibilities Frontier\nSetup\n\nTwo sectors: Manufacturing (\\(m\\)), Services (\\(s\\))\n\n\\[\nY_m = A_m L_m \\qquad Y_s = A_s L_s\n\\]\n\nLabour constraint:\n\n\\[\nL = L_m + L_s\n\\]"
-  },
-  {
-    "objectID": "notes/intro-macro.html#ppf-derivation",
-    "href": "notes/intro-macro.html#ppf-derivation",
-    "title": "Introductory Macroeconomics",
-    "section": "PPF Derivation",
-    "text": "PPF Derivation\n\\[\nL_m = \\frac{Y_m}{A_m}, \\qquad L_s = \\frac{Y_s}{A_s}\n\\]\nSubstitute:\n\\[\nL = \\frac{Y_m}{A_m} + \\frac{Y_s}{A_s}\n\\]\nRearrange:\n\\[\nY_s = A_s L - \\frac{A_s}{A_m} Y_m\n\\]"
-  },
-  {
-    "objectID": "notes/intro-macro.html#interpreting-the-ppf",
-    "href": "notes/intro-macro.html#interpreting-the-ppf",
-    "title": "Introductory Macroeconomics",
-    "section": "Interpreting the PPF",
-    "text": "Interpreting the PPF\n\\[\nY_s = A_s L - \\frac{A_s}{A_m} Y_m\n\\]\n\nIntercept: \\(A_s L\\)\nSlope (opportunity cost):\n\n\\[\n\\frac{dY_s}{dY_m} = -\\frac{A_s}{A_m}\n\\]"
-  },
-  {
-    "objectID": "notes/intro-macro.html#numerical-example",
-    "href": "notes/intro-macro.html#numerical-example",
-    "title": "Introductory Macroeconomics",
-    "section": "Numerical Example",
-    "text": "Numerical Example\n\n\\(L = 200\\)\n\n\n\n\n\nServices\nManufactures\n\n\n\n\nUS\n8\n2\n\n\n\n\n\\(A_s = 8\\), \\(A_m = 2\\)\n\n\\[\nY_s = 1600 - 4Y_m\n\\]\n\nOpportunity cost = 4 services"
-  },
-  {
-    "objectID": "notes/intro-macro.html#consumption",
-    "href": "notes/intro-macro.html#consumption",
-    "title": "Introductory Macroeconomics",
-    "section": "Consumption",
-    "text": "Consumption\n\nAssume perfect complements:\n\n\\[\nx = Y_s = Y_m\n\\]\n\\[\nx = A_s L - \\frac{A_s}{A_m} x\n\\Rightarrow\nx = \\frac{A_m A_s}{A_m + A_s} L\n\\]\nExample:\n\\[\nx = \\frac{1600}{5} = 320\n\\]"
-  },
-  {
-    "objectID": "notes/intro-macro.html#absolute-and-comparative-advantage",
-    "href": "notes/intro-macro.html#absolute-and-comparative-advantage",
-    "title": "Introductory Macroeconomics",
-    "section": "Absolute and Comparative Advantage",
-    "text": "Absolute and Comparative Advantage\nAutarky vs Trade\n\nAutarky: no trade\nFree trade: countries exchange goods\n\nQuestion: what drives trade?"
-  },
-  {
-    "objectID": "notes/intro-macro.html#absolute-advantage",
-    "href": "notes/intro-macro.html#absolute-advantage",
-    "title": "Introductory Macroeconomics",
-    "section": "Absolute Advantage",
-    "text": "Absolute Advantage\n\n\n\n\nServices\nManufactures\n\n\n\n\nUS\n8\n2\n\n\nChina\n1\n4\n\n\n\n\nUS: absolute advantage in services\nChina: absolute advantage in manufacturing"
-  },
-  {
-    "objectID": "notes/intro-macro.html#when-one-country-is-better-at-everything",
-    "href": "notes/intro-macro.html#when-one-country-is-better-at-everything",
-    "title": "Introductory Macroeconomics",
-    "section": "When One Country is Better at Everything",
-    "text": "When One Country is Better at Everything\n\n\n\n\nServices\nManufactures\n\n\n\n\nUS\n8\n4\n\n\nChina\n1\n2\n\n\n\n\nUS has absolute advantage in both\nDoes trade still occur? → Yes"
-  },
-  {
-    "objectID": "notes/intro-macro.html#comparative-advantage",
-    "href": "notes/intro-macro.html#comparative-advantage",
-    "title": "Introductory Macroeconomics",
-    "section": "Comparative Advantage",
-    "text": "Comparative Advantage\n\nWhat matters: opportunity cost\n\n\\[\n\\text{OC of } m = \\frac{A_s}{A_m}\n\\]\n\nA country has comparative advantage if it produces at lower opportunity cost"
-  },
-  {
-    "objectID": "notes/intro-macro.html#comparative-advantage-example",
-    "href": "notes/intro-macro.html#comparative-advantage-example",
-    "title": "Introductory Macroeconomics",
-    "section": "Comparative Advantage Example",
-    "text": "Comparative Advantage Example\nUS:\n\\[\nY_s = 1600 - 2Y_m\n\\]\nChina:\n\\[\nY_s = 800 - \\frac{1}{2}Y_m\n\\]\n\nUS: comparative advantage in services\nChina: comparative advantage in manufacturing"
-  },
-  {
-    "objectID": "notes/intro-macro.html#no-trade-outcome",
-    "href": "notes/intro-macro.html#no-trade-outcome",
-    "title": "Introductory Macroeconomics",
-    "section": "No Trade Outcome",
-    "text": "No Trade Outcome\nUS:\n\\[\nx = 1600 - 2x \\Rightarrow x = \\frac{1600}{3}\n\\]\nChina:\n\\[\nx = 800 - \\frac{1}{2}x \\Rightarrow x = \\frac{2}{3} \\times 800\n\\]\n\nBoth consume \\(533\\frac{1}{3}\\)"
-  },
-  {
-    "objectID": "notes/intro-macro.html#specialisation",
-    "href": "notes/intro-macro.html#specialisation",
-    "title": "Introductory Macroeconomics",
-    "section": "Specialisation",
-    "text": "Specialisation\n\nUS → Services:\n\n\\[\nY_{s,US} = 1600\n\\]\n\nChina → Manufacturing:\n\n\\[\nY_{m,China} = 1600\n\\]\n\nGlobal output rises from:\n\n\\[\n1066\\frac{2}{3} \\to 1600\n\\]"
-  },
-  {
-    "objectID": "notes/intro-macro.html#trade-mechanism",
-    "href": "notes/intro-macro.html#trade-mechanism",
-    "title": "Introductory Macroeconomics",
-    "section": "Trade Mechanism",
-    "text": "Trade Mechanism\n\nSuppose:\n\n\\[\n\\frac{P_m}{P_s} = 1\n\\]\n\nUS:\n\nproduce → cost = 2 services\nimport → cost = 1 service\n\n\n→ import manufactures\n\nChina:\n\nproduce → cost = 1/2 service\nimport → cost = 1 service\n\n\n→ export manufactures"
-  },
-  {
-    "objectID": "notes/intro-macro.html#gains-from-trade",
-    "href": "notes/intro-macro.html#gains-from-trade",
-    "title": "Introductory Macroeconomics",
-    "section": "Gains from Trade",
-    "text": "Gains from Trade\nConsumption:\n\\[\nx = 1600 - x \\Rightarrow x = 800\n\\]\n\nBoth consume 800 (vs 533 before)\nBoth gain"
-  },
-  {
-    "objectID": "notes/intro-macro.html#conditions-for-trade",
-    "href": "notes/intro-macro.html#conditions-for-trade",
-    "title": "Introductory Macroeconomics",
-    "section": "Conditions for Trade",
-    "text": "Conditions for Trade\nTrade occurs if price lies between opportunity costs:\n\\[\n\\frac{1}{2} &lt; \\frac{P_m}{P_s} &lt; 2\n\\]"
-  },
-  {
-    "objectID": "notes/intro-macro.html#learning-outcomes",
-    "href": "notes/intro-macro.html#learning-outcomes",
-    "title": "Introductory Macroeconomics",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nDerive and interpret the PPF\nDistinguish absolute vs comparative advantage\nSolve Ricardian model under autarky and trade"
-  },
-  {
-    "objectID": "notes/intro-macro.html#key-formula",
-    "href": "notes/intro-macro.html#key-formula",
-    "title": "Introductory Macroeconomics",
-    "section": "Key Formula",
-    "text": "Key Formula\n\\[\nY_y = A_y L - \\frac{A_y}{A_x} Y_x\n\\]"
-  },
-  {
-    "objectID": "notes/intro-macro.html#next-lecture",
-    "href": "notes/intro-macro.html#next-lecture",
-    "title": "Introductory Macroeconomics",
-    "section": "Next Lecture",
-    "text": "Next Lecture\n\nInternational Trade II\n\ndirection of trade\nwinners and losers\ntariffs\ntrade wars"
-  },
-  {
     "objectID": "cv/index.html",
     "href": "cv/index.html",
     "title": "Curriculum Vitae",
@@ -168,18 +7,543 @@
     "text": "&lt;a href=\"ND_Mar24.pdf\"&gt;Download CV (PDF)&lt;/a&gt;"
   },
   {
-    "objectID": "notes/intro-macro.html#why-is-trade-important",
-    "href": "notes/intro-macro.html#why-is-trade-important",
-    "title": "Introductory Macroeconomics",
-    "section": "Why is Trade Important?",
-    "text": "Why is Trade Important?"
+    "objectID": "notes/intro-macro.html",
+    "href": "notes/intro-macro.html",
+    "title": "International Trade I",
+    "section": "",
+    "text": "International Trade I\n\nintroduction\nproduction possibilities frontier\nabsolute vs. comparative advantage\nspecialization and trade: the Ricardian model\n\nBOFAH Chapter 16\n\n\n\n\n\n\n\n\nIn our theory of growth we argued two things:\n\nOnly growth in productivity can improve income per worker, permanently.\nTransition towards steady state capital via capital accumulation induces temporary growth.\n\nAdam Smith argued that the invisible hand maximizes welfare because:\n\nit incentivizes specialisation of labour\nit incentivizes free trade, expanding consumption possibilities\n\n\n\n\n\n\n\nSource: World Bank; Our World in Data\nTrade = Exports + Imports. This ratio proxies how integrated the global economy is.\n\n\n\n\n\nWhy do countries trade?\nDifferences in:\n\ntechnologies and endowments\nconsumer tastes\n\nCountries:\n\nspecialize in relatively efficient production\nexport those goods\nimport others\n\nWe study the Ricardian model (technology differences)\n\n\n\n\n\n\n\n\nTwo sectors: Manufacturing (\\(m\\)), Services (\\(s\\))\n\n\\[\nY_m = A_m L_m \\qquad Y_s = A_s L_s\n\\]\n\nLabour constraint:\n\n\\[\nL = L_m + L_s\n\\]\n\n\n\n\n\n\\[\nL_m = \\frac{Y_m}{A_m}, \\qquad L_s = \\frac{Y_s}{A_s}\n\\]\nSubstitute:\n\\[\nL = \\frac{Y_m}{A_m} + \\frac{Y_s}{A_s}\n\\]\nRearrange:\n\\[\nY_s = A_s L - \\frac{A_s}{A_m} Y_m\n\\]\n\n\n\n\n\\[\nY_s = A_s L - \\frac{A_s}{A_m} Y_m\n\\]\n\nIntercept: \\(A_s L\\)\nSlope (opportunity cost):\n\n\\[\n\\frac{dY_s}{dY_m} = -\\frac{A_s}{A_m}\n\\]\n\n\n\n\n\n\\(L = 200\\)\n\n\n\n\n\nServices\nManufactures\n\n\n\n\nUS\n8\n2\n\n\n\n\n\\(A_s = 8\\), \\(A_m = 2\\)\n\n\\[\nY_s = 1600 - 4Y_m\n\\]\n\nOpportunity cost = 4 services\n\n\n\n\n\n\nAssume perfect complements:\n\n\\[\nx = Y_s = Y_m\n\\]\n\\[\nx = A_s L - \\frac{A_s}{A_m} x\n\\Rightarrow\nx = \\frac{A_m A_s}{A_m + A_s} L\n\\]\nExample:\n\\[\nx = \\frac{1600}{5} = 320\n\\]\n\n\n\n\n\n\n\nAutarky: no trade\nFree trade: countries exchange goods\n\nQuestion: what drives trade?\n\n\n\n\n\n\n\n\n\nServices\nManufactures\n\n\n\n\nUS\n8\n2\n\n\nChina\n1\n4\n\n\n\n\nUS: absolute advantage in services\nChina: absolute advantage in manufacturing\n\n\n\n\n\n\n\n\n\nServices\nManufactures\n\n\n\n\nUS\n8\n4\n\n\nChina\n1\n2\n\n\n\n\nUS has absolute advantage in both\nDoes trade still occur? → Yes\n\n\n\n\n\n\nWhat matters: opportunity cost\n\n\\[\n\\text{OC of } m = \\frac{A_s}{A_m}\n\\]\n\nA country has comparative advantage if it produces at lower opportunity cost\n\n\n\n\n\nUS:\n\\[\nY_s = 1600 - 2Y_m\n\\]\nChina:\n\\[\nY_s = 800 - \\frac{1}{2}Y_m\n\\]\n\nUS: comparative advantage in services\nChina: comparative advantage in manufacturing\n\n\n\n\n\nUS:\n\\[\nx = 1600 - 2x \\Rightarrow x = \\frac{1600}{3}\n\\]\nChina:\n\\[\nx = 800 - \\frac{1}{2}x \\Rightarrow x = \\frac{2}{3} \\times 800\n\\]\n\nBoth consume \\(533\\frac{1}{3}\\)\n\n\n\n\n\n\nUS → Services:\n\n\\[\nY_{s,US} = 1600\n\\]\n\nChina → Manufacturing:\n\n\\[\nY_{m,China} = 1600\n\\]\n\nGlobal output rises from:\n\n\\[\n1066\\frac{2}{3} \\to 1600\n\\]\n\n\n\n\n\nSuppose:\n\n\\[\n\\frac{P_m}{P_s} = 1\n\\]\n\nUS:\n\nproduce → cost = 2 services\nimport → cost = 1 service\n\n\n→ import manufactures\n\nChina:\n\nproduce → cost = 1/2 service\nimport → cost = 1 service\n\n\n→ export manufactures\n\n\n\n\nConsumption:\n\\[\nx = 1600 - x \\Rightarrow x = 800\n\\]\n\nBoth consume 800 (vs 533 before)\nBoth gain\n\n\n\n\n\nTrade occurs if price lies between opportunity costs:\n\\[\n\\frac{1}{2} &lt; \\frac{P_m}{P_s} &lt; 2\n\\]\n\n\n\n\n\nDerive and interpret the PPF\nDistinguish absolute vs comparative advantage\nSolve Ricardian model under autarky and trade\n\n\n\n\n\n\\[\nY_y = A_y L - \\frac{A_y}{A_x} Y_x\n\\]\n\n\n\n\n\nInternational Trade II\n\ndirection of trade\nwinners and losers\ntariffs\ntrade wars"
   },
   {
     "objectID": "notes/intro-macro.html#reflection-on-growth",
     "href": "notes/intro-macro.html#reflection-on-growth",
-    "title": "Introductory Macroeconomics",
-    "section": "Reflection on Growth",
-    "text": "Reflection on Growth\n\nIn our theory of growth we argued two things:\n\nOnly growth in productivity can improve income per worker, permanently.\nTransition towards steady state capital via capital accumulation induces temporary growth.\n\nAdam Smith argued that the invisible hand maximizes welfare because:\n\nit incentivizes specialisation of labour\nit incentivizes free trade, expanding consumption possibilities"
+    "title": "International Trade I",
+    "section": "",
+    "text": "In our theory of growth we argued two things:\n\nOnly growth in productivity can improve income per worker, permanently.\nTransition towards steady state capital via capital accumulation induces temporary growth.\n\nAdam Smith argued that the invisible hand maximizes welfare because:\n\nit incentivizes specialisation of labour\nit incentivizes free trade, expanding consumption possibilities"
+  },
+  {
+    "objectID": "notes/intro-macro.html#world-trade-to-gdp-ratio",
+    "href": "notes/intro-macro.html#world-trade-to-gdp-ratio",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Source: World Bank; Our World in Data\nTrade = Exports + Imports. This ratio proxies how integrated the global economy is."
+  },
+  {
+    "objectID": "notes/intro-macro.html#reasons-for-trade",
+    "href": "notes/intro-macro.html#reasons-for-trade",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Why do countries trade?\nDifferences in:\n\ntechnologies and endowments\nconsumer tastes\n\nCountries:\n\nspecialize in relatively efficient production\nexport those goods\nimport others\n\nWe study the Ricardian model (technology differences)"
+  },
+  {
+    "objectID": "notes/intro-macro.html#production-possibilities-frontier",
+    "href": "notes/intro-macro.html#production-possibilities-frontier",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Two sectors: Manufacturing (\\(m\\)), Services (\\(s\\))\n\n\\[\nY_m = A_m L_m \\qquad Y_s = A_s L_s\n\\]\n\nLabour constraint:\n\n\\[\nL = L_m + L_s\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#ppf-derivation",
+    "href": "notes/intro-macro.html#ppf-derivation",
+    "title": "International Trade I",
+    "section": "",
+    "text": "\\[\nL_m = \\frac{Y_m}{A_m}, \\qquad L_s = \\frac{Y_s}{A_s}\n\\]\nSubstitute:\n\\[\nL = \\frac{Y_m}{A_m} + \\frac{Y_s}{A_s}\n\\]\nRearrange:\n\\[\nY_s = A_s L - \\frac{A_s}{A_m} Y_m\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#interpreting-the-ppf",
+    "href": "notes/intro-macro.html#interpreting-the-ppf",
+    "title": "International Trade I",
+    "section": "",
+    "text": "\\[\nY_s = A_s L - \\frac{A_s}{A_m} Y_m\n\\]\n\nIntercept: \\(A_s L\\)\nSlope (opportunity cost):\n\n\\[\n\\frac{dY_s}{dY_m} = -\\frac{A_s}{A_m}\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#numerical-example",
+    "href": "notes/intro-macro.html#numerical-example",
+    "title": "International Trade I",
+    "section": "",
+    "text": "\\(L = 200\\)\n\n\n\n\n\nServices\nManufactures\n\n\n\n\nUS\n8\n2\n\n\n\n\n\\(A_s = 8\\), \\(A_m = 2\\)\n\n\\[\nY_s = 1600 - 4Y_m\n\\]\n\nOpportunity cost = 4 services"
+  },
+  {
+    "objectID": "notes/intro-macro.html#consumption",
+    "href": "notes/intro-macro.html#consumption",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Assume perfect complements:\n\n\\[\nx = Y_s = Y_m\n\\]\n\\[\nx = A_s L - \\frac{A_s}{A_m} x\n\\Rightarrow\nx = \\frac{A_m A_s}{A_m + A_s} L\n\\]\nExample:\n\\[\nx = \\frac{1600}{5} = 320\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#absolute-and-comparative-advantage",
+    "href": "notes/intro-macro.html#absolute-and-comparative-advantage",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Autarky: no trade\nFree trade: countries exchange goods\n\nQuestion: what drives trade?"
+  },
+  {
+    "objectID": "notes/intro-macro.html#absolute-advantage",
+    "href": "notes/intro-macro.html#absolute-advantage",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Services\nManufactures\n\n\n\n\nUS\n8\n2\n\n\nChina\n1\n4\n\n\n\n\nUS: absolute advantage in services\nChina: absolute advantage in manufacturing"
+  },
+  {
+    "objectID": "notes/intro-macro.html#when-one-country-is-better-at-everything",
+    "href": "notes/intro-macro.html#when-one-country-is-better-at-everything",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Services\nManufactures\n\n\n\n\nUS\n8\n4\n\n\nChina\n1\n2\n\n\n\n\nUS has absolute advantage in both\nDoes trade still occur? → Yes"
+  },
+  {
+    "objectID": "notes/intro-macro.html#comparative-advantage",
+    "href": "notes/intro-macro.html#comparative-advantage",
+    "title": "International Trade I",
+    "section": "",
+    "text": "What matters: opportunity cost\n\n\\[\n\\text{OC of } m = \\frac{A_s}{A_m}\n\\]\n\nA country has comparative advantage if it produces at lower opportunity cost"
+  },
+  {
+    "objectID": "notes/intro-macro.html#comparative-advantage-example",
+    "href": "notes/intro-macro.html#comparative-advantage-example",
+    "title": "International Trade I",
+    "section": "",
+    "text": "US:\n\\[\nY_s = 1600 - 2Y_m\n\\]\nChina:\n\\[\nY_s = 800 - \\frac{1}{2}Y_m\n\\]\n\nUS: comparative advantage in services\nChina: comparative advantage in manufacturing"
+  },
+  {
+    "objectID": "notes/intro-macro.html#no-trade-outcome",
+    "href": "notes/intro-macro.html#no-trade-outcome",
+    "title": "International Trade I",
+    "section": "",
+    "text": "US:\n\\[\nx = 1600 - 2x \\Rightarrow x = \\frac{1600}{3}\n\\]\nChina:\n\\[\nx = 800 - \\frac{1}{2}x \\Rightarrow x = \\frac{2}{3} \\times 800\n\\]\n\nBoth consume \\(533\\frac{1}{3}\\)"
+  },
+  {
+    "objectID": "notes/intro-macro.html#specialisation",
+    "href": "notes/intro-macro.html#specialisation",
+    "title": "International Trade I",
+    "section": "",
+    "text": "US → Services:\n\n\\[\nY_{s,US} = 1600\n\\]\n\nChina → Manufacturing:\n\n\\[\nY_{m,China} = 1600\n\\]\n\nGlobal output rises from:\n\n\\[\n1066\\frac{2}{3} \\to 1600\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#trade-mechanism",
+    "href": "notes/intro-macro.html#trade-mechanism",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Suppose:\n\n\\[\n\\frac{P_m}{P_s} = 1\n\\]\n\nUS:\n\nproduce → cost = 2 services\nimport → cost = 1 service\n\n\n→ import manufactures\n\nChina:\n\nproduce → cost = 1/2 service\nimport → cost = 1 service\n\n\n→ export manufactures"
+  },
+  {
+    "objectID": "notes/intro-macro.html#gains-from-trade",
+    "href": "notes/intro-macro.html#gains-from-trade",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Consumption:\n\\[\nx = 1600 - x \\Rightarrow x = 800\n\\]\n\nBoth consume 800 (vs 533 before)\nBoth gain"
+  },
+  {
+    "objectID": "notes/intro-macro.html#conditions-for-trade",
+    "href": "notes/intro-macro.html#conditions-for-trade",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Trade occurs if price lies between opportunity costs:\n\\[\n\\frac{1}{2} &lt; \\frac{P_m}{P_s} &lt; 2\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#learning-outcomes",
+    "href": "notes/intro-macro.html#learning-outcomes",
+    "title": "International Trade I",
+    "section": "",
+    "text": "Derive and interpret the PPF\nDistinguish absolute vs comparative advantage\nSolve Ricardian model under autarky and trade"
+  },
+  {
+    "objectID": "notes/intro-macro.html#key-formula",
+    "href": "notes/intro-macro.html#key-formula",
+    "title": "International Trade I",
+    "section": "",
+    "text": "\\[\nY_y = A_y L - \\frac{A_y}{A_x} Y_x\n\\]"
+  },
+  {
+    "objectID": "notes/intro-macro.html#next-lecture",
+    "href": "notes/intro-macro.html#next-lecture",
+    "title": "International Trade I",
+    "section": "",
+    "text": "International Trade II\n\ndirection of trade\nwinners and losers\ntariffs\ntrade wars"
+  },
+  {
+    "objectID": "notes/index.html",
+    "href": "notes/index.html",
+    "title": "Laundry List of Notes",
+    "section": "",
+    "text": "These are things that I find interest, and since I dont take it further, I just put these thoughts here. Some of these ultimately feed into some lecture notes and eventually get used in research, but on its own do not form a systematic thought.\n\nEconomic Growth: Reading List\nData Releases One thing which I miss as a macroeconomist is easy access to the macro data that analysts have. Since academic world is structured on deeper knowledge generation, the summarative knowledge often is not put together. This sstisfies my summarative needs. I use this for my Introduction to Macroeconomics lectures at University of Melbourne."
+  },
+  {
+    "objectID": "blogs/index.html",
+    "href": "blogs/index.html",
+    "title": "Writings",
+    "section": "",
+    "text": "Opinion pieces and essays on economics, public policy, and related topics.\n\nBreaking the Value Chain — Indian Express, April 2020\nRBI’s Response to COVID-19 Needs to be Localized and Unconventional — Indian Express, April 2020\nFinancing State Expenditure in the Post-GST Era — New Indian Express, February 2021\nWhy is the Government Pushing Farm Laws Despite so Much Protest? — The Pioneer, February 2021\nWho Pays for the Wall? Farm Protests and the Budget — Indian Express, February 2021\nInflation Tax and the Burden of Public Debt — New Indian Express, March 2021\nThe Need for Public in the Policy — Indian Express, March 2021\nWhat Am I Meant to Write? - Substack, April 2021"
+  },
+  {
+    "objectID": "research-notes/index.html",
+    "href": "research-notes/index.html",
+    "title": "Research Notes",
+    "section": "",
+    "text": "Working notes, summaries, and preliminary ideas. Shared in the spirit of open research."
+  },
+  {
+    "objectID": "research-notes/index.html#notes",
+    "href": "research-notes/index.html#notes",
+    "title": "Research Notes",
+    "section": "Notes",
+    "text": "Notes\nContent coming soon."
+  },
+  {
+    "objectID": "notes/data-releases.html",
+    "href": "notes/data-releases.html",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "",
+    "text": "Macroeconomics has increasingly become a “high-frequency” discipline. Financial markets, central banks, journalists, and economists now react almost immediately to incoming economic data. Certain statistics — especially in the United States — have become highly influential because they provide rapid signals about inflation, employment, growth, and monetary policy.\nThe growing popularity of these data releases reflects three developments:\nBelow are some of the most closely watched macroeconomic indicators in modern macroeconomics."
+  },
+  {
+    "objectID": "notes/data-releases.html#release-window",
+    "href": "notes/data-releases.html#release-window",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Release Window",
+    "text": "Release Window\n\nReleased monthly\nUsually the first Friday of every month\nPublished by the U.S. Bureau of Labor Statistics (BLS)"
+  },
+  {
+    "objectID": "notes/data-releases.html#what-it-measures",
+    "href": "notes/data-releases.html#what-it-measures",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "What It Measures",
+    "text": "What It Measures\n\nEmployment growth\nUnemployment rate\nWage growth\nLabor force participation"
+  },
+  {
+    "objectID": "notes/data-releases.html#why-it-became-popular",
+    "href": "notes/data-releases.html#why-it-became-popular",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Why It Became Popular",
+    "text": "Why It Became Popular\nThe jobs report became central because the Federal Reserve increasingly emphasized “maximum employment” as part of its dual mandate. After the 2008 financial crisis and again after COVID-19, labor market conditions became the main guide for monetary policy decisions.\nFinancial markets also realized that labor market tightness strongly predicts future inflationary pressure through wage growth."
+  },
+  {
+    "objectID": "notes/data-releases.html#benefits-of-tracking-it",
+    "href": "notes/data-releases.html#benefits-of-tracking-it",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Benefits of Tracking It",
+    "text": "Benefits of Tracking It\nEconomists use it to: - Gauge recession risk - Measure labor market tightness - Infer inflationary pressures - Predict Federal Reserve policy decisions - Assess household income growth and consumption strength"
+  },
+  {
+    "objectID": "notes/data-releases.html#main-weakness",
+    "href": "notes/data-releases.html#main-weakness",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Main Weakness",
+    "text": "Main Weakness\nThe report is volatile and subject to revisions."
+  },
+  {
+    "objectID": "notes/data-releases.html#release-window-1",
+    "href": "notes/data-releases.html#release-window-1",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Release Window",
+    "text": "Release Window\n\nReleased monthly\nUsually around the middle of the month\nPublished by the BLS"
+  },
+  {
+    "objectID": "notes/data-releases.html#what-it-measures-1",
+    "href": "notes/data-releases.html#what-it-measures-1",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "What It Measures",
+    "text": "What It Measures\n\nInflation faced by households\nPrices of goods and services"
+  },
+  {
+    "objectID": "notes/data-releases.html#why-it-became-popular-1",
+    "href": "notes/data-releases.html#why-it-became-popular-1",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Why It Became Popular",
+    "text": "Why It Became Popular\nInflation was relatively stable from the mid-1990s to around 2020, so CPI attracted less public attention during the “Great Moderation.” However, the post-pandemic inflation surge made CPI one of the most watched statistics globally.\nMarkets now react intensely to “inflation surprises” because they alter expectations of future interest rates."
+  },
+  {
+    "objectID": "notes/data-releases.html#benefits-of-tracking-it-1",
+    "href": "notes/data-releases.html#benefits-of-tracking-it-1",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Benefits of Tracking It",
+    "text": "Benefits of Tracking It\nEconomists use CPI to: - Measure inflation persistence - Study real wage growth - Estimate cost-of-living changes - Forecast monetary policy tightening or easing"
+  },
+  {
+    "objectID": "notes/data-releases.html#main-weakness-1",
+    "href": "notes/data-releases.html#main-weakness-1",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Main Weakness",
+    "text": "Main Weakness\nHeadline CPI can be heavily influenced by volatile food and energy prices."
+  },
+  {
+    "objectID": "notes/data-releases.html#release-window-2",
+    "href": "notes/data-releases.html#release-window-2",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Release Window",
+    "text": "Release Window\n\nReleased monthly\nPublished by the Bureau of Economic Analysis (BEA)"
+  },
+  {
+    "objectID": "notes/data-releases.html#what-it-measures-2",
+    "href": "notes/data-releases.html#what-it-measures-2",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "What It Measures",
+    "text": "What It Measures\n\nInflation excluding food and energy\nPersonal consumption expenditures price index"
+  },
+  {
+    "objectID": "notes/data-releases.html#why-it-became-popular-2",
+    "href": "notes/data-releases.html#why-it-became-popular-2",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Why It Became Popular",
+    "text": "Why It Became Popular\nThe Federal Reserve officially prefers Core PCE over CPI because: - It better captures substitution behavior - It has broader expenditure coverage - It is viewed as a cleaner measure of underlying inflation trends\nAs Fed communication became more transparent, economists increasingly focused on whichever inflation measure the Fed itself emphasized."
+  },
+  {
+    "objectID": "notes/data-releases.html#benefits-of-tracking-it-2",
+    "href": "notes/data-releases.html#benefits-of-tracking-it-2",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Benefits of Tracking It",
+    "text": "Benefits of Tracking It\nUseful for: - Understanding trend inflation - Predicting Fed behavior - Filtering temporary price shocks"
+  },
+  {
+    "objectID": "notes/data-releases.html#main-weakness-2",
+    "href": "notes/data-releases.html#main-weakness-2",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Main Weakness",
+    "text": "Main Weakness\nLess intuitive for the general public than CPI."
+  },
+  {
+    "objectID": "notes/data-releases.html#release-window-3",
+    "href": "notes/data-releases.html#release-window-3",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Release Window",
+    "text": "Release Window\n\nEight scheduled meetings per year\nAnnounced by the Federal Open Market Committee (FOMC)"
+  },
+  {
+    "objectID": "notes/data-releases.html#what-it-measures-3",
+    "href": "notes/data-releases.html#what-it-measures-3",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "What It Measures",
+    "text": "What It Measures\n\nThe Federal Reserve’s policy interest rate"
+  },
+  {
+    "objectID": "notes/data-releases.html#why-it-became-popular-3",
+    "href": "notes/data-releases.html#why-it-became-popular-3",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Why It Became Popular",
+    "text": "Why It Became Popular\nModern macroeconomics increasingly views monetary policy as the central stabilization tool of the economy. Since financial markets price assets based on expected future interest rates, every Fed decision has major implications for: - Bonds - Equity markets - Exchange rates - Housing markets\nFed communication itself has become an economic event."
+  },
+  {
+    "objectID": "notes/data-releases.html#benefits-of-tracking-it-3",
+    "href": "notes/data-releases.html#benefits-of-tracking-it-3",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Benefits of Tracking It",
+    "text": "Benefits of Tracking It\nEconomists use it to: - Infer the stance of monetary policy - Estimate recession probabilities - Understand financial conditions - Study transmission of monetary shocks"
+  },
+  {
+    "objectID": "notes/data-releases.html#main-weakness-3",
+    "href": "notes/data-releases.html#main-weakness-3",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Main Weakness",
+    "text": "Main Weakness\nMarkets often care more about future guidance than the current rate itself."
+  },
+  {
+    "objectID": "notes/data-releases.html#release-window-4",
+    "href": "notes/data-releases.html#release-window-4",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Release Window",
+    "text": "Release Window\n\nQuarterly\nAdvance estimate released roughly one month after quarter end\nPublished by the BEA"
+  },
+  {
+    "objectID": "notes/data-releases.html#what-it-measures-4",
+    "href": "notes/data-releases.html#what-it-measures-4",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "What It Measures",
+    "text": "What It Measures\n\nTotal output of the economy"
+  },
+  {
+    "objectID": "notes/data-releases.html#why-it-became-popular-4",
+    "href": "notes/data-releases.html#why-it-became-popular-4",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Why It Became Popular",
+    "text": "Why It Became Popular\nGDP remains the broadest measure of aggregate economic activity and is still the standard measure of economic growth.\nHowever, because GDP is released with delays, markets increasingly rely on “nowcasting” using higher-frequency indicators."
+  },
+  {
+    "objectID": "notes/data-releases.html#benefits-of-tracking-it-4",
+    "href": "notes/data-releases.html#benefits-of-tracking-it-4",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Benefits of Tracking It",
+    "text": "Benefits of Tracking It\nUseful for: - Dating recessions - Measuring economic growth - Cross-country comparisons - Productivity analysis"
+  },
+  {
+    "objectID": "notes/data-releases.html#main-weakness-4",
+    "href": "notes/data-releases.html#main-weakness-4",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Main Weakness",
+    "text": "Main Weakness\nReleased slowly and heavily revised later."
+  },
+  {
+    "objectID": "notes/data-releases.html#release-window-5",
+    "href": "notes/data-releases.html#release-window-5",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Release Window",
+    "text": "Release Window\n\nWeekly\nReleased every Thursday"
+  },
+  {
+    "objectID": "notes/data-releases.html#what-it-measures-5",
+    "href": "notes/data-releases.html#what-it-measures-5",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "What It Measures",
+    "text": "What It Measures\n\nNumber of people filing unemployment insurance claims"
+  },
+  {
+    "objectID": "notes/data-releases.html#why-it-became-popular-5",
+    "href": "notes/data-releases.html#why-it-became-popular-5",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Why It Became Popular",
+    "text": "Why It Became Popular\nEconomists increasingly value high-frequency data because it gives faster information than monthly or quarterly releases. Initial claims became especially important during crises such as: - 2008 financial crisis - COVID-19 recession\nIt provides one of the fastest signals of labor market deterioration."
+  },
+  {
+    "objectID": "notes/data-releases.html#benefits-of-tracking-it-5",
+    "href": "notes/data-releases.html#benefits-of-tracking-it-5",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Benefits of Tracking It",
+    "text": "Benefits of Tracking It\nUseful for: - Detecting turning points - Monitoring recession risk in real time - Measuring layoffs"
+  },
+  {
+    "objectID": "notes/data-releases.html#main-weakness-5",
+    "href": "notes/data-releases.html#main-weakness-5",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Main Weakness",
+    "text": "Main Weakness\nVery noisy week-to-week."
+  },
+  {
+    "objectID": "notes/data-releases.html#release-window-6",
+    "href": "notes/data-releases.html#release-window-6",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Release Window",
+    "text": "Release Window\n\nContinuously available in financial markets"
+  },
+  {
+    "objectID": "notes/data-releases.html#what-it-measures-6",
+    "href": "notes/data-releases.html#what-it-measures-6",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "What It Measures",
+    "text": "What It Measures\n\nDifference between long-term and short-term interest rates"
+  },
+  {
+    "objectID": "notes/data-releases.html#why-it-became-popular-6",
+    "href": "notes/data-releases.html#why-it-became-popular-6",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Why It Became Popular",
+    "text": "Why It Became Popular\nYield curve inversion became famous because it historically predicted many U.S. recessions.\nModern macroeconomics increasingly incorporates financial markets into business cycle analysis, making bond market indicators highly influential."
+  },
+  {
+    "objectID": "notes/data-releases.html#benefits-of-tracking-it-6",
+    "href": "notes/data-releases.html#benefits-of-tracking-it-6",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Benefits of Tracking It",
+    "text": "Benefits of Tracking It\nUseful for: - Predicting recessions - Understanding market expectations - Measuring expected future monetary policy"
+  },
+  {
+    "objectID": "notes/data-releases.html#main-weakness-6",
+    "href": "notes/data-releases.html#main-weakness-6",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Main Weakness",
+    "text": "Main Weakness\nStructural changes in bond markets may weaken predictive power."
+  },
+  {
+    "objectID": "notes/data-releases.html#release-window-7",
+    "href": "notes/data-releases.html#release-window-7",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Release Window",
+    "text": "Release Window\n\nMonthly\nReleased very early each month"
+  },
+  {
+    "objectID": "notes/data-releases.html#what-it-measures-7",
+    "href": "notes/data-releases.html#what-it-measures-7",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "What It Measures",
+    "text": "What It Measures\n\nBusiness sentiment\nManufacturing and services activity"
+  },
+  {
+    "objectID": "notes/data-releases.html#why-it-became-popular-7",
+    "href": "notes/data-releases.html#why-it-became-popular-7",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Why It Became Popular",
+    "text": "Why It Became Popular\nMarkets value PMI because it arrives earlier than most “hard” economic data. It acts as an early indicator of: - Production - Demand - Employment intentions"
+  },
+  {
+    "objectID": "notes/data-releases.html#benefits-of-tracking-it-7",
+    "href": "notes/data-releases.html#benefits-of-tracking-it-7",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Benefits of Tracking It",
+    "text": "Benefits of Tracking It\nUseful for: - Short-run forecasting - Tracking business cycle momentum - Identifying turning points"
+  },
+  {
+    "objectID": "notes/data-releases.html#main-weakness-7",
+    "href": "notes/data-releases.html#main-weakness-7",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Main Weakness",
+    "text": "Main Weakness\nIt measures sentiment rather than actual output."
+  },
+  {
+    "objectID": "notes/data-releases.html#release-window-8",
+    "href": "notes/data-releases.html#release-window-8",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Release Window",
+    "text": "Release Window\n\nMonthly\nPublished by the U.S. Census Bureau"
+  },
+  {
+    "objectID": "notes/data-releases.html#what-it-measures-8",
+    "href": "notes/data-releases.html#what-it-measures-8",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "What It Measures",
+    "text": "What It Measures\n\nConsumer spending activity"
+  },
+  {
+    "objectID": "notes/data-releases.html#why-it-became-popular-8",
+    "href": "notes/data-releases.html#why-it-became-popular-8",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Why It Became Popular",
+    "text": "Why It Became Popular\nConsumption is roughly 70% of U.S. GDP, so retail sales provide rapid information about aggregate demand strength."
+  },
+  {
+    "objectID": "notes/data-releases.html#benefits-of-tracking-it-8",
+    "href": "notes/data-releases.html#benefits-of-tracking-it-8",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Benefits of Tracking It",
+    "text": "Benefits of Tracking It\nUseful for: - Forecasting GDP - Measuring consumer confidence indirectly - Assessing household demand"
+  },
+  {
+    "objectID": "notes/data-releases.html#main-weakness-8",
+    "href": "notes/data-releases.html#main-weakness-8",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Main Weakness",
+    "text": "Main Weakness\nExcludes many services expenditures."
+  },
+  {
+    "objectID": "notes/data-releases.html#release-window-9",
+    "href": "notes/data-releases.html#release-window-9",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Release Window",
+    "text": "Release Window\n\nMonthly"
+  },
+  {
+    "objectID": "notes/data-releases.html#what-it-measures-9",
+    "href": "notes/data-releases.html#what-it-measures-9",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "What It Measures",
+    "text": "What It Measures\n\nConstruction activity\nHousing market turnover"
+  },
+  {
+    "objectID": "notes/data-releases.html#why-it-became-popular-9",
+    "href": "notes/data-releases.html#why-it-became-popular-9",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Why It Became Popular",
+    "text": "Why It Became Popular\nHousing is highly interest-sensitive and therefore reacts strongly to monetary policy changes.\nBecause housing often turns before the broader economy, economists use it as a leading indicator."
+  },
+  {
+    "objectID": "notes/data-releases.html#benefits-of-tracking-it-9",
+    "href": "notes/data-releases.html#benefits-of-tracking-it-9",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Benefits of Tracking It",
+    "text": "Benefits of Tracking It\nUseful for: - Measuring monetary policy transmission - Forecasting construction employment - Understanding household balance sheet conditions"
+  },
+  {
+    "objectID": "notes/data-releases.html#main-weakness-9",
+    "href": "notes/data-releases.html#main-weakness-9",
+    "title": "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely",
+    "section": "Main Weakness",
+    "text": "Main Weakness\nSensitive to weather and seasonality."
   },
   {
     "objectID": "notes/reading-list.html",
