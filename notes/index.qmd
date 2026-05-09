@@ -4,6 +4,6 @@ title: "Laundry List of Notes"
 
 These are things that I find interest, and since I dont take it further, I just put these thoughts here. Some of these ultimately feed into some lecture notes and eventually get used in research, but on its own do not form a systematic thought. 
 
-1. Economic Growth: Reading List
+1. Economic Growth: [Reading List](reading-list.qmd)
 
 2. 
