@@ -1,22 +1,10 @@
 ---
 title: "Introductory Macroeconomics"
-subtitle: "Lecture 16: International Trade I"
-author: "Nikhil Damodaran"
-date: "1st Semester 2026"
-
-format:
-    revealjs:
-        incremental: true
-        theme: default
-        slide-number: true
-        toc: false
-
-execute:
-    echo: false
+subtitle: "International Trade I"
 ---
 
 
-## This Lecture
+# This Lecture
 
 * International Trade I
 
