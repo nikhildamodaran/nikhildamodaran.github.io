@@ -1,10 +1,10 @@
 ---
-title: "Introductory Macroeconomics"
-subtitle: "International Trade I"
+title: "International Trade I"
 ---
 
 
 # This Lecture
+
 
 * International Trade I
 
