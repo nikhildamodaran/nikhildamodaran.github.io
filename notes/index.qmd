@@ -1,13 +1,9 @@
 ---
-title: "Lecture Notes"
+title: "Laundry List of Notes"
 ---
 
-Notes from my courses at the University of Melbourne, shared for educational purposes.
+These are things that I find interest, and since I dont take it further, I just put these thoughts here. Some of these ultimately feed into some lecture notes and eventually get used in research, but on its own do not form a systematic thought. 
 
-## Money, Banking and Finance (Uni Mel)
+1. Economic Growth: Reading List
 
-*Notes coming soon.*
-
-## Introductory Macroeconomics (Uni Mel)
-
-*Notes coming soon.*
+2. 
