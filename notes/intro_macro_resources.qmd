@@ -1,22 +1,32 @@
 ---
 title: "Online Readings for Introduction to Macroeconomics"
+bibliography:/Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
-
 
 # Labor Markets
 
 These are the most recent readings which (a) introduce issues and (b) examine key debates in the labor market. I have updated this list over the years, and I think these are the best readings to introduce the topic to undergraduates.
 
-1. Autor, David H. 2015. "Why Are There Still So Many Jobs? The History and Future of Workplace Automation." Journal of Economic Perspectives 29 (3): 3–30.
+1.  @Autor2015JEP
 
-2. Berger, D., Herkenhoff, K., & Mongey, S. (2026). Labor Market Power: From Micro Evidence to Macro Consequences. Journal of Economic Perspectives, 40(1), 93-114.
+    Autor, David H. 2015. "Why Are There Still So Many Jobs? The History and Future of Workplace Automation." Journal of Economic Perspectives 29 (3): 3–30.
 
-3. Peri, G. (2016). Immigrants, productivity, and labor markets. Journal of economic perspectives, 30(4), 3-30.
+2.  @Berger2026JEP
 
-4. Manning, A. (2021). The elusive employment effect of the minimum wage. Journal of Economic Perspectives, 35(1), 3-26.
+    Berger, D., Herkenhoff, K., & Mongey, S. (2026). Labor Market Power: From Micro Evidence to Macro Consequences. Journal of Economic Perspectives, 40(1), 93-114.
 
-Older versions of this list are still very good, and I have kept them here for reference.: 
+3.  @Peri2016JEP
 
-1. Autor, D. H. (2001). Wiring the labor market. Journal of Economic Perspectives, 15(1), 25-40.
+    Peri, G. (2016). Immigrants, productivity, and labor markets. Journal of economic perspectives, 30(4), 3-30.
+
+4.  @Manning2021JEP
+
+    Manning, A. (2021). The elusive employment effect of the minimum wage. Journal of Economic Perspectives, 35(1), 3-26.
+
+Older versions of this list are still very good, and I have kept them here for reference.:
+
+1.  Autor, D. H. (2001). Wiring the labor market. Journal of Economic Perspectives, 15(1), 25-40.
 
 I like this paper for its discussion of the labor market and how technology is changing it. It is a good introduction to the topic and provides a lot of insights into the future of work.
+
+# References
