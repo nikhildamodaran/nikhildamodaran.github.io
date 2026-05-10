@@ -1,6 +1,6 @@
 ---
 title: "Online Readings for Introduction to Macroeconomics"
-bibliography:/Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
+bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
 # Labor Markets
