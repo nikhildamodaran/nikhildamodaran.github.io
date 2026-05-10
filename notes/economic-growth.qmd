@@ -1,5 +1,6 @@
 ---
 title: "Economics of Growth: Thoughts on the Evolution of the Literature"
+bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
 # Growth
@@ -12,15 +13,15 @@ title: "Economics of Growth: Thoughts on the Evolution of the Literature"
 
 - I read about the quote by Lucas
 
-1. Solow, R. M. (1956). A contribution to the theory of economic growth. The quarterly journal of economics, 70(1), 65-94.
+1. Solow, R. M. (1956). A contribution to the theory of economic growth. The quarterly journal of economics, 70(1), 65-94. @Solow1956QJE
 
-2. Cass, D. (1965). Optimum growth in an aggregative model of capital accumulation. The Review of economic studies, 32(3), 233-240.
+2. Cass, D. (1965). Optimum growth in an aggregative model of capital accumulation. The Review of economic studies, 32(3), 233-240. @Cass1965RES
 
-3. Cass, D. (1966). Optimum growth in an aggregative model of capital accumulation: A turnpike theorem. Econometrica: Journal of the Econometric Society, 833-850.
+3. Cass, D. (1966). Optimum growth in an aggregative model of capital accumulation: A turnpike theorem. Econometrica: Journal of the Econometric Society, 833-850. @Cass1966EJES
 
-4. Koopmans, Tjalling C., "On the Concept of Optimal Economic Growth" (1963). [Cowles Foundation Discussion Papers. 392.](https://elischolar.library.yale.edu/cowles-discussion-paper-series/392)
+4. Koopmans, Tjalling C., "On the Concept of Optimal Economic Growth" (1963). [Cowles Foundation Discussion Papers. 392.](https://elischolar.library.yale.edu/cowles-discussion-paper-series/392) @Koopmans1963CFP
 
-5. Romer, P. M. (1986). Increasing returns and long-run growth. Journal of political economy, 94(5), 1002-1037.
+5. Romer, P. M. (1986). Increasing returns and long-run growth. Journal of political economy, 94(5), 1002-1037. @Romer1986JPE
 
 6. R. E. Lucas Jr. On the mechanics of economic development. Journal of monetary economics, 22(1):3–42, July 1988.
 

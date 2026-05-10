@@ -4,7 +4,9 @@ title: "Unfinished"
 
 These are things that I find interest, and since I dont take it further, I just put these thoughts here. Some of these ultimately feed into some lecture notes and eventually get used in research, but on its own do not form a systematic thought.
 
-1.  Economic Growth: [Reading List](reading-list.qmd)
+1.  Economic Growth: [Reading List](economic-growth.qmd)
+
+    This is a reading list which dwells on the topic of economic growth. I have been reading a lot on this topic, and I find it very interesting. I have this one big question - if growth is interesting where are people contributing now? What has been the recent development in this field? And if, as is often mentioned, traditional growth theory is dead, then what is the new turn?
 
 2.  [Data Releases](data-releases.qmd)
 
@@ -14,6 +16,12 @@ These are things that I find interest, and since I dont take it further, I just 
 
     I refer to some readings to introduce basic topics to undergraduates. This is a list of readings that I have referred to replaced and updated over the years. Some old ones are still very nice because they give a good introduction to the topic.
 
-4.  Introductory Macroeconomics
+4.  [Introductory Macroeconomics](intro_macro.qmd)
 
     Structure of the lectures, some thoughts on how I organize them and what is the key emphasis point.
+
+5. [Fiscal Policy via. Public Finance](fiscal-pol.qmd)
+
+    This is the stuff that I have been reading before offering a course in Public Finance. The sepcific objective of this course is to not approach it from a macro perspective, but from a traditional public finance perspective. I want to cover the standard topics in public finance, but also want to cover the fiscal policy topics that are relevant for macroeconomics. This is a work in progress, and I will update it as I go along.
+
+6. 
