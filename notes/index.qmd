@@ -1,12 +1,15 @@
 ---
-title: "Laundry List of Notes"
+title: "Unfinished"
 ---
 
-These are things that I find interest, and since I dont take it further, I just put these thoughts here. Some of these ultimately feed into some lecture notes and eventually get used in research, but on its own do not form a systematic thought. 
+These are things that I find interest, and since I dont take it further, I just put these thoughts here. Some of these ultimately feed into some lecture notes and eventually get used in research, but on its own do not form a systematic thought.
 
-1. Economic Growth: [Reading List](reading-list.qmd)
+1.  Economic Growth: [Reading List](reading-list.qmd)
 
-2. [Data Releases](data-releases.qmd)
-One thing which I miss as a macroeconomist is easy access to the macro data that analysts have. Since academic world is structured on deeper knowledge generation, the summarative knowledge often is not put together. This sstisfies my summarative needs. I use this for my Introduction to Macroeconomics lectures at University of Melbourne. 
+2.  [Data Releases](data-releases.qmd)
 
-3. 
+    One thing which I miss as a macroeconomist is easy access to the macro data that analysts have. Since academic world is structured on deeper knowledge generation, the summarative knowledge often is not put together. This satisfies my summarative needs. I use this for my Introduction to Macroeconomics lectures at University of Melbourne.
+
+3.  [Intro Macro Resources](intro_macro_resources.qmd)
+
+    I refer to some readings to introduce basic topics to undergraduates. This is a list of readings that I have referred to replaced and updated over the years. Some old ones are still very nice because they give a good introduction to the topic.

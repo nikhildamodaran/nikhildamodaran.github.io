@@ -163,16 +163,16 @@
   {
     "objectID": "notes/index.html",
     "href": "notes/index.html",
-    "title": "Laundry List of Notes",
+    "title": "Unfinished",
     "section": "",
-    "text": "These are things that I find interest, and since I dont take it further, I just put these thoughts here. Some of these ultimately feed into some lecture notes and eventually get used in research, but on its own do not form a systematic thought.\n\nEconomic Growth: Reading List\nData Releases One thing which I miss as a macroeconomist is easy access to the macro data that analysts have. Since academic world is structured on deeper knowledge generation, the summarative knowledge often is not put together. This sstisfies my summarative needs. I use this for my Introduction to Macroeconomics lectures at University of Melbourne."
+    "text": "These are things that I find interest, and since I dont take it further, I just put these thoughts here. Some of these ultimately feed into some lecture notes and eventually get used in research, but on its own do not form a systematic thought.\n\nEconomic Growth: Reading List\nData Releases\nOne thing which I miss as a macroeconomist is easy access to the macro data that analysts have. Since academic world is structured on deeper knowledge generation, the summarative knowledge often is not put together. This satisfies my summarative needs. I use this for my Introduction to Macroeconomics lectures at University of Melbourne.\nIntro Macro Resources\nI refer to some readings to introduce basic topics to undergraduates. This is a list of readings that I have referred to replaced and updated over the years. Some old ones are still very nice because they give a good introduction to the topic."
   },
   {
-    "objectID": "blogs/index.html",
-    "href": "blogs/index.html",
-    "title": "Writings",
+    "objectID": "notes/intro_macro_resources.html",
+    "href": "notes/intro_macro_resources.html",
+    "title": "Online Readings for Introduction to Macroeconomics",
     "section": "",
-    "text": "Opinion pieces and essays on economics, public policy, and related topics.\n\nBreaking the Value Chain — Indian Express, April 2020\nRBI’s Response to COVID-19 Needs to be Localized and Unconventional — Indian Express, April 2020\nFinancing State Expenditure in the Post-GST Era — New Indian Express, February 2021\nWhy is the Government Pushing Farm Laws Despite so Much Protest? — The Pioneer, February 2021\nWho Pays for the Wall? Farm Protests and the Budget — Indian Express, February 2021\nInflation Tax and the Burden of Public Debt — New Indian Express, March 2021\nThe Need for Public in the Policy — Indian Express, March 2021\nWhat Am I Meant to Write? - Substack, April 2021"
+    "text": "Labor Markets\nThese are the most recent readings which (a) introduce issues and (b) examine key debates in the labor market. I have updated this list over the years, and I think these are the best readings to introduce the topic to undergraduates.\n\nAutor, David H. 2015. “Why Are There Still So Many Jobs? The History and Future of Workplace Automation.” Journal of Economic Perspectives 29 (3): 3–30.\nBerger, D., Herkenhoff, K., & Mongey, S. (2026). Labor Market Power: From Micro Evidence to Macro Consequences. Journal of Economic Perspectives, 40(1), 93-114.\nPeri, G. (2016). Immigrants, productivity, and labor markets. Journal of economic perspectives, 30(4), 3-30.\nManning, A. (2021). The elusive employment effect of the minimum wage. Journal of Economic Perspectives, 35(1), 3-26.\n\nOlder versions of this list are still very good, and I have kept them here for reference.:\n\nAutor, D. H. (2001). Wiring the labor market. Journal of Economic Perspectives, 15(1), 25-40.\n\nI like this paper for its discussion of the labor market and how technology is changing it. It is a good introduction to the topic and provides a lot of insights into the future of work."
   },
   {
     "objectID": "research-notes/index.html",
@@ -187,6 +187,13 @@
     "title": "Research Notes",
     "section": "Notes",
     "text": "Notes\nContent coming soon."
+  },
+  {
+    "objectID": "blogs/index.html",
+    "href": "blogs/index.html",
+    "title": "Writings",
+    "section": "",
+    "text": "Opinion pieces and essays on economics, public policy, and related topics.\n\nBreaking the Value Chain — Indian Express, April 2020\nRBI’s Response to COVID-19 Needs to be Localized and Unconventional — Indian Express, April 2020\nFinancing State Expenditure in the Post-GST Era — New Indian Express, February 2021\nWhy is the Government Pushing Farm Laws Despite so Much Protest? — The Pioneer, February 2021\nWho Pays for the Wall? Farm Protests and the Budget — Indian Express, February 2021\nInflation Tax and the Burden of Public Debt — New Indian Express, March 2021\nThe Need for Public in the Policy — Indian Express, March 2021\nWhat Am I Meant to Write? - Substack, April 2021"
   },
   {
     "objectID": "notes/data-releases.html",
