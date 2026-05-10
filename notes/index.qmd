@@ -16,7 +16,7 @@ These are things that I find interest, and since I dont take it further, I just 
 
     I refer to some readings to introduce basic topics to undergraduates. This is a list of readings that I have referred to replaced and updated over the years. Some old ones are still very nice because they give a good introduction to the topic.
 
-4.  [Introductory Macroeconomics](intro_macro.qmd)
+4.  [Introductory Macroeconomics](intro-macro.qmd)
 
     Structure of the lectures, some thoughts on how I organize them and what is the key emphasis point.
 
