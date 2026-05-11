@@ -1,5 +1,6 @@
 ---
 title: "Unfinished"
+bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
 These are some ideas, some notes and some thoughts which are worth chasing. There are some literature reviews with thoughts on the discourse, some data points which are interesting and worth exploring more and some general interest economics.

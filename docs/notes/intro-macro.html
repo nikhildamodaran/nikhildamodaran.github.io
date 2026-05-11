@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -111,7 +140,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#what-is-macroeconomics" id="toc-what-is-macroeconomics" class="nav-link active" data-scroll-target="#what-is-macroeconomics">What is Macroeconomics?</a></li>
+  <li><a href="#what-is-macroeconomics" id="toc-what-is-macroeconomics" class="nav-link active" data-scroll-target="#what-is-macroeconomics">What is Macroeconomics?</a>
+  <ul class="collapse">
+  <li><a href="#why-study-it" id="toc-why-study-it" class="nav-link" data-scroll-target="#why-study-it">Why study it?</a></li>
+  <li><a href="#measurement-in-gdp" id="toc-measurement-in-gdp" class="nav-link" data-scroll-target="#measurement-in-gdp">Measurement in GDP</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -143,11 +179,68 @@ ul.task-list li input[type="checkbox"] {
 <p>If, however, the distinction between macroeconomics and microeconomics is only that the former deals with macroeconomic variables and the latter with microeconomic variables, then why do we need macroeconomics as a distinct theoretical subject?</p>
 </blockquote>
 <p>Katsuhito Iwai (On subject matter of Macroeconomics)</p>
+<ul>
+<li><p>Structure - how different markets are linked with each other.</p></li>
+<li><p>Performance - how do they function under these linkages - measured by growth of underlying variables, or fluctuations in these variables in the short run, or something in between.</p></li>
+<li><p>Time Series - data typically, but now increasingly combined with cross-sections to examine increasing complexity in cross section.</p></li>
+</ul>
+<blockquote class="blockquote">
+<p>It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.</p>
+</blockquote>
+<p>Sherlock Holmes, A Scandal in Bohemia, 1891.</p>
+<ul>
+<li><a href="https://www.federalreserve.gov/faqs/what-is-macroeconomics.htm">The Federal reserve Board of Governers</a> have these FAQ’s where they explain what is macroeconomics and what is the role of a central bank.</li>
+</ul>
+<section id="why-study-it" class="level2">
+<h2 class="anchored" data-anchor-id="why-study-it">Why study it?</h2>
+<ul>
+<li><p>Things happening in the economy affect us significantly. Our career choices are an important result of the times we live in. See this <a href="https://www.theguardian.com/technology/ng-interactive/2026/feb/20/ai-future-work-technology-white-collar">Guardian article</a> on <em>Nascent tech, real fear: how AI anxiety is upending career ambitions.</em></p></li>
+<li><p>Compulsary course?</p></li>
+<li><p>Address questions such as</p>
+<ul>
+<li><p>GDP: Why do some economies grow faster than others?</p>
+<ul>
+<li><p>More capital resources</p></li>
+<li><p>More labor/population resources</p></li>
+<li><p>More <em>productivity</em> i.e.&nbsp;better and more efficient use of resources.</p>
+<ul>
+<li>What is productivity? <span class="math inline">\(Y/L\)</span> or the average output per worker employed in an economy or the average productivity of labor.</li>
+</ul></li>
+</ul></li>
+<li><p>Unemployment: Why is there unemployment in these economies?</p></li>
+<li><p>Inflation: Are rising</p></li>
+<li><p>prices indicative of a supply shortage or a temporary excess demand?</p></li>
+<li><p>Macroeconomic policy: Can economic policy control unanticipated movements in GDP?</p></li>
+<li><p>International trade linkages: Does it help to trade with other economies or does it cause unwanted fluctuations in economic activity</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="measurement-in-gdp" class="level2">
+<h2 class="anchored" data-anchor-id="measurement-in-gdp">Measurement in GDP</h2>
+<ol type="1">
+<li><p><strong>Growth rate</strong>. Here we consider time to progress from <span class="math inline">\(\ldots,t-2,t-1,t, t+1, t+2, \ldots\)</span>. We also consider this variable as discrete i.e.&nbsp;something that takes discontinuous but even steps. The “rate” refers to the fact that it is comparing today <span class="math inline">\(x_t\)</span> to yesterday <span class="math inline">\(x_{t-1}\)</span>. If you think of absolute levels, then <span class="math inline">\(x_t\)</span> levels i.e.&nbsp;say GDP levels do not make much sense. For eg: Australia’s GDP is 758337 mn = $758,337,000,000 or 758 billion, 337 million.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p><span class="math display">\[g_x = \frac{x_t - x_{t-1}}{x_{t-1}}\]</span></p></li>
+<li><p>There is so much more to growth rate that this formula, but the essential thing to think about is that it is calculating growth over a base i.e.&nbsp;comparing two time periods.</p></li>
+</ol>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References</h3>
+<ol type="1">
+<li><a href="https://www.theguardian.com/technology/ng-interactive/2026/feb/20/ai-future-work-technology-white-collar" class="uri">https://www.theguardian.com/technology/ng-interactive/2026/feb/20/ai-future-work-technology-white-collar</a></li>
+<li><a href="https://www.federalreserve.gov/faqs/what-is-macroeconomics.htm" class="uri">https://www.federalreserve.gov/faqs/what-is-macroeconomics.htm</a></li>
+</ol>
 
 
 </section>
+</section>
+</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>This is the Gross Domestic Product, current prices, in millions of AUD. Series #A2302467A from the Australian Bureau of Statistics, which publishes this data in the National Accounts Statistics.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

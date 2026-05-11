@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Macroeconomics"
+bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
 # What is Macroeconomics?
@@ -7,3 +8,58 @@ title: "Introduction to Macroeconomics"
 > If, however, the distinction between macroeconomics and microeconomics is only that the former deals with macroeconomic variables and the latter with microeconomic variables, then why do we need macroeconomics as a distinct theoretical subject?
 
 Katsuhito Iwai (On subject matter of Macroeconomics)
+
+- Structure - how different markets are linked with each other.
+
+- Performance - how do they function under these linkages - measured by growth of underlying variables, or fluctuations in these variables in the short run, or something in between.
+
+- Time Series - data typically, but now increasingly combined with cross-sections to examine increasing complexity in cross section.
+
+> It is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.
+
+Sherlock Holmes, A Scandal in Bohemia, 1891.
+
+- [The Federal reserve Board of Governers](https://www.federalreserve.gov/faqs/what-is-macroeconomics.htm) have these FAQ's where they explain what is macroeconomics and what is the role of a central bank.
+
+## Why study it?
+
+- Things happening in the economy affect us significantly. Our career choices are an important result of the times we live in. See this [Guardian article](https://www.theguardian.com/technology/ng-interactive/2026/feb/20/ai-future-work-technology-white-collar) on *Nascent tech, real fear: how AI anxiety is upending career ambitions.*
+
+- Compulsary course?
+
+- Address questions such as
+
+  - GDP: Why do some economies grow faster than others?
+
+    - More capital resources
+
+    - More labor/population resources
+
+    - More *productivity* i.e. better and more efficient use of resources.
+
+      - What is productivity? $Y/L$ or the average output per worker employed in an economy or the average productivity of labor.
+
+  - Unemployment: Why is there unemployment in these economies?
+
+  - Inflation: Are rising
+
+  - prices indicative of a supply shortage or a temporary excess demand?
+
+  - Macroeconomic policy: Can economic policy control unanticipated movements in GDP?
+
+  - International trade linkages: Does it help to trade with other economies or does it cause unwanted fluctuations in economic activity
+
+## Measurement in GDP
+
+1.  **Growth rate**. Here we consider time to progress from $\ldots,t-2,t-1,t, t+1, t+2, \ldots$. We also consider this variable as discrete i.e. something that takes discontinuous but even steps. The "rate" refers to the fact that it is comparing today $x_t$ to yesterday $x_{t-1}$. If you think of absolute levels, then $x_t$ levels i.e. say GDP levels do not make much sense. For eg: Australia's GDP is 758337 mn = \$758,337,000,000 or 758 billion, 337 million.[^1]
+
+    $$g_x = \frac{x_t - x_{t-1}}{x_{t-1}}$$
+
+2.  There is so much more to growth rate that this formula, but the essential thing to think about is that it is calculating growth over a base i.e. comparing two time periods.
+
+[^1]: This is the Gross Domestic Product, current prices, in millions of AUD. Series #A2302467A from the Australian Bureau of Statistics, which publishes this data in the National Accounts Statistics.
+
+### References
+
+1.  <https://www.theguardian.com/technology/ng-interactive/2026/feb/20/ai-future-work-technology-white-collar>
+2.  <https://www.federalreserve.gov/faqs/what-is-macroeconomics.htm>

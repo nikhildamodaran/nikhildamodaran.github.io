@@ -1,4 +1,6 @@
 ---
-title: "fiscal policy via Public Finance"
+title: "Fiscal Policy via Public Finance"
+bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
+# Intention

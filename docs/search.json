@@ -7,6 +7,13 @@
     "text": "&lt;a href=\"ND_Mar24.pdf\"&gt;Download CV (PDF)&lt;/a&gt;"
   },
   {
+    "objectID": "notes/fiscal-pol.html",
+    "href": "notes/fiscal-pol.html",
+    "title": "Fiscal Policy via Public Finance",
+    "section": "",
+    "text": "Intention"
+  },
+  {
     "objectID": "notes/economic-growth.html",
     "href": "notes/economic-growth.html",
     "title": "Economics of Growth: Thoughts on the Evolution of the Literature",
@@ -473,7 +480,28 @@
     "href": "notes/intro-macro.html",
     "title": "Introduction to Macroeconomics",
     "section": "",
-    "text": "What is Macroeconomics?\n\nIf, however, the distinction between macroeconomics and microeconomics is only that the former deals with macroeconomic variables and the latter with microeconomic variables, then why do we need macroeconomics as a distinct theoretical subject?\n\nKatsuhito Iwai (On subject matter of Macroeconomics)"
+    "text": "If, however, the distinction between macroeconomics and microeconomics is only that the former deals with macroeconomic variables and the latter with microeconomic variables, then why do we need macroeconomics as a distinct theoretical subject?\n\nKatsuhito Iwai (On subject matter of Macroeconomics)\n\nStructure - how different markets are linked with each other.\nPerformance - how do they function under these linkages - measured by growth of underlying variables, or fluctuations in these variables in the short run, or something in between.\nTime Series - data typically, but now increasingly combined with cross-sections to examine increasing complexity in cross section.\n\n\nIt is a capital mistake to theorize before one has data. Insensibly one begins to twist facts to suit theories, instead of theories to suit facts.\n\nSherlock Holmes, A Scandal in Bohemia, 1891.\n\nThe Federal reserve Board of Governers have these FAQ’s where they explain what is macroeconomics and what is the role of a central bank.\n\n\n\n\nThings happening in the economy affect us significantly. Our career choices are an important result of the times we live in. See this Guardian article on Nascent tech, real fear: how AI anxiety is upending career ambitions.\nCompulsary course?\nAddress questions such as\n\nGDP: Why do some economies grow faster than others?\n\nMore capital resources\nMore labor/population resources\nMore productivity i.e. better and more efficient use of resources.\n\nWhat is productivity? \\(Y/L\\) or the average output per worker employed in an economy or the average productivity of labor.\n\n\nUnemployment: Why is there unemployment in these economies?\nInflation: Are rising\nprices indicative of a supply shortage or a temporary excess demand?\nMacroeconomic policy: Can economic policy control unanticipated movements in GDP?\nInternational trade linkages: Does it help to trade with other economies or does it cause unwanted fluctuations in economic activity\n\n\n\n\n\n\nGrowth rate. Here we consider time to progress from \\(\\ldots,t-2,t-1,t, t+1, t+2, \\ldots\\). We also consider this variable as discrete i.e. something that takes discontinuous but even steps. The “rate” refers to the fact that it is comparing today \\(x_t\\) to yesterday \\(x_{t-1}\\). If you think of absolute levels, then \\(x_t\\) levels i.e. say GDP levels do not make much sense. For eg: Australia’s GDP is 758337 mn = $758,337,000,000 or 758 billion, 337 million.1\n\\[g_x = \\frac{x_t - x_{t-1}}{x_{t-1}}\\]\nThere is so much more to growth rate that this formula, but the essential thing to think about is that it is calculating growth over a base i.e. comparing two time periods.\n\n\n\n\nhttps://www.theguardian.com/technology/ng-interactive/2026/feb/20/ai-future-work-technology-white-collar\nhttps://www.federalreserve.gov/faqs/what-is-macroeconomics.htm"
+  },
+  {
+    "objectID": "notes/intro-macro.html#why-study-it",
+    "href": "notes/intro-macro.html#why-study-it",
+    "title": "Introduction to Macroeconomics",
+    "section": "",
+    "text": "Things happening in the economy affect us significantly. Our career choices are an important result of the times we live in. See this Guardian article on Nascent tech, real fear: how AI anxiety is upending career ambitions.\nCompulsary course?\nAddress questions such as\n\nGDP: Why do some economies grow faster than others?\n\nMore capital resources\nMore labor/population resources\nMore productivity i.e. better and more efficient use of resources.\n\nWhat is productivity? \\(Y/L\\) or the average output per worker employed in an economy or the average productivity of labor.\n\n\nUnemployment: Why is there unemployment in these economies?\nInflation: Are rising\nprices indicative of a supply shortage or a temporary excess demand?\nMacroeconomic policy: Can economic policy control unanticipated movements in GDP?\nInternational trade linkages: Does it help to trade with other economies or does it cause unwanted fluctuations in economic activity"
+  },
+  {
+    "objectID": "notes/intro-macro.html#measurement-in-gdp",
+    "href": "notes/intro-macro.html#measurement-in-gdp",
+    "title": "Introduction to Macroeconomics",
+    "section": "",
+    "text": "Growth rate. Here we consider time to progress from \\(\\ldots,t-2,t-1,t, t+1, t+2, \\ldots\\). We also consider this variable as discrete i.e. something that takes discontinuous but even steps. The “rate” refers to the fact that it is comparing today \\(x_t\\) to yesterday \\(x_{t-1}\\). If you think of absolute levels, then \\(x_t\\) levels i.e. say GDP levels do not make much sense. For eg: Australia’s GDP is 758337 mn = $758,337,000,000 or 758 billion, 337 million.1\n\\[g_x = \\frac{x_t - x_{t-1}}{x_{t-1}}\\]\nThere is so much more to growth rate that this formula, but the essential thing to think about is that it is calculating growth over a base i.e. comparing two time periods.\n\n\n\n\nhttps://www.theguardian.com/technology/ng-interactive/2026/feb/20/ai-future-work-technology-white-collar\nhttps://www.federalreserve.gov/faqs/what-is-macroeconomics.htm"
+  },
+  {
+    "objectID": "notes/intro-macro.html#footnotes",
+    "href": "notes/intro-macro.html#footnotes",
+    "title": "Introduction to Macroeconomics",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the Gross Domestic Product, current prices, in millions of AUD. Series #A2302467A from the Australian Bureau of Statistics, which publishes this data in the National Accounts Statistics.↩︎"
   },
   {
     "objectID": "notes/trade.html",
