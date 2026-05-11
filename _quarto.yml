@@ -16,4 +16,5 @@ website:
 format:
   html:
     theme: cosmo
+    css: _styles/subpage.css
     toc: true

@@ -1,0 +1,153 @@
+/* -------------------------------------------------------
+   Subpage theme — overrides cosmo to match index style
+   ------------------------------------------------------- */
+
+:root {
+  --text: #333;
+  --link: #0072C6;
+  --link-hover: #005A9E;
+  --border: #e0e0e0;
+  --toc-active: #0072C6;
+}
+
+/* --- Typography --- */
+body {
+  font-family: Arial, sans-serif;
+  color: var(--text);
+  background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+  color: var(--text);
+}
+
+/* --- Links --- */
+a,
+a:visited {
+  color: var(--link);
+  text-decoration: none;
+}
+a:hover { color: var(--link-hover); }
+
+/* --- Navbar --- */
+.navbar {
+  background: #fff !important;
+  border-bottom: 1px solid var(--border);
+  box-shadow: none;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+  color: var(--text) !important;
+  font-family: Arial, sans-serif;
+  font-size: 0.95rem;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: var(--link) !important;
+}
+
+/* --- Main content width --- */
+#quarto-content > * {
+  max-width: 860px;
+}
+
+.page-columns .column-page-left,
+.page-columns .column-body {
+  max-width: 860px;
+}
+
+/* Title block */
+#title-block-header h1.title {
+  font-size: 1.6rem;
+  margin-bottom: 0.2em;
+}
+
+#title-block-header .author,
+#title-block-header .date {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* --- TOC sidebar --- */
+#quarto-margin-sidebar {
+  font-family: Arial, sans-serif;
+  font-size: 0.85rem;
+}
+
+#quarto-margin-sidebar .sidebar-title-text,
+#quarto-margin-sidebar .toc-title {
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+#TOC a,
+.sidebar-navigation a {
+  color: var(--text);
+}
+
+#TOC a:hover,
+.sidebar-navigation a:hover {
+  color: var(--link);
+}
+
+#TOC a.active,
+.sidebar-navigation a.active {
+  color: var(--toc-active);
+  font-weight: 600;
+}
+
+#TOC ul {
+  padding-left: 0.8rem;
+}
+
+/* --- Prose --- */
+p {
+  line-height: 1.7;
+}
+
+blockquote {
+  border-left: 3px solid var(--border);
+  padding-left: 1rem;
+  color: #555;
+  font-style: italic;
+  margin-left: 0;
+}
+
+/* Code blocks */
+pre, code {
+  font-size: 0.88rem;
+  background: #f5f5f5;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+}
+
+pre {
+  padding: 0.75rem 1rem;
+}
+
+/* Horizontal rule used as section separator */
+hr {
+  border: none;
+  border-top: 2px solid var(--border);
+  margin: 2rem 0;
+}
+
+/* --- Footer --- */
+#quarto-appendix,
+.quarto-secondary-nav {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+/* --- Mobile --- */
+@media (max-width: 767px) {
+  body { font-size: 15px; }
+  .navbar-brand { font-size: 1rem; }
+}
