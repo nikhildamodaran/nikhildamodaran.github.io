@@ -1,15 +1,15 @@
 <script>
-const sections = document.querySelectorAll('section');
+const elements = document.querySelectorAll('section, section h2, section h3');
 window.addEventListener('scroll', function() {
-  sections.forEach(section => {
-    const sectionTop = section.offsetTop - window.innerHeight / 2;
-    const sectionBottom = section.offsetTop + section.offsetHeight + window.innerHeight / 2;
+  elements.forEach(el => {
+    const top = el.offsetTop - window.innerHeight / 2;
+    const bottom = el.offsetTop + el.offsetHeight + window.innerHeight / 2;
     const scrollPosition = window.pageYOffset + window.innerHeight / 2;
 
-    if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-      section.classList.add('visible');
+    if (scrollPosition >= top && scrollPosition < bottom) {
+      el.classList.add('visible');
     } else {
-      section.classList.remove('visible');
+      el.classList.remove('visible');
     }
   });
 });
