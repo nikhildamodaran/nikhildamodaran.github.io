@@ -1,10 +1,17 @@
+/* -------------------------------------------------------
+   Colour variables — change these to retheme the whole page
+   --text:       body text colour
+   --link:       hyperlink colour
+   --link-hover: hyperlink colour on mouse-over
+   ------------------------------------------------------- */
 :root {
-  --text: #333;
-  --link: #0072C6;
-  --link-hover: #005A9E;
+  --text: #000000;
+  --link: #241c8f;
+  --link-hover: #0d9333;
 }
 
-/* Reset Quarto's injected layout wrappers */
+/* Quarto adds its own padding/margins to these layout wrappers by default.
+   This strips them out so the page uses only the layout defined below. */
 body > .quarto-container,
 #quarto-content,
 #quarto-document-content,
@@ -14,15 +21,17 @@ body > .quarto-container,
   max-width: none !important;
 }
 
-/* Hide Quarto's auto-generated title block */
+/* Quarto auto-generates a title block from the front-matter fields.
+   The index page builds its own header in HTML, so this is hidden. */
 #title-block-header {
   display: none;
 }
 
+/* --- Base typography --- */
 body {
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: var(--text);
-  line-height: 1.6;
+  line-height: 1.6;   /* increase for more breathing room between lines */
   margin: 0;
   padding: 0;
   background: #fff;
@@ -39,6 +48,9 @@ a {
 }
 a:hover { color: var(--link-hover); }
 
+/* --- Page container ---
+   Centres content and caps the reading width.
+   Increase max-width to spread content wider. */
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -46,9 +58,14 @@ a:hover { color: var(--link-hover); }
   padding: 0 0.5rem;
 }
 
+/* Spacing below the header block (name + photo + bio) and above the nav links */
 header { margin-bottom: 40px; }
 nav { margin-top: 20px; }
 
+/* --- Scroll fade-in animation ---
+   Sections start invisible (opacity: 0) and fade in when scroll.js
+   adds the 'visible' class. The transition duration (0.5s) controls
+   how fast the fade happens — increase for a slower, more dramatic fade. */
 section {
   margin-bottom: 40px;
   opacity: 0;
@@ -56,15 +73,21 @@ section {
 }
 section.visible { opacity: 1; }
 
+/* Same fade-in applied independently to each h2 and h3 within a section,
+   so subsection headings animate separately as you scroll through them. */
 section h2, section h3 {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
 }
 section h2.visible, section h3.visible { opacity: 1; }
 
+/* Remove default bullet points and indent from lists */
 ul { list-style-type: none; padding: 0; }
 li { margin-bottom: 10px; }
 
+/* --- Profile image ---
+   Floats left so text wraps around it.
+   width controls how much horizontal space the image takes up. */
 .profile-image {
   width: 60%;
   max-width: 100%;
@@ -74,15 +97,20 @@ li { margin-bottom: 10px; }
   margin-bottom: 10px;
 }
 
+/* Clears the float after the profile image so subsequent content
+   sits below it rather than continuing to wrap around it. */
 .clear { clear: both; }
 
+/* A thick horizontal rule used to visually separate major sections */
 .section-separator {
   border: none;
   border-top: 5px solid #ccc;
   margin: 40px 0;
 }
 
-/* Sub-page styles */
+/* --- Back-link and sub-page container ---
+   These classes are available for use on subpages if needed,
+   though subpages now rely primarily on _styles/subpage.css. */
 .back-link {
   margin-bottom: 2rem;
   display: block;
@@ -94,6 +122,9 @@ li { margin-bottom: 10px; }
   padding: 1rem 0.5rem 3rem;
 }
 
+/* --- Mobile overrides (screens narrower than 768px) ---
+   Adds more horizontal padding and stacks the profile image
+   above the text instead of floating it to the left. */
 @media (max-width: 767px) {
   .container { padding: 0 20px; }
   .page-container { padding: 1rem 20px 3rem; }
