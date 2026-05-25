@@ -90,6 +90,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../_styles/subpage.css">
 </head>
@@ -305,7 +334,41 @@ div.csl-indent {
 </section>
 <section id="business-cycles" class="level1">
 <h1>Business Cycles</h1>
+<p>The key issue in the business cycle literature is the existence of Phillips curve. The first thread was establishment of this inverse relationship between unemployment and inflation.</p>
 <ol type="1">
+<li>Phillips, A. W. (1958). The relation between unemployment and the rate of change of money wage rates in the united kingdom, 1861–1957 1. Economica, 25(100):283–299.</li>
+</ol>
+<ul>
+<li><p>This is the seminal paper in this literature. The paper documents a negative relationship between unemployment and wage inflation in the UK. This relationship is later extended to price inflation and is known as the Phillips curve. The discussion from the Phillips curve implied that governments can exploit this relationship to achieve low unemployment at the cost of higher inflation.</p></li>
+<li><p>The second thread came from a theoretical rebuttal to the Phillips curve. The key idea in both papers is that expectations can cause the Phillips curve to shift, and that in the long run, there is no trade-off between inflation and unemployment.</p></li>
+</ul>
+<ol start="2" type="1">
+<li>Friedman, M. (1968). The role of monetary policy. The American Economic Review, 58(1):1–17.</li>
+</ol>
+<ul>
+<li>Monetary policy has powerful short-run effects but limited long-run effects. He puts the discussion of the trade-off between inflation and unemployment in the context of expectations. He argues that in the long run, the Phillips curve is vertical at the natural rate of unemployment, and that any attempt to keep unemployment below this natural rate will lead to accelerating inflation. So while this is a statement of what monetary policy can and cannot do, it is also a statement about the nature of the Phillips curve and the trade-off between inflation and unemployment.</li>
+</ul>
+<ol start="3" type="1">
+<li>Phelps, E. S. (1967). Phillips curves, expectations of inflation and optimal unemployment over time. Economica, 254-281.</li>
+</ol>
+<ul>
+<li>Phelps’ interpretation is that <span class="math inline">\(u^*\)</span> is the unemployment rate consistent with correctly anticipated inflation. Attempts to keep unemployment below <span class="math inline">\(u^*\)</span> require continually accelerating inflation. To keep unemployment permanently below the natural rate, policymakers would need to generate ever-increasing inflation surprises.</li>
+</ul>
+<ol start="4" type="1">
+<li>Lucas Jr, R. E. (1972). Expectations and the neutrality of money. Journal of economic theory, 4(2):103–124.</li>
+</ol>
+<ul>
+<li>The Phillips curve is not stable and can shift due to changes in expectations. He argues that in the long run, there is no trade-off between inflation and unemployment. He introduces the concept of rational expectations and argues that if people have rational expectations, then any attempt to exploit the Phillips curve will be futile because people will anticipate the effects of monetary policy and adjust their behavior accordingly.</li>
+</ul>
+<ol start="5" type="1">
+<li>Lucas, R. E. and Rapping, L. A. (1969). Price expectations and the phillips curve. The American Economic Review, 59(3):342–350.</li>
+</ol>
+<ul>
+<li>Lucas–Rapping asked: Through what optimizing behavior do expectations affect employment? Their answer: Workers move labor across time in response to perceived real wage changes. This was one of the first attempts to make the Phillips curve consistent with an optimization, idea of expectations, and an equilibrium reasoning. It is not yet the fully developed rational-expectations model of Lucas (1972), but it is a major step toward it. Since it is a developing answer one which was taken to the next level by Lucas (1972), it is not as well-known as the later paper, but it is an important step in the development of the literature.</li>
+</ul>
+<p>and challenged this view by arguing that the Phillips curve is not stable and that it can shift due to changes in expectations. They introduced the concept of the natural rate of unemployment and argued that in the long run, there is no trade-off between inflation and unemployment.</p>
+<p>However, this relationship broke down in the 1970s when we had stagflation (high unemployment and high inflation). This led to the development of new theories such as the expectations-augmented Phillips curve and the New Keynesian Phillips curve.</p>
+<ol start="2" type="1">
 <li><p>Calvo, G. A. (1983). Staggered prices in a utility-maximizing framework. Journal of monetary Economics, 12(3), 383-398.</p></li>
 <li><p>Christiano, L. J., Eichenbaum, M., &amp; Evans, C. L. (2005). Nominal rigidities and the dynamic effects of a shock to monetary policy. Journal of political Economy, 113(1), 1-45.</p></li>
 <li><p>Smets, F., &amp; Wouters, R. (2003). An estimated dynamic stochastic general equilibrium model of the euro area. Journal of the European Economic Association, 1(5), 1123-1175.</p></li>

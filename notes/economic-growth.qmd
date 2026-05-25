@@ -5,7 +5,7 @@ bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography
 
 # Growth
 
-- If you look at growth literature, the citations to these papers are very high. There is a "level effect" to citation within these papers i.e. these papers are of the order of 40K magnitude while key papers in business cycle theory is 10K. The reason for this is the general and global reach of the growth literature especially since it handles big questions. 
+- If you look at growth literature, the citations to these papers are very high. There is a "level effect" to citation within these papers i.e. these papers are of the order of 40K magnitude while key papers in business cycle theory is 10K. The reason for this is the general and global reach of the growth literature especially since it handles big questions.
 
 - I also find that as one goes deep into the issue, the mass citation that earlier ideas gathered has withered away. My intuition about this is that as the literature flourishes, new strands with fresh ideas have an explosion effect. But as and when the literature matures, the new ideas are more incremental and hence the citations are more spread out. You can see this in papers by Acemoglou (Directed Technical Change) where he is pushing the endogenous growth literature in a certain direction, but is not catching up to gain momentum and is viewed as important but not explosive.
 
@@ -13,23 +13,23 @@ bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography
 
 - I read about the quote by Lucas
 
-1. Solow, R. M. (1956). A contribution to the theory of economic growth. The quarterly journal of economics, 70(1), 65-94. @Solow1956QJE
+1.  Solow, R. M. (1956). A contribution to the theory of economic growth. The quarterly journal of economics, 70(1), 65-94. @Solow1956QJE
 
-2. Cass, D. (1965). Optimum growth in an aggregative model of capital accumulation. The Review of economic studies, 32(3), 233-240. @Cass1965RES
+2.  Cass, D. (1965). Optimum growth in an aggregative model of capital accumulation. The Review of economic studies, 32(3), 233-240. @Cass1965RES
 
-3. Cass, D. (1966). Optimum growth in an aggregative model of capital accumulation: A turnpike theorem. Econometrica: Journal of the Econometric Society, 833-850. @Cass1966EJES
+3.  Cass, D. (1966). Optimum growth in an aggregative model of capital accumulation: A turnpike theorem. Econometrica: Journal of the Econometric Society, 833-850. @Cass1966EJES
 
-4. Koopmans, Tjalling C., "On the Concept of Optimal Economic Growth" (1963). [Cowles Foundation Discussion Papers. 392.](https://elischolar.library.yale.edu/cowles-discussion-paper-series/392) @Koopmans1963CFP
+4.  Koopmans, Tjalling C., "On the Concept of Optimal Economic Growth" (1963). [Cowles Foundation Discussion Papers. 392.](https://elischolar.library.yale.edu/cowles-discussion-paper-series/392) @Koopmans1963CFP
 
-5. Romer, P. M. (1986). Increasing returns and long-run growth. Journal of political economy, 94(5), 1002-1037. @Romer1986JPE
+5.  Romer, P. M. (1986). Increasing returns and long-run growth. Journal of political economy, 94(5), 1002-1037. @Romer1986JPE
 
-6. R. E. Lucas Jr. On the mechanics of economic development. Journal of monetary economics, 22(1):3–42, July 1988.
+6.  R. E. Lucas Jr. On the mechanics of economic development. Journal of monetary economics, 22(1):3–42, July 1988.
 
-7. Romer, P. M. (1990). Endogenous technological change. Journal of political Economy, 98(5, Part 2), S71-S102.
+7.  Romer, P. M. (1990). Endogenous technological change. Journal of political Economy, 98(5, Part 2), S71-S102.
 
-8. Barro, R. J. (1991). Economic growth in a cross section of countries. The quarterly journal of economics, 106(2), 407-443.
+8.  Barro, R. J. (1991). Economic growth in a cross section of countries. The quarterly journal of economics, 106(2), 407-443.
 
-9. Mankiw, N. G., Romer, D., & Weil, D. N. (1992). A contribution to the empirics of economic growth. The quarterly journal of economics, 107(2), 407-437.
+9.  Mankiw, N. G., Romer, D., & Weil, D. N. (1992). A contribution to the empirics of economic growth. The quarterly journal of economics, 107(2), 407-437.
 
 10. Levine, R., & Renelt, D. (1992). A sensitivity analysis of cross-country growth regressions. The American economic review, 942-963.
 
@@ -37,7 +37,7 @@ bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography
 
 12. Aghion, P., & Howitt, P. (1992). A Model of Growth Through Creative Destruction. Econometrica: Journal of the Econometric Society, 323-351.
 
-12. Klenow, P. J., & Rodriguez-Clare, A. (1997). The neoclassical revival in growth economics: Has it gone too far?. NBER macroeconomics annual, 12, 73-103.
+13. Klenow, P. J., & Rodriguez-Clare, A. (1997). The neoclassical revival in growth economics: Has it gone too far?. NBER macroeconomics annual, 12, 73-103.
 
 - The neoclassical (Solow-style) model, when properly interpreted, can explain most cross-country income differences—you do not need strong endogenous growth mechanisms.
 
@@ -65,12 +65,13 @@ bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography
 
 21. Barro, R. J., & Lee, J. W. (2013). A new data set of educational attainment in the world, 1950–2010. Journal of development economics, 104, 184-198.
 
-22. Valero, A., & Van Reenen, J. (2019). The economic impact of universities: Evidence from across the globe. Economics of education review, 68, 53-67. 
- - The university literature is interesting because of the changing nature of work and whether it will make the univeristy system obsolete. 
+22. Valero, A., & Van Reenen, J. (2019). The economic impact of universities: Evidence from across the globe. Economics of education review, 68, 53-67.
+
+- The university literature is interesting because of the changing nature of work and whether it will make the univeristy system obsolete.
 
 ## Endogenous Growth and Innovation
 
-- The papers by Romer and Lucas (On Mechanics of Economic Development) are the seminal papers in this literature. 
+- The papers by Romer and Lucas (On Mechanics of Economic Development) are the seminal papers in this literature.
 
 23. Aghion, P., & Howitt, P. (1992). A model of growth through creative destruction. Econometrica: Journal of the Econometric Society, 323-351.
 
@@ -78,10 +79,10 @@ bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography
 
 25. Acemoglu, D. (2002). Directed technical change. The review of economic studies, 69(4), 781-809.
 
-
 ## Environment and Growth
 
 26. Acemoglu, D., Aghion, P., Bursztyn, L., & Hemous, D. (2012). The environment and directed technical change. American economic review, 102(1), 131-166.
+
 - This paper is interesting in the sense that it pushes the endogenous growth literature, which was narrowed into directed technical change, into a new direction by linking it to the environment. The paper is not explosive in the sense that it is not a new idea but it is important in the sense that it is pushing the literature in a new direction.
 
 27. Hassler, J., Krusell, P., & Olovsson, C. (2021). Directed technical change as a response to natural resource scarcity. Journal of Political Economy, 129(11), 3039-3072.
@@ -89,11 +90,13 @@ bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography
 ## Mechanisms of Growth
 
 28. D. Acemoglu, P. Aghion, and F. Zilibotti. Distance to frontier, selection, and economic growth. Journal of the European Economic association, 4(1):37–74, 2006.
+
 - Growth mechanisms differ by:distance to frontier. If an economy is far from the frontier → imitation. If an economy is close to the frontier → innovation.
 
 ## Institutions and Growth
 
 29. Acemoglu, D., Johnson, S., & Robinson, J. A. (2001). The colonial origins of comparative development: An empirical investigation. American economic review, 91(5), 1369-1401.
+
 - This paper is interesting because of the way it links the colonial history of a country to its current economic performance through the channel of institutions. It proposes a novel instrument for institutions and brings an interesting discussion on the role of institutions in economic development.
 
 30. Rodrik, D., Subramanian, A., & Trebbi, F. (2004). Institutions rule: the primacy of institutions over geography and integration in economic development. Journal of economic growth, 9(2), 131-165.
@@ -109,7 +112,6 @@ bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography
 - In an efficient economy, we have high productive firms that are large and low productive firms that are small. However, with distortions such as taxes, subsidies, regulations, and entry barriers, we have productive firms that are too small and unproductive firms that are too large. This leads to a fall in aggregate output.
 
 33. Bartelsman, E., Haltiwanger, J., & Scarpetta, S. (2013). Cross-country differences in productivity: The role of allocation and selection. American economic review, 103(1), 305-334.
-
 
 ## Structural Transformation and Growth
 
@@ -131,30 +133,57 @@ bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography
 
 - Eaton–Kortum builds a model where each country draws productivity for each good from a distribution. In their model, countries trade based on (a) productivity differences and (b) trade costs. This generates trade flows, price differences, and productivity differences.
 
-
-
 # Business Cycles
 
-1. Calvo, G. A. (1983). Staggered prices in a utility-maximizing framework. Journal of monetary Economics, 12(3), 383-398.
+The key issue in the business cycle literature is the existence of Phillips curve. The first thread was establishment of this inverse relationship between unemployment and inflation. 
 
-2. Christiano, L. J., Eichenbaum, M., & Evans, C. L. (2005). Nominal rigidities and the dynamic effects of a shock to monetary policy. Journal of political Economy, 113(1), 1-45.
+1.  Phillips, A. W. (1958). The relation between unemployment and the rate of change of money wage rates in the united kingdom, 1861–1957 1. Economica, 25(100):283–299.
 
-3. Smets, F., & Wouters, R. (2003). An estimated dynamic stochastic general equilibrium model of the euro area. Journal of the European Economic Association, 1(5), 1123-1175.
+- This is the seminal paper in this literature. The paper documents a negative relationship between unemployment and wage inflation in the UK. This relationship is later extended to price inflation and is known as the Phillips curve. The discussion from the Phillips curve implied that governments can exploit this relationship to achieve low unemployment at the cost of higher inflation. 
+    
+- The second thread came from a theoretical rebuttal to the Phillips curve. The key idea in both papers is that expectations can cause the Phillips curve to shift, and that in the long run, there is no trade-off between inflation and unemployment.
+
+2. Friedman, M. (1968). The role of monetary policy. The American Economic Review, 58(1):1–17.
+
+- Monetary policy has powerful short-run effects but limited long-run effects. He puts the discussion of the trade-off between inflation and unemployment in the context of expectations. He argues that in the long run, the Phillips curve is vertical at the natural rate of unemployment, and that any attempt to keep unemployment below this natural rate will lead to accelerating inflation. So while this is a statement of what monetary policy can and cannot do, it is also a statement about the nature of the Phillips curve and the trade-off between inflation and unemployment.
+
+3. Phelps, E. S. (1967). Phillips curves, expectations of inflation and optimal unemployment over time. Economica, 254-281.
+
+- Phelps' interpretation is that $u^*$ is the unemployment rate consistent with correctly anticipated inflation. Attempts to keep unemployment below $u^*$ require continually accelerating inflation. To keep unemployment permanently below the natural rate, policymakers would need to generate ever-increasing inflation surprises.
+
+4. Lucas Jr, R. E. (1972). Expectations and the neutrality of money. Journal of economic theory, 4(2):103–124.
+
+- The Phillips curve is not stable and can shift due to changes in expectations. He argues that in the long run, there is no trade-off between inflation and unemployment. He introduces the concept of rational expectations and argues that if people have rational expectations, then any attempt to exploit the Phillips curve will be futile because people will anticipate the effects of monetary policy and adjust their behavior accordingly.
+
+5. Lucas, R. E. and Rapping, L. A. (1969). Price expectations and the phillips curve. The American Economic Review, 59(3):342–350.
+
+- Lucas–Rapping asked: Through what optimizing behavior do expectations affect employment? Their answer: Workers move labor across time in response to perceived real wage changes. This was one of the first attempts to make the Phillips curve consistent with an optimization, idea of expectations,  and an equilibrium reasoning. It is not yet the fully developed rational-expectations model of Lucas (1972), but it is a major step toward it. Since it is a developing answer one which was taken to the next level by Lucas (1972), it is not as well-known as the later paper, but it is an important step in the development of the literature.
+
+
+ and \cite{Phelps1967} challenged this view by arguing that the Phillips curve is not stable and that it can shift due to changes in expectations. They introduced the concept of the natural rate of unemployment and argued that in the long run, there is no trade-off between inflation and unemployment.
+
+However, this relationship broke down in the 1970s when we had stagflation (high unemployment and high inflation). This led to the development of new theories such as the expectations-augmented Phillips curve and the New Keynesian Phillips curve.
+
+2.  Calvo, G. A. (1983). Staggered prices in a utility-maximizing framework. Journal of monetary Economics, 12(3), 383-398.
+
+3.  Christiano, L. J., Eichenbaum, M., & Evans, C. L. (2005). Nominal rigidities and the dynamic effects of a shock to monetary policy. Journal of political Economy, 113(1), 1-45.
+
+4.  Smets, F., & Wouters, R. (2003). An estimated dynamic stochastic general equilibrium model of the euro area. Journal of the European Economic Association, 1(5), 1123-1175.
 
 # Macroeconomic Theory
 
-1. Lucas, R. E. (1976). Econometric policy evaluation: A critique. In Carnegie-Rochester conference series on public policy (Vol. 1, pp. 19-46). North-Holland.
+1.  Lucas, R. E. (1976). Econometric policy evaluation: A critique. In Carnegie-Rochester conference series on public policy (Vol. 1, pp. 19-46). North-Holland.
 
-2. Sargent, T. J. (1979). Macroeconomic theory and policy analysis. The American Economic Review, 69(2), 1-16.
+2.  Sargent, T. J. (1979). Macroeconomic theory and policy analysis. The American Economic Review, 69(2), 1-16.
 
-3. Cochrane, J. H. (1994). Shocks. Carnegie-Rochester Conference Series on Public Policy, 41, 295-364.
+3.  Cochrane, J. H. (1994). Shocks. Carnegie-Rochester Conference Series on Public Policy, 41, 295-364.
 
-4. Cochrane, J. H. (1998). A frictionless view of US inflation. NBER macroeconomics annual, 13, 323-384.
+4.  Cochrane, J. H. (1998). A frictionless view of US inflation. NBER macroeconomics annual, 13, 323-384.
 
-5. Cochrane, J. H. (2011). Presidential address: Discount rates. Journal of Finance, 66(4), 1047-1108.
+5.  Cochrane, J. H. (2011). Presidential address: Discount rates. Journal of Finance, 66(4), 1047-1108.
 
-6. Cochrane, J. H. (2017). The fiscal theory of the price level. Princeton University Press.
+6.  Cochrane, J. H. (2017). The fiscal theory of the price level. Princeton University Press.
 
-7. Cochrane, J. H. (2020). The fiscal theory of the price level: An analytical introduction. Journal of Economic Perspectives, 34(4), 149-172.
+7.  Cochrane, J. H. (2020). The fiscal theory of the price level: An analytical introduction. Journal of Economic Perspectives, 34(4), 149-172.
 
 8
