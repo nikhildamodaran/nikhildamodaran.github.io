@@ -26,7 +26,7 @@ format:
 # Nikhil Damodaran
 
 
-![](pictures/2024_UoM.jpg){alt="Profile Image" .profile-image width="500" height="300"}
+![](pictures/2024_UoM.jpg){alt="Profile Image" .profile-image width="40%"}
 
 
 [Lecturer](https://findanexpert.unimelb.edu.au/profile/1022959-nikhil-damodaran)  
