@@ -3,6 +3,8 @@
 $font-family-sans-serif: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
 $font-family-serif: "Source Serif 4", "Georgia", serif;
 $font-family-monospace: "JetBrains Mono", "Fira Code", monospace;
+$font-family-base: $font-family-serif;
+$headings-font-family: $font-family-sans-serif;
 
 $body-bg: #fbfaf7;
 $body-color: #1f1f1f;
@@ -19,7 +21,7 @@ $navbar-hl: #6f1d1b;
 /*-- scss:rules --*/
 
 body {
-  font-family: $font-family-serif;
+  font-family: $font-family-serif !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
