@@ -54,16 +54,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="container">
-<div class="profile-block">
+<div class="landing-grid">
+<div class="profile-column">
 <p><img src="pictures/2024_UoM.jpg" class="profile-image img-fluid" alt="Profile Image"></p>
 <section id="nikhil-damodaran" class="profile-bio">
-<h1>Nikhil Damodaran</h1>
+<h2>Nikhil Damodaran</h2>
 <p><a href="https://findanexpert.unimelb.edu.au/profile/1022959-nikhil-damodaran">Lecturer</a><br>
 Department of Economics<br>
 University of Melbourne<br>
 <a href="mailto:nikhil.damodaran@unimelb.edu.au">nikhil.damodaran@unimelb.edu.au</a></p>
 </section>
 </div>
+<div class="content-column">
 <h2 id="teaching">Teaching</h2>
 <p><a href="https://handbook.unimelb.edu.au/subjects/econ10003">Introductory Macroeconomics</a><br>
 <a href="https://handbook.unimelb.edu.au/2026/subjects/econ30001">International Trade Policy</a></p>
@@ -74,43 +76,10 @@ University of Melbourne<br>
 <h2 id="working-papers">Working Papers</h2>
 <p>Fiscal Policy and Transmission: The Case of India’s States</p>
 </div>
+</div>
+</div>
 
 
-<script>
-// Elements to animate on scroll.
-// Add or remove selectors here to control what fades in:
-//   'section'      — top-level content blocks (#research, #teaching, etc.)
-//   'section h2'   — subsection headings (## in the .qmd file)
-//   'section h3'   — subsubsection headings (### in the .qmd file)
-const elements = document.querySelectorAll('section, section h2, section h3');
-
-// Run this function every time the user scrolls.
-window.addEventListener('scroll', function() {
-
-  elements.forEach(el => {
-    // The "trigger zone" is a band centred on the middle of the viewport.
-    // An element becomes visible when the viewport centre passes into this zone.
-    // Increasing the /2 divisor makes the zone wider (elements appear earlier);
-    // decreasing it makes the zone narrower (elements appear later).
-    const top    = el.offsetTop - window.innerHeight / 2;
-    const bottom = el.offsetTop + el.offsetHeight + window.innerHeight / 2;
-
-    // The current scroll position, measured at the centre of the viewport.
-    const scrollPosition = window.pageYOffset + window.innerHeight / 2;
-
-    if (scrollPosition >= top && scrollPosition < bottom) {
-      // Element is in view — add 'visible' to trigger the CSS fade-in.
-      // The actual opacity transition is defined in _styles/index.css.
-      el.classList.add('visible');
-    } else {
-      // Element is out of view — remove 'visible' so it fades out again.
-      // To make the fade permanent (never fades back out), delete this else branch.
-      el.classList.remove('visible');
-    }
-  });
-
-});
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
