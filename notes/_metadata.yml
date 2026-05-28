@@ -1,0 +1,10 @@
+format:
+  html:
+    theme:
+      - cosmo
+      - ../_styles/latex-web.scss
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    code-copy: true
+    code-overflow: wrap
