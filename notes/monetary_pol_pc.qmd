@@ -76,9 +76,13 @@ The alternative was to provide a rule based policy @Kydland1977JPE and @Taylor19
 
 The key insight is that discretionary policymakers have an incentive to create surprise inflation to temporarily boost output, but rational agents anticipate this. The result is an inflation bias with little long-run gain in employment or output. Rules or credible commitments are proposed as a solution to this credibility problem.
 
-## Where is the model?
+## Did this debate lock us out?
 
-While Friedman, Phelps and Lucas made strong arguments which had expectations at their core, the empirical observation by Phillips still needed explanation. Was it the persistence of regimes which caused an expost observation of inverse inflation and unemployment relationship? Was it temporary? Rather than arguing about
+While Friedman, Phelps and Lucas made strong arguments which had expectations at their core, the empirical observation by Phillips still needed explanation. Was it the persistence of regimes which caused an expost observation of inverse inflation and unemployment relationship? Was it temporary? Why do monetary and demand shocks have real effects at all if agents are rational and markets clear continuously? Without stickiness or information frictions, rational expectations models implied very limited real effects of anticipated policy. That made it difficult to explain recessions, persistent unemployment, large output fluctuations, and the observed effects of monetary policy.
+
+So we were stuck. We said policy cannot exploit this. Let us set a rule. Once we set a rule, even then these shocks which keep hitting the economy have real effects which shift unemployment above or below its natural rate. Can central bank not do anything after setting the rule here? Did we just play ourselves into a corner?
+
+Again, the way that I understand this is that since there is a trade-off,
 
 2.  Calvo, G. A. (1983). Staggered prices in a utility-maximizing framework. Journal of monetary Economics, 12(3), 383-398.
 
