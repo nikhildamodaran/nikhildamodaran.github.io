@@ -3,6 +3,9 @@ title: "Introduction to Macroeconomics"
 bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
+# Why this page?
+Structure of the lectures, some thoughts on how I organize them and what is the key emphasis point.
+
 # What is Macroeconomics?
 
 > If, however, the distinction between macroeconomics and microeconomics is only that the former deals with macroeconomic variables and the latter with microeconomic variables, then why do we need macroeconomics as a distinct theoretical subject?

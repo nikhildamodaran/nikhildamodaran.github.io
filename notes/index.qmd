@@ -1,30 +1,14 @@
 ---
-title: "Unfinished"
+title: "Index of Notes"
 bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
-These are some ideas, some notes and some thoughts which are worth chasing. There are some literature reviews with thoughts on the discourse, some data points which are interesting and worth exploring more and some general interest economics.
+## Notes
 
-1.  Economic Growth: [Reading List](economic-growth.qmd)
-
-    This is a reading list which dwells on the topic of economic growth. I have been reading a lot on this topic, and I find it very interesting. I have this one big question - if growth is interesting where are people contributing now? What has been the recent development in this field? And if, as is often mentioned, traditional growth theory is dead, then what is the new turn?
-
-2.  [Data Releases](data-releases.qmd)
-
-    One thing which I miss as a macroeconomist is easy access to the macro data that analysts have. Since academic world is structured on deeper knowledge generation, the summarative knowledge often is not put together. This satisfies my summarative needs. I use this for my Introduction to Macroeconomics lectures at University of Melbourne.
-
-3.  [Intro Macro Resources](intro_macro_resources.qmd)
-
-    I refer to some readings to introduce basic topics to undergraduates. This is a list of readings that I have referred to replaced and updated over the years. Some old ones are still very nice because they give a good introduction to the topic.
-
-4.  [Introductory Macroeconomics](intro-macro.qmd)
-
-    Structure of the lectures, some thoughts on how I organize them and what is the key emphasis point.
-
-5. [Fiscal Policy via. Public Finance](fiscal-pol.qmd)
-
-    This is the stuff that I have been reading before offering a course in Public Finance. The sepcific objective of this course is to not approach it from a macro perspective, but from a traditional public finance perspective. I want to cover the standard topics in public finance, but also want to cover the fiscal policy topics that are relevant for macroeconomics. This is a work in progress, and I will update it as I go along.
-
-6. International Trade: [Reading List](trade.qmd)
-
-    This is a reading list mostly on classical trade theories, trade policy and some recent developments in the field within these subfields. Generally, these topics are less interesting to the journals so there needs to be a newer empirical or theoretical hook for work on these models to continue.
+- [Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely](data-releases.qmd)
+- [Economics of Growth: Thoughts on the Evolution of the Literature](economic-growth.qmd)
+- [Fiscal Policy via Public Finance](fiscal-pol.qmd)
+- [Introduction to Macroeconomics](intro-macro.qmd)
+- [Online Readings for Introduction to Macroeconomics](intro_macro_resources.qmd)
+- [Monetary Policy and the Phillips Curve](monetary_pol_pc.qmd)
+- [International Trade Reading List](trade.qmd)

@@ -2,7 +2,11 @@
 title: "Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely"
 ---
 
+## Why do I think about this?
+One thing which I miss as a macroeconomist is easy access to the macro data that analysts have. Since academic world is structured on deeper knowledge generation, the summarative knowledge often is not put together. This satisfies my summarative needs. I use this for my Introduction to Macroeconomics lectures at University of Melbourne.
 
+
+## Prologue: The Rise of Data Releases in Macroeconomics
 Macroeconomics has increasingly become a “high-frequency” discipline. Financial markets, central banks, journalists, and economists now react almost immediately to incoming economic data. Certain statistics — especially in the United States — have become highly influential because they provide rapid signals about inflation, employment, growth, and monetary policy.
 
 The growing popularity of these data releases reflects three developments:

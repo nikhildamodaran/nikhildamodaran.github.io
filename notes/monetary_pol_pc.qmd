@@ -6,8 +6,6 @@ date-modified: "last-modified"
 date-format: "YYYY-MM-DD HH:mm"
 ---
 
-# Monetary Policy and The Phillips Curve
-
 ## **Need for Monetary Policy**
 
 A model of monetary policy is trying to establish a gap between where we desire the economy to reach and where it currently stands. This takes the form of two specific targets (a) an inflation gap and and (b) output gap.

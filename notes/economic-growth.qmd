@@ -3,6 +3,10 @@ title: "Economics of Growth: Thoughts on the Evolution of the Literature"
 bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
+## Why do I think about this?
+
+This is a reading list which dwells on the topic of economic growth. I have been reading a lot on this topic, and I find it very interesting. I have this one big question - if growth is interesting where are people contributing now? What has been the recent development in this field? And if, as is often mentioned, traditional growth theory is dead, then what is the new turn?
+
 # Growth
 
 - If you look at growth literature, the citations to these papers are very high. There is a "level effect" to citation within these papers i.e. these papers are of the order of 40K magnitude while key papers in business cycle theory is 10K. The reason for this is the general and global reach of the growth literature especially since it handles big questions.

@@ -3,6 +3,9 @@ title: "Online Readings for Introduction to Macroeconomics"
 bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
+# Why do I have this page?
+I refer to some readings to introduce basic topics to undergraduates. This is a list of readings that I have referred to replaced and updated over the years. Some old ones are still very nice because they give a good introduction to the topic.
+
 # Labor Markets
 
 These are the most recent readings which (a) introduce issues and (b) examine key debates in the labor market. I have updated this list over the years, and I think these are the best readings to introduce the topic to undergraduates.

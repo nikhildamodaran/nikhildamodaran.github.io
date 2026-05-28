@@ -3,4 +3,6 @@ title: "Fiscal Policy via Public Finance"
 bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
-# Intention
+## Why this page?
+This is the stuff that I have been reading before offering a course in Public Finance. The sepcific objective of this course is to not approach it from a macro perspective, but from a traditional public finance perspective. I want to cover the standard topics in public finance, but also want to cover the fiscal policy topics that are relevant for macroeconomics. This is a work in progress, and I will update it as I go along.
+

@@ -3,6 +3,9 @@ title: International Trade Reading List
 format: html
 ---
 
+## Why this page?
+This is a reading list mostly on classical trade theories, trade policy and some recent developments in the field within these subfields. Generally, these topics are less interesting to the journals so there needs to be a newer empirical or theoretical hook for work on these models to continue.
+
 # Comparative Advantage
 
 ## Pedagogic
