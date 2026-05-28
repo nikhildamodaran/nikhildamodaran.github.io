@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Monetary Policy and the Phillips Curve – Nikhil Damodaran</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-158031087360bce0ff56dc785ce39e06.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../_styles/subpage.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Nikhil Damodaran</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#monetary-policy-and-the-phillips-curve" id="toc-monetary-policy-and-the-phillips-curve" class="nav-link active" data-scroll-target="#monetary-policy-and-the-phillips-curve">Monetary Policy and The Phillips Curve</a>
+  <ul class="collapse">
+  <li><a href="#need-for-monetary-policy" id="toc-need-for-monetary-policy" class="nav-link" data-scroll-target="#need-for-monetary-policy"><strong>Need for Monetary Policy</strong></a></li>
+  <li><a href="#monetary-models" id="toc-monetary-models" class="nav-link" data-scroll-target="#monetary-models">Monetary Models</a></li>
+  <li><a href="#phillips-curve" id="toc-phillips-curve" class="nav-link" data-scroll-target="#phillips-curve">Phillips Curve</a></li>
+  <li><a href="#implications-from-the-phillips-curve" id="toc-implications-from-the-phillips-curve" class="nav-link" data-scroll-target="#implications-from-the-phillips-curve">Implications from the Phillips Curve</a></li>
+  <li><a href="#microfounding-the-expectations-argument" id="toc-microfounding-the-expectations-argument" class="nav-link" data-scroll-target="#microfounding-the-expectations-argument">Microfounding the Expectations Argument</a></li>
+  <li><a href="#rules-v.-discretion" id="toc-rules-v.-discretion" class="nav-link" data-scroll-target="#rules-v.-discretion">Rules v. Discretion</a></li>
+  <li><a href="#where-is-the-model" id="toc-where-is-the-model" class="nav-link" data-scroll-target="#where-is-the-model">Where is the model?</a></li>
+  </ul></li>
+  <li><a href="#macroeconomic-theory" id="toc-macroeconomic-theory" class="nav-link" data-scroll-target="#macroeconomic-theory">Macroeconomic Theory</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Monetary Policy and the Phillips Curve</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026-05-28 14:34</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">2026-05-28 14:33</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="monetary-policy-and-the-phillips-curve" class="level1">
+<h1>Monetary Policy and The Phillips Curve</h1>
+<section id="need-for-monetary-policy" class="level2">
+<h2 class="anchored" data-anchor-id="need-for-monetary-policy"><strong>Need for Monetary Policy</strong></h2>
+<p>A model of monetary policy is trying to establish a gap between where we desire the economy to reach and where it currently stands. This takes the form of two specific targets (a) an inflation gap and and (b) output gap.</p>
+<p>The inflation gap refers to the deviation of the current inflation rate <span class="math inline">\(\pi_t\)</span> from a desired target level <span class="math inline">\(\pi_t^*\)</span>. When such a deviation exists, it provides the rationale for monetary policy intervention.</p>
+<p>The determination of the target <span class="math inline">\(\pi^*_t\)</span> itself raises a deeper question: what principle governs its selection? The historical and theoretical justifications for a specific inflation target are not unambiguous; however, a broad consensus has emerged that price stability — typically associated with low and stable inflation — is a prerequisite for sustainable economic growth. A widely held aversion to high inflation reflects concerns about its distortionary effects on resource allocation, income distribution, and long-run economic performance. This is partly the recent history of high inflation after the oil price shocks which left a painful memory in the politics of US that Fed and other central bankers have become more Hawkish.</p>
+<p>The output gap refers to the deviation of current output from a notion of potential output. While the concept of an inflation target is a question of acceptable levels of inflation, the discussion surrounding potential output is equally difficult to approach. It is that level of output at which our resources are completely employed, we are at our capacities and there is no slack in the economy. This implies an underlying knowledge of efficiency and use of resources. This also implies that we assume full employment is the sense of potential. In the world of AI, perhaps this might change and economists might include a participation dimension into this equation. However, as it stands, we have this notion of capacity which we aspire to attain an an economy which defines our “potential”.</p>
+<p>Once we construct these measures of gap, one needs one more validity for monetary intervention. That is the idea that this gap will not be filled automatically, hence there is a need for intervention. Or that this gap may be filled automatically, but intervention will accelerate this process. The standard argument for existence of a gap is a temporary excess supply or demand which eventually will settle down based off price signals. The mechanism of the market will incentivise necessary adjustments. However, the intervention implies that the rate at which market responds will cause a lot of pain to people and as policy makers, by intervening in this market we could improve the speed of adjustment.</p>
+<p>A stronger justification for intervention arises in models where the economy may not naturally converge back to equilibrium, or where disequilibrium can persist for extended periods. Such ideas appear in disequilibrium macroeconomics and non-Walrasian models associated with economists such as Clower, Leijonhufvud, Malinvaud, and Barro–Grossman <span class="citation" data-cites="Barro1971AER">Barro and Grossman (<a href="#ref-Barro1971AER" role="doc-biblioref">1971</a>)</span> . In these frameworks, prices may adjust slowly, quantity constraints may bind, and market outcomes need not automatically generate forces sufficient to restore equilibrium. These approaches are less common in modern macroeconomics, partly because contemporary rational expectations models typically eliminate explosive or non-convergent paths through equilibrium selection conditions.</p>
+</section>
+<section id="monetary-models" class="level2">
+<h2 class="anchored" data-anchor-id="monetary-models">Monetary Models</h2>
+<p>In most models of monetary policy, we essentially have 3 things. First, a version of the dynamic IS curve which implements the dynamism of modern macro-models through the Euler equation. Second, a version of the Phillips curve which professes that in the short run there is a tradeoff between inflation and unemployment. Since the unemployment can be mapped directly to output via an aggregate production function, we think of this trade off as one between output and inflation. Third, we have the rule which defines how monetary policy intervenes in this market, if it can intervene in a stable manner.</p>
+</section>
+<section id="phillips-curve" class="level2">
+<h2 class="anchored" data-anchor-id="phillips-curve">Phillips Curve</h2>
+<p>The key issue in the business cycle literature is the existence of Phillips curve. The first thread was establishment of this inverse relationship between unemployment and inflation.</p>
+<p>Phillips, A. W. (1958). The relation between unemployment and the rate of change of money wage rates in the united kingdom, 1861–1957 1. Economica, 25(100):283–299. <span class="citation" data-cites="Phillips1958E">Phillips (<a href="#ref-Phillips1958E" role="doc-biblioref">1958</a>)</span></p>
+<p>This is the seminal paper in this literature. The paper documents a negative relationship between unemployment and wage inflation in the UK. Originally, it talked about money wage i.e.&nbsp;nominal wages rate changes affecting unemployment level and unemployment rate. He concludes with this statement “These conclusions are of course tentative. There is need for much more detailed research into the relations between unemployment, wage rates, prices and productivity.”</p>
+<p>He begins with the idea that if net demand is positive, it leads to price rise. Similarly he says the same thing should happen to money wages. If there is excess demand, money wages should rise. “When the demand for labour is high and there are very few unemployed we should expect employers to bid wage rates up quite rapidly, each firm and each industry being continually tempted to offer a little above the prevailing rates to attract the most suitable labour from other firms and industries.”</p>
+</section>
+<section id="implications-from-the-phillips-curve" class="level2">
+<h2 class="anchored" data-anchor-id="implications-from-the-phillips-curve">Implications from the Phillips Curve</h2>
+<p>The consequence of this study was that governments could pick and choose a point on the Phillips curve. In the short run they could use monetary and fiscal policy to increase demand, reduce unemployment and track the relative increase in inflation along the curve.</p>
+<p>However, <span class="citation" data-cites="Friedman1968AER">Friedman (<a href="#ref-Friedman1968AER" role="doc-biblioref">1968</a>)</span> and <span class="citation" data-cites="Phelps1967E">Phelps (<a href="#ref-Phelps1967E" role="doc-biblioref">1967</a>)</span> argued that this inverse relationship needs context. The idea is that expansionary policy can temporarily push unemployment below its natural rate because wages and prices do not adjust immediately. But once workers and firms revise their inflation expectations, real wages and relative prices adjust, and unemployment returns to its natural rate. The long-run result is simply higher inflation, not permanently lower unemployment. So the policy option which appears in the short run is actually not a permanent fix.</p>
+<p><span class="citation" data-cites="Friedman1968AER">Friedman (<a href="#ref-Friedman1968AER" role="doc-biblioref">1968</a>)</span></p>
+<p>Monetary policy has powerful short-run effects but limited long-run effects. He puts the discussion of the trade-off between inflation and unemployment in the context of expectations. He argues that in the long run, the Phillips curve is vertical at the natural rate of unemployment, and that any attempt to keep unemployment below this natural rate will lead to accelerating inflation. So while this is a statement of what monetary policy can and cannot do, it is also a statement about the nature of the Phillips curve and the trade-off between inflation and unemployment.</p>
+<p><span class="citation" data-cites="Phelps1967E">Phelps (<a href="#ref-Phelps1967E" role="doc-biblioref">1967</a>)</span></p>
+<p>Phelps’ interpretation is that <span class="math inline">\(u^*\)</span> is the unemployment rate consistent with correctly anticipated inflation. Attempts to keep unemployment below <span class="math inline">\(u^*\)</span> require continually accelerating inflation. To keep unemployment permanently below the natural rate, policymakers would need to generate ever-increasing inflation surprises.</p>
+</section>
+<section id="microfounding-the-expectations-argument" class="level2">
+<h2 class="anchored" data-anchor-id="microfounding-the-expectations-argument">Microfounding the Expectations Argument</h2>
+<p>While Phelps and Friedman argued that the economy will return to this natural rate in the long run, their argument was that interventions are limited and crucially depend on how expectations react to shocks and to policy. This was microfounded in the Rational expectations model by <span class="citation" data-cites="Lucas-Jr1972JET">Lucas Jr (<a href="#ref-Lucas-Jr1972JET" role="doc-biblioref">1972</a>)</span></p>
+<p><span class="citation" data-cites="Lucas-Jr1972JET">Lucas Jr (<a href="#ref-Lucas-Jr1972JET" role="doc-biblioref">1972</a>)</span></p>
+<p>The Phillips curve is not stable and can shift due to changes in expectations. He argues that in the long run, there is no trade-off between inflation and unemployment. He introduces the concept of rational expectations and argues that if people have rational expectations, then any attempt to exploit the Phillips curve will be futile because people will anticipate the effects of monetary policy and adjust their behavior accordingly.</p>
+<p><span class="citation" data-cites="Lucas1969AER">Lucas and Rapping (<a href="#ref-Lucas1969AER" role="doc-biblioref">1969</a>)</span></p>
+<p>Lucas–Rapping asked: Through what optimizing behavior do expectations affect employment? Their answer: Workers move labor across time in response to perceived real wage changes. This was one of the first attempts to make the Phillips curve consistent with an optimization, idea of expectations, and an equilibrium reasoning. It is not yet the fully developed rational-expectations model of Lucas (1972), but it is a major step toward it. Since it is a developing answer one which was taken to the next level by Lucas (1972), it is not as well-known as the later paper, but it is an important step in the development of the literature.</p>
+<p><span class="citation" data-cites="Lucas-Jr1976CCSPP">Lucas Jr (<a href="#ref-Lucas-Jr1976CCSPP" role="doc-biblioref">1976</a>)</span></p>
+<p>Made a similar claim stating that when policy makers react, then agents adjust their expectations and there could be a regime shift. Think along the lines of Friedman and Phelps but micro-founding the expectations argument.</p>
+</section>
+<section id="rules-v.-discretion" class="level2">
+<h2 class="anchored" data-anchor-id="rules-v.-discretion">Rules v. Discretion</h2>
+<p>So the argument that is being extended here is that central banks cannot do anything because agents will anticipate their behavior, adjust and we will switch regimes instantly. This is where the argument was extended that discretionary policy may be ineffective by <span class="citation" data-cites="Sargent1975JPE">Sargent and Wallace (<a href="#ref-Sargent1975JPE" role="doc-biblioref">1975</a>)</span>. Their key point is that if people understand the monetary policy rule and form expectations rationally, then systematic monetary policy cannot systematically fool people, so anticipated monetary policy has little or no effect on real variables like output or unemployment. This is closely tied to the Phillips curve debate because it attacks the idea that policymakers can repeatedly exploit inflation surprises.</p>
+<p>This then led policy makers to ask, what should central banks do? How should monetary policy be conducted keeping in mind this argument that you cannot systematically fool people. So if the central bank is setting a policy which is discretionary, agents will observe this behavior and adjust their expectations from the central bank. That could defeat the solution proposed by monetary policy in the first place and render monetary policy ineffective.</p>
+<p>The solution was to generate perpetual monetary policy shocks. Could this be done? Perhaps yes, but not with ill effects.</p>
+<p>The alternative was to provide a rule based policy <span class="citation" data-cites="Kydland1977JPE">Kydland and Prescott (<a href="#ref-Kydland1977JPE" role="doc-biblioref">1977</a>)</span> and <span class="citation" data-cites="Taylor1993CCSPP">Taylor (<a href="#ref-Taylor1993CCSPP" role="doc-biblioref">1993</a>)</span></p>
+<p>The key insight is that discretionary policymakers have an incentive to create surprise inflation to temporarily boost output, but rational agents anticipate this. The result is an inflation bias with little long-run gain in employment or output. Rules or credible commitments are proposed as a solution to this credibility problem.</p>
+</section>
+<section id="where-is-the-model" class="level2">
+<h2 class="anchored" data-anchor-id="where-is-the-model">Where is the model?</h2>
+<p>While Friedman, Phelps and Lucas made strong arguments which had expectations at their core, the empirical observation by Phillips still needed explanation. Was it the persistence of regimes which caused an expost observation of inverse inflation and unemployment relationship? Was it temporary? Rather than arguing about</p>
+<ol start="2" type="1">
+<li><p>Calvo, G. A. (1983). Staggered prices in a utility-maximizing framework. Journal of monetary Economics, 12(3), 383-398.</p></li>
+<li><p>Christiano, L. J., Eichenbaum, M., &amp; Evans, C. L. (2005). Nominal rigidities and the dynamic effects of a shock to monetary policy. Journal of political Economy, 113(1), 1-45.</p></li>
+<li><p>Smets, F., &amp; Wouters, R. (2003). An estimated dynamic stochastic general equilibrium model of the euro area. Journal of the European Economic Association, 1(5), 1123-1175.</p></li>
+</ol>
+</section>
+</section>
+<section id="macroeconomic-theory" class="level1">
+<h1>Macroeconomic Theory</h1>
+<ol type="1">
+<li><p>Lucas, R. E. (1976). Econometric policy evaluation: A critique. In Carnegie-Rochester conference series on public policy (Vol. 1, pp.&nbsp;19-46). North-Holland.</p></li>
+<li><p>Sargent, T. J. (1979). Macroeconomic theory and policy analysis. The American Economic Review, 69(2), 1-16.</p></li>
+<li><p>Cochrane, J. H. (1994). Shocks. Carnegie-Rochester Conference Series on Public Policy, 41, 295-364.</p></li>
+<li><p>Cochrane, J. H. (1998). A frictionless view of US inflation. NBER macroeconomics annual, 13, 323-384.</p></li>
+<li><p>Cochrane, J. H. (2011). Presidential address: Discount rates. Journal of Finance, 66(4), 1047-1108.</p></li>
+<li><p>Cochrane, J. H. (2017). The fiscal theory of the price level. Princeton University Press.</p></li>
+<li><p>Cochrane, J. H. (2020). The fiscal theory of the price level: An analytical introduction. Journal of Economic Perspectives, 34(4), 149-172.</p></li>
+</ol>
+<p>8</p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Barro1971AER" class="csl-entry" role="listitem">
+Barro, Robert J, and Herschel I Grossman. 1971. <span>“A General Disequilibrium Model of Income and Employment.”</span> <em>The American Economic Review</em> 61 (1): 82–93. <a href="https://www.jstor.org/stable/1910543">https://www.jstor.org/stable/1910543</a>.
+</div>
+<div id="ref-Friedman1968AER" class="csl-entry" role="listitem">
+Friedman, Milton. 1968. <span>“The Role of Monetary Policy.”</span> <em>The American Economic Review</em> 58 (1): 1–17. <a href="http://www.jstor.org/stable/1831652">http://www.jstor.org/stable/1831652</a>.
+</div>
+<div id="ref-Kydland1977JPE" class="csl-entry" role="listitem">
+Kydland, Finn E, and Edward C Prescott. 1977. <span>“Rules Rather Than Discretion: The Inconsistency of Optimal Plans.”</span> <em>Journal of Political Economy</em> 85 (3): 473–91. https://doi.org/<a href="https://doi.org/10.1086/260580">https://doi.org/10.1086/260580</a>.
+</div>
+<div id="ref-Lucas-Jr1972JET" class="csl-entry" role="listitem">
+Lucas Jr, Robert E. 1972. <span>“Expectations and the Neutrality of Money.”</span> <em>Journal of Economic Theory</em> 4 (2): 103–24. https://doi.org/<a href="https://doi.org/10.1016/0022-0531(72)90142-1">https://doi.org/10.1016/0022-0531(72)90142-1</a>.
+</div>
+<div id="ref-Lucas-Jr1976CCSPP" class="csl-entry" role="listitem">
+Lucas Jr, Robert E. 1976. <span>“Econometric Policy Evaluation: A Critique.”</span> <em>Carnegie-Rochester Conference Series on Public Policy</em> 1: 19–46. <a href="https://doi.org/10.1016/S0167-2231(76)80003-6">https://doi.org/10.1016/S0167-2231(76)80003-6</a>.
+</div>
+<div id="ref-Lucas1969AER" class="csl-entry" role="listitem">
+Lucas, Robert E, and Leonard A Rapping. 1969. <span>“Price Expectations and the Phillips Curve.”</span> <em>The American Economic Review</em> 59 (3): 342–50.
+</div>
+<div id="ref-Phelps1967E" class="csl-entry" role="listitem">
+Phelps, Edmund S. 1967. <span>“Phillips Curves, Expectations of Inflation and Optimal Unemployment over Time.”</span> <em>Economica</em> 34 (135): 254–81. <a href="https://www.jstor.org/stable/2552025">https://www.jstor.org/stable/2552025</a>.
+</div>
+<div id="ref-Phillips1958E" class="csl-entry" role="listitem">
+Phillips, Alban W. 1958. <span>“The Relation Between Unemployment and the Rate of Change of Money Wage Rates in the United Kingdom, 1861–1957 1.”</span> <em>Economica</em> 25 (100): 283–99. https://doi.org/<a href="https://doi.org/10.1111/j.1468-0335.1958.tb00003.x">https://doi.org/10.1111/j.1468-0335.1958.tb00003.x</a>.
+</div>
+<div id="ref-Sargent1975JPE" class="csl-entry" role="listitem">
+Sargent, Thomas J, and Neil Wallace. 1975. <span>“" Rational" Expectations, the Optimal Monetary Instrument, and the Optimal Money Supply Rule.”</span> <em>Journal of Political Economy</em> 83 (2): 241–54. https://doi.org/<a href="https://doi.org/10.1086/260321">https://doi.org/10.1086/260321</a>.
+</div>
+<div id="ref-Taylor1993CCSPP" class="csl-entry" role="listitem">
+Taylor, John B. 1993. <span>“Discretion Versus Policy Rules in Practice.”</span> <em>Carnegie-Rochester Conference Series on Public Policy</em> 39: 195–214. https://doi.org/<a href="https://doi.org/10.1016/0167-2231(93)90009-L">https://doi.org/10.1016/0167-2231(93)90009-L</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

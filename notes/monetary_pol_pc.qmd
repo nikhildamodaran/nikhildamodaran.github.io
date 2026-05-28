@@ -1,0 +1,107 @@
+---
+title: "Monetary Policy and the Phillips Curve"
+bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
+date: "now"
+date-modified: "last-modified"
+date-format: "YYYY-MM-DD HH:mm"
+---
+
+# Monetary Policy and The Phillips Curve
+
+## **Need for Monetary Policy**
+
+A model of monetary policy is trying to establish a gap between where we desire the economy to reach and where it currently stands. This takes the form of two specific targets (a) an inflation gap and and (b) output gap.
+
+The inflation gap refers to the deviation of the current inflation rate $\pi_t$ from a desired target level $\pi_t^*$. When such a deviation exists, it provides the rationale for monetary policy intervention.
+
+The determination of the target $\pi^*_t$ itself raises a deeper question: what principle governs its selection? The historical and theoretical justifications for a specific inflation target are not unambiguous; however, a broad consensus has emerged that price stability — typically associated with low and stable inflation — is a prerequisite for sustainable economic growth. A widely held aversion to high inflation reflects concerns about its distortionary effects on resource allocation, income distribution, and long-run economic performance. This is partly the recent history of high inflation after the oil price shocks which left a painful memory in the politics of US that Fed and other central bankers have become more Hawkish.
+
+The output gap refers to the deviation of current output from a notion of potential output. While the concept of an inflation target is a question of acceptable levels of inflation, the discussion surrounding potential output is equally difficult to approach. It is that level of output at which our resources are completely employed, we are at our capacities and there is no slack in the economy. This implies an underlying knowledge of efficiency and use of resources. This also implies that we assume full employment is the sense of potential. In the world of AI, perhaps this might change and economists might include a participation dimension into this equation. However, as it stands, we have this notion of capacity which we aspire to attain an an economy which defines our "potential".
+
+Once we construct these measures of gap, one needs one more validity for monetary intervention. That is the idea that this gap will not be filled automatically, hence there is a need for intervention. Or that this gap may be filled automatically, but intervention will accelerate this process. The standard argument for existence of a gap is a temporary excess supply or demand which eventually will settle down based off price signals. The mechanism of the market will incentivise necessary adjustments. However, the intervention implies that the rate at which market responds will cause a lot of pain to people and as policy makers, by intervening in this market we could improve the speed of adjustment.
+
+A stronger justification for intervention arises in models where the economy may not naturally converge back to equilibrium, or where disequilibrium can persist for extended periods. Such ideas appear in disequilibrium macroeconomics and non-Walrasian models associated with economists such as Clower, Leijonhufvud, Malinvaud, and Barro–Grossman @Barro1971AER . In these frameworks, prices may adjust slowly, quantity constraints may bind, and market outcomes need not automatically generate forces sufficient to restore equilibrium. These approaches are less common in modern macroeconomics, partly because contemporary rational expectations models typically eliminate explosive or non-convergent paths through equilibrium selection conditions.
+
+## Monetary Models
+
+In most models of monetary policy, we essentially have 3 things. First, a version of the dynamic IS curve which implements the dynamism of modern macro-models through the Euler equation. Second, a version of the Phillips curve which professes that in the short run there is a tradeoff between inflation and unemployment. Since the unemployment can be mapped directly to output via an aggregate production function, we think of this trade off as one between output and inflation. Third, we have the rule which defines how monetary policy intervenes in this market, if it can intervene in a stable manner.
+
+## Phillips Curve
+
+The key issue in the business cycle literature is the existence of Phillips curve. The first thread was establishment of this inverse relationship between unemployment and inflation.
+
+Phillips, A. W. (1958). The relation between unemployment and the rate of change of money wage rates in the united kingdom, 1861–1957 1. Economica, 25(100):283–299. @Phillips1958E
+
+This is the seminal paper in this literature. The paper documents a negative relationship between unemployment and wage inflation in the UK. Originally, it talked about money wage i.e. nominal wages rate changes affecting unemployment level and unemployment rate. He concludes with this statement "These conclusions are of course tentative. There is need for much more detailed research into the relations between unemployment, wage rates, prices and productivity."
+
+He begins with the idea that if net demand is positive, it leads to price rise. Similarly he says the same thing should happen to money wages. If there is excess demand, money wages should rise. "When the demand for labour is high and there are very few unemployed we should expect employers to bid wage rates up quite rapidly, each firm and each industry being continually tempted to offer a little above the prevailing rates to attract the most suitable labour from other firms and industries."
+
+## Implications from the Phillips Curve
+
+The consequence of this study was that governments could pick and choose a point on the Phillips curve. In the short run they could use monetary and fiscal policy to increase demand, reduce unemployment and track the relative increase in inflation along the curve.
+
+However, @Friedman1968AER and @Phelps1967E argued that this inverse relationship needs context. The idea is that expansionary policy can temporarily push unemployment below its natural rate because wages and prices do not adjust immediately. But once workers and firms revise their inflation expectations, real wages and relative prices adjust, and unemployment returns to its natural rate. The long-run result is simply higher inflation, not permanently lower unemployment. So the policy option which appears in the short run is actually not a permanent fix.
+
+@Friedman1968AER
+
+Monetary policy has powerful short-run effects but limited long-run effects. He puts the discussion of the trade-off between inflation and unemployment in the context of expectations. He argues that in the long run, the Phillips curve is vertical at the natural rate of unemployment, and that any attempt to keep unemployment below this natural rate will lead to accelerating inflation. So while this is a statement of what monetary policy can and cannot do, it is also a statement about the nature of the Phillips curve and the trade-off between inflation and unemployment.
+
+@Phelps1967E
+
+Phelps' interpretation is that $u^*$ is the unemployment rate consistent with correctly anticipated inflation. Attempts to keep unemployment below $u^*$ require continually accelerating inflation. To keep unemployment permanently below the natural rate, policymakers would need to generate ever-increasing inflation surprises.
+
+## Microfounding the Expectations Argument
+
+While Phelps and Friedman argued that the economy will return to this natural rate in the long run, their argument was that interventions are limited and crucially depend on how expectations react to shocks and to policy. This was microfounded in the Rational expectations model by @Lucas-Jr1972JET
+
+@Lucas-Jr1972JET
+
+The Phillips curve is not stable and can shift due to changes in expectations. He argues that in the long run, there is no trade-off between inflation and unemployment. He introduces the concept of rational expectations and argues that if people have rational expectations, then any attempt to exploit the Phillips curve will be futile because people will anticipate the effects of monetary policy and adjust their behavior accordingly.
+
+@Lucas1969AER
+
+Lucas–Rapping asked: Through what optimizing behavior do expectations affect employment? Their answer: Workers move labor across time in response to perceived real wage changes. This was one of the first attempts to make the Phillips curve consistent with an optimization, idea of expectations, and an equilibrium reasoning. It is not yet the fully developed rational-expectations model of Lucas (1972), but it is a major step toward it. Since it is a developing answer one which was taken to the next level by Lucas (1972), it is not as well-known as the later paper, but it is an important step in the development of the literature.
+
+@Lucas-Jr1976CCSPP
+
+Made a similar claim stating that when policy makers react, then agents adjust their expectations and there could be a regime shift. Think along the lines of Friedman and Phelps but micro-founding the expectations argument.
+
+## Rules v. Discretion
+
+So the argument that is being extended here is that central banks cannot do anything because agents will anticipate their behavior, adjust and we will switch regimes instantly. This is where the argument was extended that discretionary policy may be ineffective by @Sargent1975JPE. Their key point is that if people understand the monetary policy rule and form expectations rationally, then systematic monetary policy cannot systematically fool people, so anticipated monetary policy has little or no effect on real variables like output or unemployment. This is closely tied to the Phillips curve debate because it attacks the idea that policymakers can repeatedly exploit inflation surprises.
+
+This then led policy makers to ask, what should central banks do? How should monetary policy be conducted keeping in mind this argument that you cannot systematically fool people. So if the central bank is setting a policy which is discretionary, agents will observe this behavior and adjust their expectations from the central bank. That could defeat the solution proposed by monetary policy in the first place and render monetary policy ineffective.
+
+The solution was to generate perpetual monetary policy shocks. Could this be done? Perhaps yes, but not with ill effects.
+
+The alternative was to provide a rule based policy @Kydland1977JPE and @Taylor1993CCSPP
+
+The key insight is that discretionary policymakers have an incentive to create surprise inflation to temporarily boost output, but rational agents anticipate this. The result is an inflation bias with little long-run gain in employment or output. Rules or credible commitments are proposed as a solution to this credibility problem.
+
+## Where is the model?
+
+While Friedman, Phelps and Lucas made strong arguments which had expectations at their core, the empirical observation by Phillips still needed explanation. Was it the persistence of regimes which caused an expost observation of inverse inflation and unemployment relationship? Was it temporary? Rather than arguing about
+
+2.  Calvo, G. A. (1983). Staggered prices in a utility-maximizing framework. Journal of monetary Economics, 12(3), 383-398.
+
+3.  Christiano, L. J., Eichenbaum, M., & Evans, C. L. (2005). Nominal rigidities and the dynamic effects of a shock to monetary policy. Journal of political Economy, 113(1), 1-45.
+
+4.  Smets, F., & Wouters, R. (2003). An estimated dynamic stochastic general equilibrium model of the euro area. Journal of the European Economic Association, 1(5), 1123-1175.
+
+# Macroeconomic Theory
+
+1.  Lucas, R. E. (1976). Econometric policy evaluation: A critique. In Carnegie-Rochester conference series on public policy (Vol. 1, pp. 19-46). North-Holland.
+
+2.  Sargent, T. J. (1979). Macroeconomic theory and policy analysis. The American Economic Review, 69(2), 1-16.
+
+3.  Cochrane, J. H. (1994). Shocks. Carnegie-Rochester Conference Series on Public Policy, 41, 295-364.
+
+4.  Cochrane, J. H. (1998). A frictionless view of US inflation. NBER macroeconomics annual, 13, 323-384.
+
+5.  Cochrane, J. H. (2011). Presidential address: Discount rates. Journal of Finance, 66(4), 1047-1108.
+
+6.  Cochrane, J. H. (2017). The fiscal theory of the price level. Princeton University Press.
+
+7.  Cochrane, J. H. (2020). The fiscal theory of the price level: An analytical introduction. Journal of Economic Perspectives, 34(4), 149-172.
+
+8
