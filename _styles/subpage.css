@@ -8,17 +8,19 @@
   --link-hover: #005A9E;
   --border: #e0e0e0;
   --toc-active: #0072C6;
+  --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+               Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* --- Typography --- */
 body {
-  font-family: Arial, sans-serif;
+  font-family: var(--font-sans) !important;
   color: var(--text);
   background: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, sans-serif;
+  font-family: var(--font-sans) !important;
   color: var(--text);
 }
 
@@ -40,7 +42,7 @@ a:hover { color: var(--link-hover); }
 .navbar-brand,
 .navbar .nav-link {
   color: var(--text) !important;
-  font-family: Arial, sans-serif;
+  font-family: var(--font-sans) !important;
   font-size: 0.95rem;
 }
 
@@ -73,7 +75,7 @@ a:hover { color: var(--link-hover); }
 
 /* --- TOC sidebar --- */
 #quarto-margin-sidebar {
-  font-family: Arial, sans-serif;
+  font-family: var(--font-sans) !important;
   font-size: 0.85rem;
 }
 

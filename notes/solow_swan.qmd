@@ -1,0 +1,10 @@
+---
+title: "Solow Swan Model"
+bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
+---
+
+@Swan1956QJE
+
+@Solow1956QJE
+
+This is an introduction to Solow-Swann model

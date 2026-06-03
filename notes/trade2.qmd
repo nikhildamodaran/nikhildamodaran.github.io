@@ -1,0 +1,14 @@
+---
+title: "Resources for International Trade and Finance"
+bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
+format:
+  revealjs:
+    theme: white
+    slide-number: true
+    transition: fade
+---
+
+## Resources for International Trade and Finance
+
+- Some lecture notes.
+- There is
