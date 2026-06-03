@@ -3,12 +3,20 @@ title: "Index of Notes"
 bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 ---
 
-## Notes
+[Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely](data-releases.qmd)
 
-- [Tracking the Modern Macroeconomy: Key Data Releases Economists Watch Closely](data-releases.qmd)
-- [Economics of Growth: Thoughts on the Evolution of the Literature](economic-growth.qmd)
-- [Fiscal Policy via Public Finance](fiscal-pol.qmd)
-- [Introduction to Macroeconomics](intro-macro.qmd)
-- [Online Readings for Introduction to Macroeconomics](intro_macro_resources.qmd)
-- [Monetary Policy and the Phillips Curve](monetary_pol_pc.qmd)
-- [International Trade Reading List](trade.qmd)
+[Economics of Growth: Thoughts on the Evolution of the Literature](economic-growth.qmd)
+
+[Fiscal Policy via Public Finance](fiscal-pol.qmd)
+
+[Online Readings for Introduction to Macroeconomics](intro_macro_resources.qmd)
+
+[Introduction to Macroeconomics](intro-macro.qmd)
+
+[Monetary Policy and the Phillips Curve](monetary_pol_pc.qmd)
+
+[Solow Swann Model](solow-swan.qmd) 
+
+[International Trade Reading List](trade.qmd)
+
+[Trade Resources](trade2.qmd)
