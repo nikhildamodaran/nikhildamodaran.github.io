@@ -9,7 +9,7 @@
   --text: #333;              /* Main text color */
   --link: #0072C6;           /* Default link color */
   --link-hover: #b94e4e;     /* Link color on hover */
-  --border: #00f9f928;       /* Border color used for dividers and boxes */
+  --border: #000000;       /* Border color used for dividers and boxes */
   --toc-active: #bfc900e9;     /* Active table-of-contents link color */
 
   /* Same sans-serif font stack as the landing page.
@@ -51,7 +51,7 @@ a:hover {
 
 /* Styles the full navbar bar. */
 .navbar {
-  background: #d0dced !important;
+  background: #f7f8f8 !important;
   border-bottom: 1px solid var(--border);
   box-shadow: none;
 }

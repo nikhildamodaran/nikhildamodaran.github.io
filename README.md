@@ -6,13 +6,16 @@ Built with [Quarto](https://quarto.org/). Edit the `.qmd` files, run `deploy.sh`
 
 ---
 
-## To deploy
+## Latest Updates
 
 ```bash
 ./deploy.sh
 ```
 
 Renders the site, commits, and pushes in one step.
+
+- Main page is a two colum layout
+- subpages are ideas when cooked come into drafts, when working are slides.
 
 ---
 
