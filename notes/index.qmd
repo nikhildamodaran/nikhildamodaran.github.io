@@ -15,7 +15,7 @@ bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography
 
 [Monetary Policy and the Phillips Curve](monetary_pol_pc.qmd)
 
-[Solow Swann Model](solow-swan.qmd) 
+[Solow Swann Model](solow_swan.qmd) 
 
 [International Trade Reading List](trade.qmd)
 
