@@ -1,14 +1,40 @@
 ---
 title: "Resources for International Trade and Finance"
+author: "Nikhil Damodaran"
+institute: "Faculty of Business and Economics, University of Melbourne"
 bibliography: /Users/ndamodaran/Library/CloudStorage/Dropbox/Nikhil/bibliography/References.bib
 format:
   revealjs:
-    theme: white
-    slide-number: true
-    transition: fade
+    theme: simple
+    css: ../_styles/unimelb-beamer.css
+    slide-number: c/t
+    html-math-method: mathjax
 ---
 
-## Resources for International Trade and Finance
+## Big Picture
 
-- Some lecture notes.
-- There is
+- Trade allows countries to specialise
+- Comparative advantage is about relative costs
+- Absolute advantage is not enough
+
+## Main Equation
+
+\[
+a_{LC} / a_{LW} < a^*_{LC} / a^*_{LW}
+\]
+
+## A Block
+
+::: {.block}
+::: {.block-title}
+Key idea
+:::
+
+Countries export goods in which they have comparative advantage.
+:::
+
+## Alert
+
+::: {.alert}
+Relative productivity matters, not absolute productivity.
+:::

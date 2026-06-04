@@ -70,17 +70,7 @@ a:hover {
   color: var(--link) !important;
 }
 
-/* Makes the navbar content span the full page width. */
-.navbar > .container-fluid,
-.navbar > .container,
-.navbar .navbar-container {
-  max-width: 980px !important;
-  width: calc(100% - 3rem) !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
+
 
 /* --- Main content width --- */
 

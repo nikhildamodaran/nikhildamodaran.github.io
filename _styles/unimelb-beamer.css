@@ -1,0 +1,150 @@
+:root {
+  --beamerblue: rgb(0, 15, 70);
+  --sage: rgb(213, 224, 211);
+  --maroon: #800000;
+}
+
+/* Base slide look */
+.reveal {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+               Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 32px;
+  color: black;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+/* Frame titles */
+.reveal h1,
+.reveal h2 {
+  color: var(--beamerblue);
+  font-weight: 700;
+  text-align: center;
+}
+
+.reveal h1 {
+  font-size: 1.45em;
+}
+
+.reveal h2 {
+  font-size: 1.35em;
+}
+
+/* Title slide */
+#title-slide h1 {
+  font-size: 1.5em;
+  color: var(--beamerblue);
+}
+
+#title-slide .subtitle {
+  font-size: 1.05em;
+}
+
+#title-slide .author,
+#title-slide .institute,
+#title-slide .date {
+  font-size: 0.85em;
+}
+
+/* Links */
+.reveal a {
+  color: var(--beamerblue);
+}
+
+.reveal a:hover {
+  color: blue;
+}
+
+/* Bullets */
+.reveal ul {
+  list-style-type: circle;
+}
+
+.reveal ul ul {
+  list-style-type: circle;
+}
+
+.reveal li::marker {
+  color: blue;
+}
+
+.reveal ul ul li::marker {
+  color: var(--maroon);
+}
+
+/* Numbered lists */
+.reveal ol {
+  list-style-type: decimal;
+}
+
+.reveal ol ol {
+  list-style-type: lower-roman;
+}
+
+/* Footer bar */
+.reveal .footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(213, 224, 211, 0.5);
+  color: var(--beamerblue);
+  font-size: 0.42em;
+  padding: 0.35em 1.2em;
+  text-align: left;
+}
+
+/* Slide number */
+.reveal .slide-number {
+  color: var(--beamerblue);
+  background: rgba(213, 224, 211, 0.5);
+  font-size: 0.45em;
+}
+
+/* Blocks: use ::: {.block} in Quarto */
+.reveal .block {
+  background: rgba(213, 224, 211, 0.25);
+  border: 1px solid rgba(0, 15, 70, 0.25);
+  margin: 1em 0;
+}
+
+.reveal .block > .block-title {
+  background: var(--beamerblue);
+  color: white;
+  font-weight: 700;
+  padding: 0.35em 0.6em;
+}
+
+.reveal .block > p,
+.reveal .block > ul,
+.reveal .block > ol {
+  padding: 0.6em 0.8em;
+}
+
+/* Alert block */
+.reveal .alert {
+  background: rgba(128, 0, 0, 0.08);
+  border-left: 5px solid var(--maroon);
+  padding: 0.7em 0.9em;
+}
+
+/* Example block */
+.reveal .example {
+  background: rgba(0, 128, 0, 0.08);
+  border-left: 5px solid green;
+  padding: 0.7em 0.9em;
+}
+
+/* Captions */
+.reveal figcaption,
+.reveal .figure-caption {
+  font-size: 0.65em;
+  color: #555;
+}
+
+/* Code */
+.reveal pre code {
+  font-size: 0.75em;
+}
